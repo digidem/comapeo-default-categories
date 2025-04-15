@@ -1,7 +1,7 @@
 {
   "tagKey": "ecological-status",
   "type": "selectOne",
-  "label": "Name",
+  "label": "Ecological Status",
   "universal": true,
   "helperText": "Whats the ecological status of this species?",
   "options": [
