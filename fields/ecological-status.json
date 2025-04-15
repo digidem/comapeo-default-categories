@@ -1,0 +1,13 @@
+{
+  "tagKey": "ecological-status",
+  "type": "selectOne",
+  "label": "Name",
+  "universal": true,
+  "helperText": "Whats the ecological status of this species?",
+  "options": [
+    {"label": "Controlled Species", "value": "controlledSpecies"},
+    {"label": "Invasive Species", "value": "invasiveSpecies"},
+    {"label": "Native Species", "value": "nativeSpecies"},
+    {"label": "Endangered Species", "value": "endangeredSpecies"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Animal",
+  "icon": "animal",
+  "color": "#9E2C54",
+  "fields": [
+    "animal-type", "ecological-status", "condition", "natural-resource-type"
+  ],
+  "geometry": [
+    "point", "area"
+  ],
+  "tags": { "type" : "animal" }
+}

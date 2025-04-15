@@ -1,0 +1,7 @@
+{
+    "tagKey": "name",
+    "type": "text",
+    "label": "Name",
+    "universal": true,
+    "helperText": "Common name of this thing"
+}
