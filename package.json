@@ -1,0 +1,32 @@
+{
+  "name": "@comapeo/default-categories",
+  "version": "0.0.1",
+  "description": "default set of categories to use in CoMapeo",
+  "main": "dist/mapeo-default-config.comapeocat",
+  "scripts": {
+    "build": "mkdirp build && mapeo-settings build -l 'en' -o build/mapeo-default-config-v${npm_package_version}.comapeocat",
+    "build:dist": "mapeo-settings build -l 'en' -o dist/mapeo-default-config.comapeocat",
+    "extract-messages": "mkdirp messages && mapeo-settings extract-messages -o messages/en.json",
+    "prepack": "rimraf dist && mkdirp dist && npm run -s build:dist",
+    "test": "mapeo-settings lint"
+  },
+  "devDependencies": {
+    "mapeo-settings-builder": "^6.0.0",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
+  },
+  "keywords": ["comapeo"],
+  "author": "Tomás Ciccola",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/comapeo-default-categories.git"
+  },
+  "license": "CC-BY-NC-4.0",
+  "homepage": "https://github.com/digidem/comapeo-default-categories#readme",
+  "bugs": {
+    "url": "https://github.com/digidem/comapeo-default-categories/issues"
+  }
+}
