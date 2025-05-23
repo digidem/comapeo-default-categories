@@ -3,7 +3,7 @@
   "icon": "path-trail",
   "color": "#CC00CC",
   "sort": 32,
-  "fields": ["vehicle-access", "access"],
+  "fields": ["vehicle-access-land", "access"],
   "geometry": ["point"],
   "tags": {}
 }
