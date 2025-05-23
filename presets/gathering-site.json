@@ -1,0 +1,9 @@
+{
+  "name": "Gathering site",
+  "icon": "gathering-site",
+  "color": "#00CCCC",
+  "sort": 13,
+  "fields": ["condition", "gathering-type", "access"],
+  "geometry": ["point", "line"],
+  "tags": {}
+}
