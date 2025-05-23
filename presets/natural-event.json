@@ -1,0 +1,9 @@
+{
+  "name": "Natural event / phenomenon",
+  "icon": "natural-event",
+  "color": "#009900",
+  "sort": 9,
+  "fields": ["condition"],
+  "geometry": ["point"],
+  "tags": {}
+}
