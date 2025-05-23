@@ -1,0 +1,9 @@
+{
+  "name": "Fishing site",
+  "icon": "fishing-site",
+  "color": "#00CCCC",
+  "sort": 12,
+  "fields": ["body-of-water-type", "condition"],
+  "geometry": ["point"],
+  "tags": {}
+}
