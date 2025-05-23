@@ -1,0 +1,9 @@
+{
+  "name": "Airstrip",
+  "icon": "airstrip",
+  "color": "#CC00CC",
+  "sort": 31,
+  "fields": ["vehicle-type-air", "access"],
+  "geometry": ["point"],
+  "tags": {}
+}
