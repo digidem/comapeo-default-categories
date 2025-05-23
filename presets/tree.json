@@ -1,0 +1,9 @@
+{
+  "name": "Tree",
+  "icon": "tree",
+  "color": "#009900",
+  "sort": 2,
+  "fields": ["name", "natural-resource-type", "condition", "tree-type"],
+  "geometry": ["point"],
+  "tags": {}
+}
