@@ -2,11 +2,12 @@
   "name": "Animal",
   "icon": "animal",
   "color": "#9E2C54",
+  "sort": 1,
   "fields": [
-    "animal-type", "ecological-status", "condition", "natural-resource-type"
+    "name", "animal-type", "ecological-status", "condition", "natural-resource-type"
   ],
   "geometry": [
-    "point", "area"
+    "point"
   ],
   "tags": { "type" : "animal" }
 }
