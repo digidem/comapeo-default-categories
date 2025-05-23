@@ -4,7 +4,7 @@
   "color": "#3399ff",
   "sort": 7,
   "fields": [
-     "name", "body-of-water-type", "condition", "natural-resource-type"
+     "name", "body-of-water-type", "condition", "natural-resource-type", "cultural-name"
   ],
   "geometry": [
     "point"
