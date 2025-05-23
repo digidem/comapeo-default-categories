@@ -1,0 +1,9 @@
+{
+  "name": "Mountain / hill",
+  "icon": "cave",
+  "color": "#009900",
+  "sort": 6,
+  "fields": ["cultural-name", "condition"],
+  "geometry": ["point"],
+  "tags": {}
+}
