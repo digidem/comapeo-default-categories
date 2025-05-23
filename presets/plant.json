@@ -1,0 +1,9 @@
+{
+  "name": "Plant",
+  "icon": "plant",
+  "color": "#009900",
+  "sort": 3,
+  "fields": ["ecological-status", "natural-resource-type", "condition"],
+  "geometry": ["point"],
+  "tags": {}
+}
