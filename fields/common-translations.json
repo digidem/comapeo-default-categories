@@ -1,0 +1,7 @@
+{
+    "tagKey": "common-translations",
+    "type": "text",
+    "label": "Common translations",
+    "universal": false,
+    "helperText": "What are common translations of this word"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Language on the land",
+  "icon": "language-on-the-land",
+  "color": "#FFCC00",
+  "sort": 43,
+  "fields": ["cultural-name", "cultural-details", "common-translations"],
+  "geometry": ["point"],
+  "tags": {}
+}
