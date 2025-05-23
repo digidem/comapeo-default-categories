@@ -1,0 +1,18 @@
+{
+  "tagKey": "ecosystem-type",
+  "type": "selectOne",
+  "label": "Ecosystem type",
+  "helperText": "What is the ecosystem type encountered?",
+  "universal": false,
+  "options": [
+    { "label": "Ravine", "value": "ravine" },
+    { "label": "Forest/woodland", "value": "forest-woodland" },
+    { "label": "Mangrove", "value": "mangrove" },
+    { "label": "Wetland", "value": "wetland" },
+    { "label": "Grasslands", "value": "grasslands" },
+    { "label": "Desert", "value": "desert" },
+    { "label": "Permafrost", "value": "permafrost" },
+    { "label": "Tundra", "value": "tundra" },
+    { "label": "other", "value": "other" }
+  ]
+}
