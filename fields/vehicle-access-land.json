@@ -1,5 +1,5 @@
 {
-  "tagKey": "vehicle-access",
+  "tagKey": "vehicle-access-land",
   "type": "selectMultiple",
   "label": "Vehicle access - land",
   "universal": false,

@@ -1,0 +1,14 @@
+{
+  "tagKey": "vehicle-type-air",
+  "type": "selectMultiple",
+  "label": "Vehicle type - Air",
+  "universal": false,
+  "helperText": "",
+  "options": [
+    {"label": "Small aircraft", "value": "small-aircraft"},
+    {"label": "Helicopter", "value": "helicopter"},
+    {"label": "Airbus", "value": "airbus"},
+    {"label": "Military", "value": "military"},
+    {"label": "Cargo plane", "value": "cargo-plane"}
+  ]
+}

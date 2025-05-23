@@ -15,7 +15,9 @@
     "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2"
   },
-  "keywords": ["comapeo"],
+  "keywords": [
+    "comapeo"
+  ],
   "author": "Tomás Ciccola",
   "files": [
     "dist"
