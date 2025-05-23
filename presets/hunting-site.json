@@ -1,0 +1,9 @@
+{
+  "name": "Hunting site / path",
+  "icon": "hunting-site",
+  "color": "#00CCCC",
+  "sort": 11,
+  "fields": ["condition"],
+  "geometry": ["point", "line"],
+  "tags": {}
+}
