@@ -1,0 +1,7 @@
+{
+    "tagKey": "access",
+    "type": "text",
+    "label": "Access",
+    "universal": false,
+    "helperText": "What is neeeded to access this site, service or activity?"
+}
