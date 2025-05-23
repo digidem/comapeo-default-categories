@@ -1,0 +1,13 @@
+{
+  "name": "Body of water",
+  "icon": "body-of-water",
+  "color": "#3399ff",
+  "sort": 7,
+  "fields": [
+     "name", "body-of-water-type", "condition", "natural-resource-type"
+  ],
+  "geometry": [
+    "point"
+  ],
+  "tags": {}
+}

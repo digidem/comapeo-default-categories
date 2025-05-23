@@ -1,0 +1,21 @@
+{
+  "tagKey": "body-of-water-type",
+  "type": "selectOne",
+  "label": "Type of body of water",
+  "universal": false,
+  "helperText": "The type of body of water",
+  "options": [
+    { "label": "Headwaters", "value": "headwaters" },
+    { "label": "Stream", "value": "stream" },
+    { "label": "River", "value": "river" },
+    { "label": "Rapids", "value": "rapids" },
+    { "label": "Waterfall", "value": "waterfall" },
+    { "label": "Lake", "value": "lake" },
+    { "label": "Pond", "value": "pond" },
+    { "label": "Delta", "value": "delta" },
+    { "label": "Subsurface water table", "value": "subsurface-water-table" },
+    { "label": "Glacier", "value": "glacier" },
+    { "label": "Cold spring", "value": "cold-spring" },
+    { "label": "Hotspring", "value": "hotspring" }
+  ]
+}
