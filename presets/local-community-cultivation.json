@@ -1,0 +1,9 @@
+{
+  "name": "Local / Community cultivation",
+  "icon": "local-community-cultivation",
+  "color": "#00CCCC",
+  "sort": 14,
+  "fields": ["condition", "access"],
+  "geometry": ["point"],
+  "tags": {}
+}

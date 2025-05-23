@@ -4,6 +4,6 @@
   "color": "#00CCCC",
   "sort": 13,
   "fields": ["condition", "gathering-type", "access"],
-  "geometry": ["point", "line"],
+  "geometry": ["point"],
   "tags": {}
 }
