@@ -1,0 +1,9 @@
+{
+  "name": "Path / Trail",
+  "icon": "path-trail",
+  "color": "#CC00CC",
+  "sort": 32,
+  "fields": ["vehicle-access", "access"],
+  "geometry": ["point"],
+  "tags": {}
+}
