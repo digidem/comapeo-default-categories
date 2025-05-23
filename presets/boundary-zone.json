@@ -1,0 +1,9 @@
+{
+  "name": "Boundary / Zone",
+  "icon": "boundary-zone",
+  "color": "#CC00CC",
+  "sort": 36,
+  "fields": ["access"],
+  "geometry": ["point", "area", "line"],
+  "tags": {}
+}
