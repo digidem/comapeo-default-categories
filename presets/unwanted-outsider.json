@@ -1,0 +1,9 @@
+{
+  "name": "Unwanted Outsiders",
+  "icon": "unwanted-outsider",
+  "color": "#FF3300",
+  "sort": 59,
+  "fields": ["incident-type", "authorities-needed-or-involved"],
+  "geometry": ["point"],
+  "tags": {}
+}
