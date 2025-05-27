@@ -2,7 +2,7 @@
   "tagKey": "ecological-status",
   "type": "selectOne",
   "label": "Ecological Status",
-  "universal": true,
+  "universal": false,
   "helperText": "Whats the ecological status of this species?",
   "options": [
     {"label": "Controlled Species", "value": "controlled_species"},
