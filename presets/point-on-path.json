@@ -1,0 +1,9 @@
+{
+  "name": "Point on path, trackpoint",
+  "icon": "point-on-path",
+  "color": "#00CCCC",
+  "sort": 99,
+  "fields": [],
+  "geometry": ["point"],
+  "tags": {}
+}
