@@ -1,0 +1,17 @@
+{
+  "tagKey": "need-type",
+  "type": "selectMultiple",
+  "label": "Need type",
+  "helperText": "",
+  "options": [
+    {"label": "Food", "value": "food"},
+    {"label": "Health services", "value": "health-services"},
+    {"label": "Portable water", "value": "portable-water"},
+    {"label": "Supplies / Materials", "value": "supplies-materials"},
+    {"label": "Shelter / Housing", "value": "shelter-housing"},
+    {"label": "Crisis responsible services", "value": "crisis-responsible-services"},
+    {"label": "Intervention from authorities", "value": "intervention-from-authorities"},
+    {"label": "Transportation", "value": "transportation"},
+    {"label": "Communication", "value": "communication"}
+  ]
+}
