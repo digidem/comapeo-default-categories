@@ -1,0 +1,16 @@
+{
+  "tagKey": "test-sample-type",
+  "type": "selectOne",
+  "label": "Test sample type",
+  "helperText": "",
+  "options": [
+    {"label": "Meteorologcal Sample", "value": "meteorological-sample"},
+    {"label": "Air sample", "value": "air-sample"},
+    {"label": "Soil sample", "value": "soil-sample"},
+    {"label": "Water sample", "value": "water-sample"},
+    {"label": "Mineral sample", "value": "mineral-sample"},
+    {"label": "Forestry / Vegetation sample", "value": "forestry-vegetation-sample"},
+    {"label": "Animal sample", "value": "animal-sample"},
+    {"label": "Camera trap", "value": "camera-trap"}
+  ]
+}

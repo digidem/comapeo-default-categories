@@ -1,0 +1,10 @@
+{
+  "tagKey": "conditions",
+  "type": "selectOne",
+  "label": "Conditions",
+  "helperText": "",
+  "options": [
+    {"label": "Expected", "value": "expected"},
+    {"label": "Unusual", "value": "unusual"}
+  ]
+}
