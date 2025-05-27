@@ -1,0 +1,13 @@
+{
+  "tagKey": "activity-progrss",
+  "type": "selectOne",
+  "label": "Activity progress",
+  "helperText": "",
+  "options": [
+    {"label": "Initial Stages", "value": "initial-stages"},
+    {"label": "Active / In-progress", "value": "active-in-progress"},
+    {"label": "Temporarily Suspended", "value": "temporarily-suspended"},
+    {"label": "Repeat Activity", "value": "repeat-activity"},
+    {"label": "Inactive / Complete", "value": "inactive-complete"}
+  ]
+}

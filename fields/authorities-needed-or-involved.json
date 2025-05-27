@@ -1,0 +1,16 @@
+{
+  "tagKey":  "authorities-needed-or-involved",
+  "type": "selectMultiple",
+  "label": "Authorities needed or involved",
+  "helperText": "",
+  "options": [
+    {"label": "None", "value": "none"},
+    {"label": "Local leadership", "value": "local-leadership"},
+    {"label": "Municipal police", "value": "municipal-police"},
+    {"label": "Regioal law enforcement", "value": "regional-law-enforcement"},
+    {"label": "National law enforcement", "value": "national-law-enforcement"},
+    {"label": "Park rangers", "value": "park-rangers"},
+    {"label": "Health authorities", "value": "health-authorities"},
+    {"label": "Private security", "value": "private-security"}
+  ]
+}

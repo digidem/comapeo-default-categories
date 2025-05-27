@@ -1,0 +1,6 @@
+{
+  "tagKey":  "presumed-responsible",
+  "type": "text",
+  "label": "Presumed Responsible",
+  "helperText": "Who or what may be responsible for this?"
+}
