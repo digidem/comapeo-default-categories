@@ -1,0 +1,9 @@
+{
+  "name": "Natural Gas Activity",
+  "icon": "natural-gas-activity",
+  "color": "#FF3300",
+  "sort": 54,
+  "fields": [ "activity-progress","activity-documented", "incident-type", "authorities-needed-or-involved", "presumed-responsible", "permission"],
+  "geometry": ["point"],
+  "tags": {}
+}
