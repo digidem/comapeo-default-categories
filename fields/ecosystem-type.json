@@ -3,7 +3,6 @@
   "type": "selectOne",
   "label": "Ecosystem type",
   "helperText": "What is the ecosystem type encountered?",
-  "universal": false,
   "options": [
     { "label": "Ravine", "value": "ravine" },
     { "label": "Forest/woodland", "value": "forest-woodland" },

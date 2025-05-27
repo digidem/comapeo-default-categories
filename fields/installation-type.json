@@ -2,7 +2,6 @@
   "tagKey": "installation-type",
   "type": "selectMultiple",
   "label": "Installation type",
-  "universal": false,
   "helperText": "What is the nature of this Installation?",
   "options": [
     {"label": "Not in use", "value": "not-in-use"},

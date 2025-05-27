@@ -2,6 +2,5 @@
     "tagKey": "cultural-details",
     "type": "text",
     "label": "Cultural details",
-    "universal": false,
     "helperText": "Add details/stories relevant to local culture"
 }

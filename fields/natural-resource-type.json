@@ -3,7 +3,6 @@
   "type": "selectMultiple",
   "label": "Natural resource type",
   "helperText": "What type of resource is this?",
-  "universal": false,
   "options": [
     {"label": "Food", "value": "food"},
     {"label": "Water", "value": "water"},

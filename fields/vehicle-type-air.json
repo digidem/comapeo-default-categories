@@ -2,7 +2,6 @@
   "tagKey": "vehicle-type-air",
   "type": "selectMultiple",
   "label": "Vehicle type - Air",
-  "universal": false,
   "helperText": "",
   "options": [
     {"label": "Small aircraft", "value": "small-aircraft"},

@@ -3,7 +3,6 @@
   "type": "selectOne",
   "label": "Conditions",
   "helperText": "In what condition this was encountered?",
-  "universal": false,
   "options": [
     {"label": "Expected", "value": "expected"},
     {"label": "Unusual", "value": "unusual"}

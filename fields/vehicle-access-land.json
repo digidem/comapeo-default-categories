@@ -2,7 +2,6 @@
   "tagKey": "vehicle-access-land",
   "type": "selectMultiple",
   "label": "Vehicle access - land",
-  "universal": false,
   "helperText": "",
   "options": [
     {"label": "Pedestrian", "value": "pedestrian"},

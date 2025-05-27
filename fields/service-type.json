@@ -2,7 +2,6 @@
   "tagKey": "service-type",
   "type": "selectMultiple",
   "label": "Service type",
-  "universal": false,
   "helperText": "What type of site is this?",
   "options": [
     {"label": "Water infrastructure", "value": "water-infrastructure"},

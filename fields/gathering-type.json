@@ -3,7 +3,6 @@
   "type": "selectOne",
   "label": "Gathering type",
   "helperText": "What type of resource is gathered here?",
-  "universal": false,
   "options": [
     { "label": "Clay", "value": "clay" },
     { "label": "Fibers", "value": "fibers" },

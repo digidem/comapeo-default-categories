@@ -3,7 +3,6 @@
   "type": "selectOne",
   "label": "Animal type",
   "helperText": "What kind of animal?",
-  "universal": false,
   "options": [
     {"label": "Mammal", "value": "mammal"},
     {"label": "Bird", "value": "bird"},

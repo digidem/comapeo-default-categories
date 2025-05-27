@@ -2,7 +2,6 @@
   "tagKey": "body-of-water-type",
   "type": "selectOne",
   "label": "Type of body of water",
-  "universal": false,
   "helperText": "The type of body of water",
   "options": [
     { "label": "Headwaters", "value": "headwaters" },

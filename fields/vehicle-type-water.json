@@ -2,7 +2,6 @@
   "tagKey": "vehicle-type-water",
   "type": "selectMultiple",
   "label": "Vehicle type - Water",
-  "universal": false,
   "helperText": "",
   "options": [
     {"label": "Boat - inboard motor", "value": "boat-inboard-motor"},
