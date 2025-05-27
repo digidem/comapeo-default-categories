@@ -1,0 +1,9 @@
+{
+  "name": "Poaching",
+  "icon": "poaching",
+  "color": "#FF3300",
+  "sort": 57,
+  "fields": ["animal-type", "ecological-status", "activity-progress", "incident-type", "authorities-needed-or-involved"],
+  "geometry": ["point"],
+  "tags": {}
+}
