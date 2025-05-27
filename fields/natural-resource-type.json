@@ -7,7 +7,7 @@
   "options": [
     {"label": "Food", "value": "food"},
     {"label": "Water", "value": "water"},
-    {"label": "Shelter/Building material", "value": "shelter/building_material"},
+    {"label": "Shelter/Building material", "value": "shelter_building_material"},
     {"label": "Fiber & Textile", "value": "fiber_textile"},
     {"label": "Artisanry", "value": "artisanry"},
     {"label": "Medicine", "value": "medicine"},

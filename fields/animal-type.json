@@ -7,7 +7,7 @@
   "options": [
     {"label": "Mammal", "value": "mammal"},
     {"label": "Bird", "value": "bird"},
-    {"label": "Reptile/Amphibian", "value": "reptile/amphibian"},
+    {"label": "Reptile/Amphibian", "value": "reptile-amphibian"},
     {"label": "Fish", "value": "fish"},
     {"label": "Other", "value": "other"}
   ]
