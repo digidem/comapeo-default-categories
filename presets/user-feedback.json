@@ -1,0 +1,9 @@
+{
+  "name": "User Feedback",
+  "icon": "user-feedback",
+  "color": "#00CCCC",
+  "sort": 99,
+  "fields": [],
+  "geometry": ["point"],
+  "tags": {}
+}
