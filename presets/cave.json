@@ -5,5 +5,8 @@
   "sort": 5,
   "fields": ["name",  "natural-resource-type", "condition", "cultural-name", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature",
+    "nature": "cave"
+  }
 }

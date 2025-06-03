@@ -5,5 +5,8 @@
   "sort": 23,
   "fields": ["service-type", "vehicle-access-land", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "other"
+  }
 }

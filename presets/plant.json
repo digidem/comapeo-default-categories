@@ -5,5 +5,9 @@
   "sort": 3,
   "fields": ["ecological-status", "natural-resource-type", "condition"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature",
+    "nature": "vegetation",
+    "vegetation": "plant"
+  }
 }

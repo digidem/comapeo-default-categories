@@ -5,5 +5,9 @@
   "sort": 13,
   "fields": ["condition", "gathering-type", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature-use",
+    "nature-use": "site",
+    "site": "gathering"
+  }
 }

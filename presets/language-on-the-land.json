@@ -5,5 +5,8 @@
   "sort": 43,
   "fields": ["cultural-name", "cultural-details", "common-translations"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "culture",
+    "culture": "language"
+  }
 }

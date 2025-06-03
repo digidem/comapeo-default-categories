@@ -9,5 +9,9 @@
   "geometry": [
     "point"
   ],
-  "tags": { "type" : "animal" }
+  "tags": {
+    "type" : "nature",
+    "nature": "wildlife",
+    "wildlife": "animal"
+  }
 }

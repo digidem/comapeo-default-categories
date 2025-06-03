@@ -5,5 +5,8 @@
   "sort": 62,
   "fields": ["incident-type", "authorities-needed-or-involved", "presumed-responsible", "need-type"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "threat",
+    "threat": "community-need"
+  }
 }

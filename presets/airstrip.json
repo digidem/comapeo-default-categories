@@ -5,5 +5,9 @@
   "sort": 31,
   "fields": ["vehicle-type-air", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "transportation",
+    "transportation": "airstrip"
+  }
 }

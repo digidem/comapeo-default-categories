@@ -5,5 +5,8 @@
   "sort": 99,
   "fields": [],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "admin",
+    "admin": "point-on-the-path"
+  }
 }

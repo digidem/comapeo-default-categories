@@ -5,5 +5,8 @@
   "sort": 22,
   "fields": ["access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "community"
+  }
 }

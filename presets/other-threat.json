@@ -5,5 +5,8 @@
   "sort": 61,
   "fields": [ "activity-progress","activity-documented", "incident-type", "authorities-needed-or-involved"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "threat",
+    "threat": "other"
+  }
 }

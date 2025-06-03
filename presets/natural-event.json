@@ -5,5 +5,8 @@
   "sort": 9,
   "fields": ["condition"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type" : "nature",
+    "nature": "phenomenon"
+  }
 }

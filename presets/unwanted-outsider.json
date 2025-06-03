@@ -5,5 +5,8 @@
   "sort": 59,
   "fields": ["incident-type", "authorities-needed-or-involved"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "threat",
+    "threat": "outsider"
+  }
 }

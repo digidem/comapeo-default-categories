@@ -5,5 +5,9 @@
   "sort": 14,
   "fields": ["condition", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature-use",
+    "nature-use": "cultivation",
+    "cultivation": "community"
+  }
 }

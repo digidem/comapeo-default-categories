@@ -5,5 +5,8 @@
   "sort": 6,
   "fields": ["cultural-name", "condition"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature",
+    "nature": "mountain"
+  }
 }

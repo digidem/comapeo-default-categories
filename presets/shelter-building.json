@@ -5,5 +5,8 @@
   "sort": 21,
   "fields": ["installation-type", "service-type", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "building"
+  }
 }

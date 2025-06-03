@@ -5,5 +5,7 @@
   "sort": 90,
   "fields": ["ecosystem-type"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "other"
+  }
 }

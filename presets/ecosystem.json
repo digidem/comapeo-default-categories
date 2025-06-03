@@ -5,5 +5,8 @@
   "sort": 9,
   "fields": ["ecosystem-type", "body-of-water-type", "condition"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature",
+    "nature": "ecosystem"
+  }
 }

@@ -5,5 +5,8 @@
   "sort": 55,
   "fields": [ "activity-progress", "access", "activity-documented", "incident-type", "authorities-needed-or-involved", "presumed-responsible", "permission"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "threat",
+    "threat": "dam"
+  }
 }

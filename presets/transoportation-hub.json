@@ -5,5 +5,9 @@
   "sort": 35,
   "fields": ["vehicle-type-air", "vehicle-type-water", "vehicle-access-land", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "transportation",
+    "transportation": "hub"
+  }
 }

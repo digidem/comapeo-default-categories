@@ -5,5 +5,8 @@
   "sort": 32,
   "fields": ["vehicle-access-land", "access"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "path"
+  }
 }

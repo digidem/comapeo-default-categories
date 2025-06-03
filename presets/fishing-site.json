@@ -5,5 +5,9 @@
   "sort": 12,
   "fields": ["body-of-water-type", "condition"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type": "nature-use",
+    "nature-use": "site",
+    "site": "fishing"
+  }
 }

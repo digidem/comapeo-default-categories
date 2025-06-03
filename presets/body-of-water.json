@@ -9,5 +9,10 @@
   "geometry": [
     "point"
   ],
-  "tags": {}
+  "tags": {
+    "type" : "nature",
+    "nature" : "water",
+    "water": "body-of-water"
+  }
+
 }

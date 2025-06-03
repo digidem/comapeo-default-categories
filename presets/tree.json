@@ -5,5 +5,9 @@
   "sort": 2,
   "fields": ["name", "natural-resource-type", "condition", "tree-type"],
   "geometry": ["point"],
-  "tags": {}
+  "tags": {
+    "type" : "nature",
+    "nature": "vegetation",
+    "vegetation": "tree"
+  }
 }
