@@ -1,0 +1,622 @@
+{
+  "fields.access.label": {
+    "description": "Label for field 'access'",
+    "message": "Acesso"
+  },
+  "fields.access.helperText": {
+    "description": "helperText for field 'What is neeeded to access this site, service or activity?'",
+    "message": "O que é necessário para acessar esse site, serviço ou atividade?"
+  },
+  "fields.activity-documented.label": {
+    "description": "Label for field 'activity-documented'",
+    "message": "Atividade documentada"
+  },
+  "fields.activity-documented.helperText": {
+    "description": "helperText for field 'What type of activity are we documenting?'",
+    "message": "Que tipo de atividade estamos documentando?"
+  },
+  "fields.activity-progress.label": {
+    "description": "Label for field 'activity-progress'",
+    "message": "Progresso da atividade"
+  },
+  "fields.activity-progress.helperText": {
+    "description": "helperText for field 'What is the state of this activity?'",
+    "message": "Qual é o estado dessa atividade?"
+  },
+  "fields.activity-progress.options.initial-stages": {
+    "description": "Label for option 'initial-stages' for field 'activity-progress'",
+    "message": "Estágios iniciais"
+  },
+  "fields.activity-progress.options.active-in-progress": {
+    "description": "Label for option 'active-in-progress' for field 'activity-progress'",
+    "message": "Ativo / Em andamento"
+  },
+  "fields.activity-progress.options.temporarily-suspended": {
+    "description": "Label for option 'temporarily-suspended' for field 'activity-progress'",
+    "message": "Suspenso temporariamente"
+  },
+  "fields.activity-progress.options.repeat-activity": {
+    "description": "Label for option 'repeat-activity' for field 'activity-progress'",
+    "message": "Atividade de repetição"
+  },
+  "fields.activity-progress.options.inactive-complete": {
+    "description": "Label for option 'inactive-complete' for field 'activity-progress'",
+    "message": "Inativo / Completo"
+  },
+  "fields.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Tipo de animal"
+  },
+  "fields.animal-type.helperText": {
+    "description": "helperText for field 'What kind of animal?'",
+    "message": "Que tipo de animal?"
+  },
+  "fields.animal-type.options.mammal": {
+    "description": "Label for option 'mammal' for field 'animal-type'",
+    "message": "Mamíferos"
+  },
+  "fields.animal-type.options.bird": {
+    "description": "Label for option 'bird' for field 'animal-type'",
+    "message": "Pássaro"
+  },
+  "fields.animal-type.options.reptile-amphibian": {
+    "description": "Label for option 'reptile-amphibian' for field 'animal-type'",
+    "message": "Répteis/anfíbios"
+  },
+  "fields.animal-type.options.fish": {
+    "description": "Label for option 'fish' for field 'animal-type'",
+    "message": "Peixes"
+  },
+  "fields.animal-type.options.other": {
+    "description": "Label for option 'other' for field 'animal-type'",
+    "message": "Outros"
+  },
+  "fields.authorities-needed-or-involved.label": {
+    "description": "Label for field 'authorities-needed-or-involved'",
+    "message": "Autoridades necessárias ou envolvidas"
+  },
+  "fields.authorities-needed-or-involved.helperText": {
+    "description": "helperText for field 'What type of authorities are needed or already involved?'",
+    "message": "Que tipo de autoridades são necessárias ou já estão envolvidas?"
+  },
+  "fields.body-of-water-type.label": {
+    "description": "Label for field 'body-of-water-type'",
+    "message": "Tipo de corpo de água"
+  },
+  "fields.body-of-water-type.helperText": {
+    "description": "helperText for field 'The type of body of water'",
+    "message": "O tipo de corpo de água"
+  },
+  "fields.body-of-water-type.options.headwaters": {
+    "description": "Label for option 'headwaters' for field 'body-of-water-type'",
+    "message": "Cabeceiras"
+  },
+  "fields.body-of-water-type.options.stream": {
+    "description": "Label for option 'stream' for field 'body-of-water-type'",
+    "message": "Fluxo"
+  },
+  "fields.body-of-water-type.options.river": {
+    "description": "Label for option 'river' for field 'body-of-water-type'",
+    "message": "Rio"
+  },
+  "fields.body-of-water-type.options.rapids": {
+    "description": "Label for option 'rapids' for field 'body-of-water-type'",
+    "message": "Corredeiras"
+  },
+  "fields.body-of-water-type.options.waterfall": {
+    "description": "Label for option 'waterfall' for field 'body-of-water-type'",
+    "message": "Cachoeira"
+  },
+  "fields.body-of-water-type.options.lake": {
+    "description": "Label for option 'lake' for field 'body-of-water-type'",
+    "message": "Lago"
+  },
+  "fields.body-of-water-type.options.pond": {
+    "description": "Label for option 'pond' for field 'body-of-water-type'",
+    "message": "Lago"
+  },
+  "fields.body-of-water-type.options.delta": {
+    "description": "Label for option 'delta' for field 'body-of-water-type'",
+    "message": "Delta"
+  },
+  "fields.body-of-water-type.options.subsurface-water-table": {
+    "description": "Label for option 'subsurface-water-table' for field 'body-of-water-type'",
+    "message": "Lençol freático subsuperficial"
+  },
+  "fields.body-of-water-type.options.glacier": {
+    "description": "Label for option 'glacier' for field 'body-of-water-type'",
+    "message": "Geleira"
+  },
+  "fields.body-of-water-type.options.cold-spring": {
+    "description": "Label for option 'cold-spring' for field 'body-of-water-type'",
+    "message": "Primavera fria"
+  },
+  "fields.body-of-water-type.options.hotspring": {
+    "description": "Label for option 'hotspring' for field 'body-of-water-type'",
+    "message": "Hotspring"
+  },
+  "fields.common-translations.label": {
+    "description": "Label for field 'common-translations'",
+    "message": "Traduções comuns"
+  },
+  "fields.common-translations.helperText": {
+    "description": "helperText for field 'What are common translations of this word'",
+    "message": "Quais são as traduções comuns dessa palavra?"
+  },
+  "fields.conditions.label": {
+    "description": "Label for field 'conditions'",
+    "message": "Condições"
+  },
+  "fields.conditions.helperText": {
+    "description": "helperText for field 'In what condition this was encountered?'",
+    "message": "Em que condições ele foi encontrado?"
+  },
+  "fields.conditions.options.expected": {
+    "description": "Label for option 'expected' for field 'conditions'",
+    "message": "Esperado"
+  },
+  "fields.conditions.options.unusual": {
+    "description": "Label for option 'unusual' for field 'conditions'",
+    "message": "Incomum"
+  },
+  "fields.cultural-category.label": {
+    "description": "Label for field 'cultural-category'",
+    "message": "Atividade cultural"
+  },
+  "fields.cultural-category.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "fields.cultural-details.label": {
+    "description": "Label for field 'cultural-details'",
+    "message": "Detalhes culturais"
+  },
+  "fields.cultural-details.helperText": {
+    "description": "helperText for field 'Add details/stories relevant to local culture'",
+    "message": "Adicione detalhes/histórias relevantes para a cultura local"
+  },
+  "fields.cultural-name.label": {
+    "description": "Label for field 'cultural-name'",
+    "message": "Nome/termo cultural"
+  },
+  "fields.cultural-name.helperText": {
+    "description": "helperText for field 'Cultural name or local term for this thing'",
+    "message": "Nome cultural ou termo local para esse item"
+  },
+  "fields.ecological-status.label": {
+    "description": "Label for field 'ecological-status'",
+    "message": "Status ecológico"
+  },
+  "fields.ecological-status.helperText": {
+    "description": "helperText for field 'Whats the ecological status of this species?'",
+    "message": "Qual é o status ecológico dessa espécie?"
+  },
+  "fields.ecological-status.options.controlled_species": {
+    "description": "Label for option 'controlled_species' for field 'ecological-status'",
+    "message": "Espécies controladas"
+  },
+  "fields.ecological-status.options.invasive_species": {
+    "description": "Label for option 'invasive_species' for field 'ecological-status'",
+    "message": "Espécies invasoras"
+  },
+  "fields.ecological-status.options.native_species": {
+    "description": "Label for option 'native_species' for field 'ecological-status'",
+    "message": "Espécies nativas"
+  },
+  "fields.ecological-status.options.endangered_species": {
+    "description": "Label for option 'endangered_species' for field 'ecological-status'",
+    "message": "Espécies ameaçadas de extinção"
+  },
+  "fields.ecosystem-type.label": {
+    "description": "Label for field 'ecosystem-type'",
+    "message": "Tipo de ecossistema"
+  },
+  "fields.ecosystem-type.helperText": {
+    "description": "helperText for field 'What is the ecosystem type encountered?'",
+    "message": "Qual é o tipo de ecossistema encontrado?"
+  },
+  "fields.ecosystem-type.options.ravine": {
+    "description": "Label for option 'ravine' for field 'ecosystem-type'",
+    "message": "Ravina"
+  },
+  "fields.ecosystem-type.options.forest-woodland": {
+    "description": "Label for option 'forest-woodland' for field 'ecosystem-type'",
+    "message": "Floresta/floresta"
+  },
+  "fields.ecosystem-type.options.mangrove": {
+    "description": "Label for option 'mangrove' for field 'ecosystem-type'",
+    "message": "Mangue"
+  },
+  "fields.ecosystem-type.options.wetland": {
+    "description": "Label for option 'wetland' for field 'ecosystem-type'",
+    "message": "Áreas úmidas"
+  },
+  "fields.ecosystem-type.options.grasslands": {
+    "description": "Label for option 'grasslands' for field 'ecosystem-type'",
+    "message": "Pastagens"
+  },
+  "fields.ecosystem-type.options.desert": {
+    "description": "Label for option 'desert' for field 'ecosystem-type'",
+    "message": "Deserto"
+  },
+  "fields.ecosystem-type.options.permafrost": {
+    "description": "Label for option 'permafrost' for field 'ecosystem-type'",
+    "message": "Permafrost"
+  },
+  "fields.ecosystem-type.options.tundra": {
+    "description": "Label for option 'tundra' for field 'ecosystem-type'",
+    "message": "Tundra"
+  },
+  "fields.ecosystem-type.options.other": {
+    "description": "Label for option 'other' for field 'ecosystem-type'",
+    "message": "outros"
+  },
+  "fields.field-test-details.label": {
+    "description": "Label for field 'field-test-details'",
+    "message": "Detalhes do teste de campo"
+  },
+  "fields.field-test-details.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "fields.gathering-type.label": {
+    "description": "Label for field 'gathering-type'",
+    "message": "Tipo de coleta"
+  },
+  "fields.gathering-type.helperText": {
+    "description": "helperText for field 'What type of resource is gathered here?'",
+    "message": "Que tipo de recurso é reunido aqui?"
+  },
+  "fields.gathering-type.options.clay": {
+    "description": "Label for option 'clay' for field 'gathering-type'",
+    "message": "Argila"
+  },
+  "fields.gathering-type.options.fibers": {
+    "description": "Label for option 'fibers' for field 'gathering-type'",
+    "message": "Fibras"
+  },
+  "fields.gathering-type.options.berries": {
+    "description": "Label for option 'berries' for field 'gathering-type'",
+    "message": "Bagas"
+  },
+  "fields.gathering-type.options.tree-fruit": {
+    "description": "Label for option 'tree-fruit' for field 'gathering-type'",
+    "message": "Árvore frutífera"
+  },
+  "fields.gathering-type.options.mushrooms": {
+    "description": "Label for option 'mushrooms' for field 'gathering-type'",
+    "message": "Cogumelos"
+  },
+  "fields.gathering-type.options.honey": {
+    "description": "Label for option 'honey' for field 'gathering-type'",
+    "message": "Mel"
+  },
+  "fields.gathering-type.options.medicine": {
+    "description": "Label for option 'medicine' for field 'gathering-type'",
+    "message": "Medicina"
+  },
+  "fields.incident-type.label": {
+    "description": "Label for field 'incident-type'",
+    "message": "Tipo de incidente"
+  },
+  "fields.incident-type.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "fields.installation-type.label": {
+    "description": "Label for field 'installation-type'",
+    "message": "Tipo de instalação"
+  },
+  "fields.installation-type.helperText": {
+    "description": "helperText for field 'What is the nature of this Installation?'",
+    "message": "Qual é a natureza dessa instalação?"
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Nome"
+  },
+  "fields.name.helperText": {
+    "description": "helperText for field 'Common name of this thing'",
+    "message": "Nome comum dessa coisa"
+  },
+  "fields.natural-resource-type.label": {
+    "description": "Label for field 'natural-resource-type'",
+    "message": "Tipo de recurso natural"
+  },
+  "fields.natural-resource-type.helperText": {
+    "description": "helperText for field 'What type of resource is this?'",
+    "message": "Que tipo de recurso é esse?"
+  },
+  "fields.need-type.label": {
+    "description": "Label for field 'need-type'",
+    "message": "Tipo de necessidade"
+  },
+  "fields.need-type.helperText": {
+    "description": "helperText for field 'What type of need was encountered?'",
+    "message": "Que tipo de necessidade foi encontrada?"
+  },
+  "fields.permission.label": {
+    "description": "Label for field 'permission'",
+    "message": "Permissão"
+  },
+  "fields.permission.helperText": {
+    "description": "helperText for field 'What type of permission does this have?'",
+    "message": "Que tipo de permissão ele tem?"
+  },
+  "fields.permission.options.not-permitted": {
+    "description": "Label for option 'not-permitted' for field 'permission'",
+    "message": "Não permitido"
+  },
+  "fields.permission.options.violation-of-fpic": {
+    "description": "Label for option 'violation-of-fpic' for field 'permission'",
+    "message": "Violação do FPIC (Consentimento Livre, Prévio e Informado)"
+  },
+  "fields.permission.options.unsure": {
+    "description": "Label for option 'unsure' for field 'permission'",
+    "message": "Não tenho certeza"
+  },
+  "fields.permission.options.permitted": {
+    "description": "Label for option 'permitted' for field 'permission'",
+    "message": "Permitido"
+  },
+  "fields.presumed-responsible.label": {
+    "description": "Label for field 'presumed-responsible'",
+    "message": "Responsável presumido"
+  },
+  "fields.presumed-responsible.helperText": {
+    "description": "helperText for field 'Who or what may be responsible for this?'",
+    "message": "Quem ou o que pode ser responsável por isso?"
+  },
+  "fields.service-type.label": {
+    "description": "Label for field 'service-type'",
+    "message": "Tipo de serviço"
+  },
+  "fields.service-type.helperText": {
+    "description": "helperText for field 'What type of site is this?'",
+    "message": "Que tipo de site é esse?"
+  },
+  "fields.test-sample-type.label": {
+    "description": "Label for field 'test-sample-type'",
+    "message": "Tipo de amostra de teste"
+  },
+  "fields.test-sample-type.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "fields.test-sample-type.options.meteorological-sample": {
+    "description": "Label for option 'meteorological-sample' for field 'test-sample-type'",
+    "message": "Amostra Meteorológica"
+  },
+  "fields.test-sample-type.options.air-sample": {
+    "description": "Label for option 'air-sample' for field 'test-sample-type'",
+    "message": "Amostra de ar"
+  },
+  "fields.test-sample-type.options.soil-sample": {
+    "description": "Label for option 'soil-sample' for field 'test-sample-type'",
+    "message": "Amostra de solo"
+  },
+  "fields.test-sample-type.options.water-sample": {
+    "description": "Label for option 'water-sample' for field 'test-sample-type'",
+    "message": "Amostra de água"
+  },
+  "fields.test-sample-type.options.mineral-sample": {
+    "description": "Label for option 'mineral-sample' for field 'test-sample-type'",
+    "message": "Amostra mineral"
+  },
+  "fields.test-sample-type.options.forestry-vegetation-sample": {
+    "description": "Label for option 'forestry-vegetation-sample' for field 'test-sample-type'",
+    "message": "Amostra de silvicultura / vegetação"
+  },
+  "fields.test-sample-type.options.animal-sample": {
+    "description": "Label for option 'animal-sample' for field 'test-sample-type'",
+    "message": "Amostra de animais"
+  },
+  "fields.test-sample-type.options.camera-trap": {
+    "description": "Label for option 'camera-trap' for field 'test-sample-type'",
+    "message": "Armadilha fotográfica"
+  },
+  "fields.tree-type.label": {
+    "description": "Label for field 'tree-type'",
+    "message": "Tipo de árvore"
+  },
+  "fields.tree-type.helperText": {
+    "description": "helperText for field 'What type of tree was encountered?'",
+    "message": "Que tipo de árvore foi encontrada?"
+  },
+  "fields.tree-type.options.palm": {
+    "description": "Label for option 'palm' for field 'tree-type'",
+    "message": "Palma"
+  },
+  "fields.tree-type.options.cactus": {
+    "description": "Label for option 'cactus' for field 'tree-type'",
+    "message": "Cactos"
+  },
+  "fields.tree-type.options.coniferous": {
+    "description": "Label for option 'coniferous' for field 'tree-type'",
+    "message": "Coníferas"
+  },
+  "fields.tree-type.options.deciduos-leaved": {
+    "description": "Label for option 'deciduos-leaved' for field 'tree-type'",
+    "message": "Deciduos/folha"
+  },
+  "fields.vehicle-access-land.label": {
+    "description": "Label for field 'vehicle-access-land'",
+    "message": "Acesso de veículos - terra"
+  },
+  "fields.vehicle-access-land.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "fields.vehicle-type-air.label": {
+    "description": "Label for field 'vehicle-type-air'",
+    "message": "Tipo de veículo - Aéreo"
+  },
+  "fields.vehicle-type-air.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "fields.vehicle-type-water.label": {
+    "description": "Label for field 'vehicle-type-water'",
+    "message": "Tipo de veículo - Água"
+  },
+  "fields.vehicle-type-water.helperText": {
+    "description": "helperText for field ''",
+    "message": "VAZIO"
+  },
+  "presets.agroindustry.name": {
+    "description": "The name of the preset 'agroindustry'",
+    "message": "Agroindústria"
+  },
+  "presets.airstrip.name": {
+    "description": "The name of the preset 'airstrip'",
+    "message": "Pista de pouso"
+  },
+  "presets.animal.name": {
+    "description": "The name of the preset 'animal'",
+    "message": "Animal"
+  },
+  "presets.body-of-water.name": {
+    "description": "The name of the preset 'body-of-water'",
+    "message": "Corpo de água"
+  },
+  "presets.boundary-zone.name": {
+    "description": "The name of the preset 'boundary-zone'",
+    "message": "Limite / Zona"
+  },
+  "presets.camera-trap.name": {
+    "description": "The name of the preset 'camera-trap'",
+    "message": "Armadilha para câmera"
+  },
+  "presets.cave.name": {
+    "description": "The name of the preset 'cave'",
+    "message": "Caverna"
+  },
+  "presets.community-need.name": {
+    "description": "The name of the preset 'community-need'",
+    "message": "Necessidade da comunidade"
+  },
+  "presets.community.name": {
+    "description": "The name of the preset 'community'",
+    "message": "Comunidade"
+  },
+  "presets.cultural-activity.name": {
+    "description": "The name of the preset 'cultural-activity'",
+    "message": "Atividade cultural"
+  },
+  "presets.cultural-site.name": {
+    "description": "The name of the preset 'cultural-site'",
+    "message": "Local cultural"
+  },
+  "presets.dam.name": {
+    "description": "The name of the preset 'dam'",
+    "message": "Barragem"
+  },
+  "presets.ecosystem.name": {
+    "description": "The name of the preset 'ecosystem'",
+    "message": "Ecossistema"
+  },
+  "presets.field-test.name": {
+    "description": "The name of the preset 'field-test'",
+    "message": "Teste de campo/amostra"
+  },
+  "presets.fishing-site.name": {
+    "description": "The name of the preset 'fishing-site'",
+    "message": "Local de pesca"
+  },
+  "presets.fungi.name": {
+    "description": "The name of the preset 'fungi'",
+    "message": "Fungos"
+  },
+  "presets.gathering-site.name": {
+    "description": "The name of the preset 'gathering-site'",
+    "message": "Local de coleta"
+  },
+  "presets.hunting-site.name": {
+    "description": "The name of the preset 'hunting-site'",
+    "message": "Local / caminho de caça"
+  },
+  "presets.infrastructure-other.name": {
+    "description": "The name of the preset 'infrastructure-other'",
+    "message": "Infraestrutura Outros"
+  },
+  "presets.language-on-the-land.name": {
+    "description": "The name of the preset 'language-on-the-land'",
+    "message": "Idioma na terra"
+  },
+  "presets.local-community-cultivation.name": {
+    "description": "The name of the preset 'local-community-cultivation'",
+    "message": "Cultivo local/comunitário"
+  },
+  "presets.logging.name": {
+    "description": "The name of the preset 'logging'",
+    "message": "Registro em log"
+  },
+  "presets.mining.name": {
+    "description": "The name of the preset 'mining'",
+    "message": "Mineração"
+  },
+  "presets.mountain-hill.name": {
+    "description": "The name of the preset 'mountain-hill'",
+    "message": "Montanha / colina"
+  },
+  "presets.natural-event.name": {
+    "description": "The name of the preset 'natural-event'",
+    "message": "Evento / fenômeno natural"
+  },
+  "presets.natural-gas-activity.name": {
+    "description": "The name of the preset 'natural-gas-activity'",
+    "message": "Atividade de gás natural"
+  },
+  "presets.oil-activity.name": {
+    "description": "The name of the preset 'oil-activity'",
+    "message": "Atividade petrolífera"
+  },
+  "presets.other-threat.name": {
+    "description": "The name of the preset 'other-threat'",
+    "message": "Outra ameaça"
+  },
+  "presets.other.name": {
+    "description": "The name of the preset 'other'",
+    "message": "Outros"
+  },
+  "presets.path-trail.name": {
+    "description": "The name of the preset 'path-trail'",
+    "message": "Caminho / Trilha"
+  },
+  "presets.plant.name": {
+    "description": "The name of the preset 'plant'",
+    "message": "Planta"
+  },
+  "presets.poaching.name": {
+    "description": "The name of the preset 'poaching'",
+    "message": "Caça furtiva"
+  },
+  "presets.point-on-path.name": {
+    "description": "The name of the preset 'point-on-path'",
+    "message": "Ponto no caminho, ponto de rastreamento"
+  },
+  "presets.roadway.name": {
+    "description": "The name of the preset 'roadway'",
+    "message": "Rodovia"
+  },
+  "presets.shelter-building.name": {
+    "description": "The name of the preset 'shelter-building'",
+    "message": "Abrigo/edifício"
+  },
+  "presets.transoportation-hub.name": {
+    "description": "The name of the preset 'transoportation-hub'",
+    "message": "Centro de transporte"
+  },
+  "presets.tree.name": {
+    "description": "The name of the preset 'tree'",
+    "message": "Árvore"
+  },
+  "presets.unwanted-outsider.name": {
+    "description": "The name of the preset 'unwanted-outsider'",
+    "message": "Pessoas de fora indesejadas"
+  },
+  "presets.user-feedback.name": {
+    "description": "The name of the preset 'user-feedback'",
+    "message": "Feedback do usuário"
+  }
+}
