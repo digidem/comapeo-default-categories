@@ -3,7 +3,7 @@
   "icon": "local-community-cultivation",
   "color": "#00CCCC",
   "sort": 14,
-  "fields": ["condition", "access"],
+  "fields": ["conditions", "access"],
   "geometry": ["point"],
   "tags": {
     "type": "nature-use",

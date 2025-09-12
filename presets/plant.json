@@ -3,7 +3,7 @@
   "icon": "plant",
   "color": "#009900",
   "sort": 3,
-  "fields": ["ecological-status", "natural-resource-type", "condition"],
+  "fields": ["ecological-status", "natural-resource-type", "conditions"],
   "geometry": ["point"],
   "tags": {
     "type": "nature",

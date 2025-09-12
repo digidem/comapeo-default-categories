@@ -3,7 +3,7 @@
   "icon": "mountain-hill",
   "color": "#009900",
   "sort": 6,
-  "fields": ["cultural-name", "condition"],
+  "fields": ["cultural-name", "conditions"],
   "geometry": ["point"],
   "tags": {
     "type": "nature",

@@ -3,7 +3,7 @@
   "icon": "ecosystem",
   "color": "#009900",
   "sort": 9,
-  "fields": ["ecosystem-type", "body-of-water-type", "condition"],
+  "fields": ["ecosystem-type", "body-of-water-type", "conditions"],
   "geometry": ["point"],
   "tags": {
     "type": "nature",

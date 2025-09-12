@@ -3,7 +3,7 @@
   "icon": "fungi",
   "color": "#009900",
   "sort": 4,
-  "fields": ["name", "natural-resource-type", "condition"],
+  "fields": ["name", "natural-resource-type", "conditions"],
   "geometry": ["point"],
   "tags": {
     "type": "nature",

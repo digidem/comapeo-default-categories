@@ -3,7 +3,7 @@
   "icon": "natural-event",
   "color": "#009900",
   "sort": 9,
-  "fields": ["condition"],
+  "fields": ["conditions"],
   "geometry": ["point"],
   "tags": {
     "type" : "nature",

@@ -4,7 +4,7 @@
   "color": "#9E2C54",
   "sort": 1,
   "fields": [
-    "name", "animal-type", "ecological-status", "condition", "natural-resource-type"
+    "name", "animal-type", "ecological-status", "conditions", "natural-resource-type"
   ],
   "geometry": [
     "point"

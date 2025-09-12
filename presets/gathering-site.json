@@ -3,7 +3,7 @@
   "icon": "gathering-site",
   "color": "#00CCCC",
   "sort": 13,
-  "fields": ["condition", "gathering-type", "access"],
+  "fields": ["conditions", "gathering-type", "access"],
   "geometry": ["point"],
   "tags": {
     "type": "nature-use",

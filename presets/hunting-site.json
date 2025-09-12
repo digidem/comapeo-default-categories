@@ -3,7 +3,7 @@
   "icon": "hunting-site",
   "color": "#00CCCC",
   "sort": 11,
-  "fields": ["condition"],
+  "fields": ["conditions"],
   "geometry": ["point", "line"],
   "tags": {
     "type": "nature-use",
