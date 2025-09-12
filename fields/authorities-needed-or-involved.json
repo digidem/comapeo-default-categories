@@ -2,7 +2,7 @@
   "tagKey":  "authorities-needed-or-involved",
   "type": "selectMultiple",
   "label": "Authorities needed or involved",
-  "helperText": "",
+  "helperText": "What type of authorities are needed or already involved?",
   "options": [
     {"label": "None", "value": "none"},
     {"label": "Local leadership", "value": "local-leadership"},

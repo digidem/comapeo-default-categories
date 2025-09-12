@@ -1,8 +1,8 @@
 {
-  "tagKey": "activity-progrss",
+  "tagKey": "activity-progress",
   "type": "selectOne",
   "label": "Activity progress",
-  "helperText": "",
+  "helperText": "What is the state of this activity?",
   "options": [
     {"label": "Initial Stages", "value": "initial-stages"},
     {"label": "Active / In-progress", "value": "active-in-progress"},

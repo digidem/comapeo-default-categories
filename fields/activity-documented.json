@@ -2,7 +2,7 @@
   "tagKey": "activity-documented",
   "type": "selectMultiple",
   "label": "Activity Documented",
-  "helperText": "",
+  "helperText": "What type of activity are we documenting?",
   "options": [
     {"label": "Surveying", "value": "surveying"},
     {"label": "Contamination", "value": "contamination"},

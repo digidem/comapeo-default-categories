@@ -2,7 +2,7 @@
   "tagKey": "need-type",
   "type": "selectMultiple",
   "label": "Need type",
-  "helperText": "",
+  "helperText": "What type of need was encountered?",
   "options": [
     {"label": "Food", "value": "food"},
     {"label": "Health services", "value": "health-services"},
