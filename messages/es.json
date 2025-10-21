@@ -1,7 +1,7 @@
 {
   "fields.access.label": {
     "description": "Label for field 'access'",
-    "message": "Acceda a"
+    "message": "Acceso"
   },
   "fields.access.helperText": {
     "description": "helperText for field 'What is neeeded to access this site, service or activity?'",
