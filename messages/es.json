@@ -483,10 +483,6 @@
     "description": "The name of category 'boundary-zone'",
     "message": "Límite / Zona"
   },
-  "category.camera-trap.name": {
-    "description": "The name of the preset 'camera-trap'",
-    "message": "Cámara trampa"
-  },
   "category.cave.name": {
     "description": "The name of category 'cave'",
     "message": "Cueva"
