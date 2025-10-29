@@ -1,6 +1,6 @@
 {
-    "tagKey": "name",
-    "type": "text",
-    "label": "Name",
-    "helperText": "Common name of this thing"
+  "tagKey": "name",
+  "type": "text",
+  "label": "Name",
+  "helperText": "Common name of this thing"
 }

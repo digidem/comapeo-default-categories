@@ -6,7 +6,7 @@
   "fields": ["name", "natural-resource-type", "conditions", "tree-type"],
   "geometry": ["point"],
   "tags": {
-    "type" : "nature",
+    "type": "nature",
     "nature": "vegetation",
     "vegetation": "tree"
   }

@@ -6,14 +6,15 @@
   "scripts": {
     "build": "mkdirp build && mapeo-settings build -l 'en' -o build/comapeo-default-categories-v${npm_package_version}.comapeocat",
     "build:dist": "mapeo-settings build -l 'en' -o dist/comapeo-default-categories.comapeocat",
-    "extract-messages": "mkdirp messages && mapeo-settings extract-messages -o messages/en.json",
+    "extract-messages": "mkdirp messages && comapeocat messages -o messages/en.json",
     "prepack": "rimraf dist && mkdirp dist && npm run -s build:dist",
     "test": "mapeo-settings lint"
   },
   "devDependencies": {
-    "mapeo-settings-builder": "^6.0.0",
-    "mkdirp": "^1.0.4",
-    "rimraf": "^3.0.2"
+    "comapeocat": "^1.0.0",
+    "mkdirp": "^3.0.1",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1"
   },
   "keywords": [
     "comapeo"

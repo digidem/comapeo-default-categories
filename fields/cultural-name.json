@@ -1,6 +1,6 @@
 {
-    "tagKey": "cultural-name",
-    "type": "text",
-    "label": "Cultural name/ term",
-    "helperText": "Cultural name or local term for this thing"
+  "tagKey": "cultural-name",
+  "type": "text",
+  "label": "Cultural name/ term",
+  "helperText": "Cultural name or local term for this thing"
 }

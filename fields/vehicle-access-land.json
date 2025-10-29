@@ -4,14 +4,14 @@
   "label": "Vehicle access - land",
   "helperText": "",
   "options": [
-    {"label": "Pedestrian", "value": "pedestrian"},
-    {"label": "Private", "value": "private"},
-    {"label": "Bicycle", "value": "bicycle"},
-    {"label": "Motorcycle", "value": "motorcycle"},
-    {"label": "Passenger van/car", "value": "passanger-van-vehicle"},
-    {"label": "Cargo van/car", "value": "cargo-van-car"},
-    {"label": "All terrain vehicle", "value": "all-terrain-vehicle"},
-    {"label": "Train", "value": "train"},
-    {"label": "Bus", "value": "bus"}
+    { "label": "Pedestrian", "value": "pedestrian" },
+    { "label": "Private", "value": "private" },
+    { "label": "Bicycle", "value": "bicycle" },
+    { "label": "Motorcycle", "value": "motorcycle" },
+    { "label": "Passenger van/car", "value": "passanger-van-vehicle" },
+    { "label": "Cargo van/car", "value": "cargo-van-car" },
+    { "label": "All terrain vehicle", "value": "all-terrain-vehicle" },
+    { "label": "Train", "value": "train" },
+    { "label": "Bus", "value": "bus" }
   ]
 }

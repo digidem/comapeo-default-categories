@@ -4,15 +4,16 @@
   "color": "#3399ff",
   "sort": 7,
   "fields": [
-     "name", "body-of-water-type", "conditions", "natural-resource-type", "cultural-name"
+    "name",
+    "body-of-water-type",
+    "conditions",
+    "natural-resource-type",
+    "cultural-name"
   ],
-  "geometry": [
-    "point"
-  ],
+  "geometry": ["point"],
   "tags": {
-    "type" : "nature",
-    "nature" : "water",
+    "type": "nature",
+    "nature": "water",
     "water": "body-of-water"
   }
-
 }

@@ -4,10 +4,10 @@
   "label": "Animal type",
   "helperText": "What kind of animal?",
   "options": [
-    {"label": "Mammal", "value": "mammal"},
-    {"label": "Bird", "value": "bird"},
-    {"label": "Reptile/Amphibian", "value": "reptile-amphibian"},
-    {"label": "Fish", "value": "fish"},
-    {"label": "Other", "value": "other"}
+    { "label": "Mammal", "value": "mammal" },
+    { "label": "Bird", "value": "bird" },
+    { "label": "Reptile/Amphibian", "value": "reptile-amphibian" },
+    { "label": "Fish", "value": "fish" },
+    { "label": "Other", "value": "other" }
   ]
 }

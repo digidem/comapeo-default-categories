@@ -3,7 +3,13 @@
   "icon": "cave",
   "color": "#009900",
   "sort": 5,
-  "fields": ["name",  "natural-resource-type", "conditions", "cultural-name", "access"],
+  "fields": [
+    "name",
+    "natural-resource-type",
+    "conditions",
+    "cultural-name",
+    "access"
+  ],
   "geometry": ["point"],
   "tags": {
     "type": "nature",

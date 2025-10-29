@@ -6,7 +6,7 @@
   "fields": ["conditions"],
   "geometry": ["point"],
   "tags": {
-    "type" : "nature",
+    "type": "nature",
     "nature": "phenomenon"
   }
 }

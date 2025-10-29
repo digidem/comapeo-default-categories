@@ -4,8 +4,8 @@
   "label": "Installation type",
   "helperText": "What is the nature of this Installation?",
   "options": [
-    {"label": "Not in use", "value": "not-in-use"},
-    {"label": "Permanent", "value": "permanent"},
-    {"label": "Temporary", "value": "temporary"}
+    { "label": "Not in use", "value": "not-in-use" },
+    { "label": "Permanent", "value": "permanent" },
+    { "label": "Temporary", "value": "temporary" }
   ]
 }

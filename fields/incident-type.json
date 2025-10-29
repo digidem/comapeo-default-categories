@@ -1,16 +1,16 @@
 {
-  "tagKey":  "incident-type",
+  "tagKey": "incident-type",
   "type": "selectMultiple",
   "label": "Incident Type",
   "helperText": "",
   "options": [
-    {"label": "Invation", "value": "invation"},
-    {"label": "Violence", "value": "violence"},
-    {"label": "Theft", "value": "theft"},
-    {"label": "Material Damage", "value": "material-damage"},
-    {"label": "Injury", "value": "injury"},
-    {"label": "Illness", "value": "illness"},
-    {"label": "Human Rights Violation", "value": "human-rights-violation"},
-    {"label": "Conflict", "value": "conflict"}
+    { "label": "Invation", "value": "invation" },
+    { "label": "Violence", "value": "violence" },
+    { "label": "Theft", "value": "theft" },
+    { "label": "Material Damage", "value": "material-damage" },
+    { "label": "Injury", "value": "injury" },
+    { "label": "Illness", "value": "illness" },
+    { "label": "Human Rights Violation", "value": "human-rights-violation" },
+    { "label": "Conflict", "value": "conflict" }
   ]
 }

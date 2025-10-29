@@ -3,7 +3,15 @@
   "icon": "dam",
   "color": "#FF3300",
   "sort": 55,
-  "fields": [ "activity-progress", "access", "activity-documented", "incident-type", "authorities-needed-or-involved", "presumed-responsible", "permission"],
+  "fields": [
+    "activity-progress",
+    "access",
+    "activity-documented",
+    "incident-type",
+    "authorities-needed-or-involved",
+    "presumed-responsible",
+    "permission"
+  ],
   "geometry": ["point"],
   "tags": {
     "type": "threat",

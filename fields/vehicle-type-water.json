@@ -4,8 +4,8 @@
   "label": "Vehicle type - Water",
   "helperText": "",
   "options": [
-    {"label": "Boat - inboard motor", "value": "boat-inboard-motor"},
-    {"label": "Boat - outboard motor", "value": "boat-outboard-motor"},
-    {"label": "Small watercraft", "value": "small-watercraft"}
+    { "label": "Boat - inboard motor", "value": "boat-inboard-motor" },
+    { "label": "Boat - outboard motor", "value": "boat-outboard-motor" },
+    { "label": "Small watercraft", "value": "small-watercraft" }
   ]
 }

@@ -4,9 +4,9 @@
   "label": "Ecological Status",
   "helperText": "Whats the ecological status of this species?",
   "options": [
-    {"label": "Controlled Species", "value": "controlled_species"},
-    {"label": "Invasive Species", "value": "invasive_species"},
-    {"label": "Native Species", "value": "native_species"},
-    {"label": "Endangered Species", "value": "endangered_species"}
+    { "label": "Controlled Species", "value": "controlled_species" },
+    { "label": "Invasive Species", "value": "invasive_species" },
+    { "label": "Native Species", "value": "native_species" },
+    { "label": "Endangered Species", "value": "endangered_species" }
   ]
 }

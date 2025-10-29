@@ -4,13 +4,15 @@
   "color": "#9E2C54",
   "sort": 1,
   "fields": [
-    "name", "animal-type", "ecological-status", "conditions", "natural-resource-type"
+    "name",
+    "animal-type",
+    "ecological-status",
+    "conditions",
+    "natural-resource-type"
   ],
-  "geometry": [
-    "point"
-  ],
+  "geometry": ["point"],
   "tags": {
-    "type" : "nature",
+    "type": "nature",
     "nature": "wildlife",
     "wildlife": "animal"
   }

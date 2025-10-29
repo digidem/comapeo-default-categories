@@ -1,0 +1,942 @@
+{
+  "category.agroindustry.name": {
+    "description": "The name of category 'agroindustry'",
+    "message": "Agroindustry"
+  },
+  "category.airstrip.name": {
+    "description": "The name of category 'airstrip'",
+    "message": "Airstrip"
+  },
+  "category.animal.name": {
+    "description": "The name of category 'animal'",
+    "message": "Animal"
+  },
+  "category.body-of-water.name": {
+    "description": "The name of category 'body-of-water'",
+    "message": "Body of water"
+  },
+  "category.boundary-zone.name": {
+    "description": "The name of category 'boundary-zone'",
+    "message": "Boundary / Zone"
+  },
+  "category.cave.name": {
+    "description": "The name of category 'cave'",
+    "message": "Cave"
+  },
+  "category.community-need.name": {
+    "description": "The name of category 'community-need'",
+    "message": "Community Need"
+  },
+  "category.community.name": {
+    "description": "The name of category 'community'",
+    "message": "Community"
+  },
+  "category.cultural-activity.name": {
+    "description": "The name of category 'cultural-activity'",
+    "message": "Cultural activity"
+  },
+  "category.cultural-site.name": {
+    "description": "The name of category 'cultural-site'",
+    "message": "Cultural site"
+  },
+  "category.dam.name": {
+    "description": "The name of category 'dam'",
+    "message": "Dam"
+  },
+  "category.ecosystem.name": {
+    "description": "The name of category 'ecosystem'",
+    "message": "Ecosystem"
+  },
+  "category.field-test.name": {
+    "description": "The name of category 'field-test'",
+    "message": "Field Test / Sample"
+  },
+  "category.fishing-site.name": {
+    "description": "The name of category 'fishing-site'",
+    "message": "Fishing site"
+  },
+  "category.fungi.name": {
+    "description": "The name of category 'fungi'",
+    "message": "Fungi"
+  },
+  "category.gathering-site.name": {
+    "description": "The name of category 'gathering-site'",
+    "message": "Gathering site"
+  },
+  "category.hunting-site.name": {
+    "description": "The name of category 'hunting-site'",
+    "message": "Hunting site / path"
+  },
+  "category.infrastructure-other.name": {
+    "description": "The name of category 'infrastructure-other'",
+    "message": "Infrastructure Other"
+  },
+  "category.language-on-the-land.name": {
+    "description": "The name of category 'language-on-the-land'",
+    "message": "Language on the land"
+  },
+  "category.local-community-cultivation.name": {
+    "description": "The name of category 'local-community-cultivation'",
+    "message": "Local / Community cultivation"
+  },
+  "category.logging.name": {
+    "description": "The name of category 'logging'",
+    "message": "Logging"
+  },
+  "category.mining.name": {
+    "description": "The name of category 'mining'",
+    "message": "Mining"
+  },
+  "category.mountain-hill.name": {
+    "description": "The name of category 'mountain-hill'",
+    "message": "Mountain / hill"
+  },
+  "category.natural-event.name": {
+    "description": "The name of category 'natural-event'",
+    "message": "Natural event / phenomenon"
+  },
+  "category.natural-gas-activity.name": {
+    "description": "The name of category 'natural-gas-activity'",
+    "message": "Natural Gas Activity"
+  },
+  "category.oil-activity.name": {
+    "description": "The name of category 'oil-activity'",
+    "message": "Oil Activity"
+  },
+  "category.other-threat.name": {
+    "description": "The name of category 'other-threat'",
+    "message": "Other Threat"
+  },
+  "category.other.name": {
+    "description": "The name of category 'other'",
+    "message": "Other"
+  },
+  "category.path-trail.name": {
+    "description": "The name of category 'path-trail'",
+    "message": "Path / Trail"
+  },
+  "category.plant.name": {
+    "description": "The name of category 'plant'",
+    "message": "Plant"
+  },
+  "category.poaching.name": {
+    "description": "The name of category 'poaching'",
+    "message": "Poaching"
+  },
+  "category.point-on-path.name": {
+    "description": "The name of category 'point-on-path'",
+    "message": "Point on path, trackpoint"
+  },
+  "category.roadway.name": {
+    "description": "The name of category 'roadway'",
+    "message": "Roadway"
+  },
+  "category.shelter-building.name": {
+    "description": "The name of category 'shelter-building'",
+    "message": "Shelter / Building"
+  },
+  "category.transoportation-hub.name": {
+    "description": "The name of category 'transoportation-hub'",
+    "message": "Transportation Hub"
+  },
+  "category.tree.name": {
+    "description": "The name of category 'tree'",
+    "message": "Tree"
+  },
+  "category.unwanted-outsider.name": {
+    "description": "The name of category 'unwanted-outsider'",
+    "message": "Unwanted Outsiders"
+  },
+  "category.user-feedback.name": {
+    "description": "The name of category 'user-feedback'",
+    "message": "User Feedback"
+  },
+  "field.access.helperText": {
+    "description": "Descriptive text shown under the label for field 'access'",
+    "message": "What is neeeded to access this site, service or activity?"
+  },
+  "field.access.label": {
+    "description": "Label for field 'access'",
+    "message": "Access"
+  },
+  "field.activity-documented.helperText": {
+    "description": "Descriptive text shown under the label for field 'activity-documented'",
+    "message": "What type of activity are we documenting?"
+  },
+  "field.activity-documented.label": {
+    "description": "Label for field 'activity-documented'",
+    "message": "Activity Documented"
+  },
+  "field.activity-documented.options[value=\"contamination\"].label": {
+    "description": "Label for option 'contamination' of field 'activity-documented'",
+    "message": "Contamination"
+  },
+  "field.activity-documented.options[value=\"deforestation\"].label": {
+    "description": "Label for option 'deforestation' of field 'activity-documented'",
+    "message": "Deforestation"
+  },
+  "field.activity-documented.options[value=\"excavation\"].label": {
+    "description": "Label for option 'excavation' of field 'activity-documented'",
+    "message": "Excavation"
+  },
+  "field.activity-documented.options[value=\"extraction\"].label": {
+    "description": "Label for option 'extraction' of field 'activity-documented'",
+    "message": "Extraction"
+  },
+  "field.activity-documented.options[value=\"impacted-waterway\"].label": {
+    "description": "Label for option 'impacted-waterway' of field 'activity-documented'",
+    "message": "Impacted waterway"
+  },
+  "field.activity-documented.options[value=\"invation\"].label": {
+    "description": "Label for option 'invation' of field 'activity-documented'",
+    "message": "Invation"
+  },
+  "field.activity-documented.options[value=\"remediation\"].label": {
+    "description": "Label for option 'remediation' of field 'activity-documented'",
+    "message": "Remediation"
+  },
+  "field.activity-documented.options[value=\"spill\"].label": {
+    "description": "Label for option 'spill' of field 'activity-documented'",
+    "message": "Spill"
+  },
+  "field.activity-documented.options[value=\"surveying\"].label": {
+    "description": "Label for option 'surveying' of field 'activity-documented'",
+    "message": "Surveying"
+  },
+  "field.activity-documented.options[value=\"unmantained-infrastructure\"].label": {
+    "description": "Label for option 'unmantained-infrastructure' of field 'activity-documented'",
+    "message": "Unmantained infrastructure"
+  },
+  "field.activity-progress.helperText": {
+    "description": "Descriptive text shown under the label for field 'activity-progress'",
+    "message": "What is the state of this activity?"
+  },
+  "field.activity-progress.label": {
+    "description": "Label for field 'activity-progress'",
+    "message": "Activity progress"
+  },
+  "field.activity-progress.options[value=\"active-in-progress\"].label": {
+    "description": "Label for option 'active-in-progress' of field 'activity-progress'",
+    "message": "Active / In-progress"
+  },
+  "field.activity-progress.options[value=\"inactive-complete\"].label": {
+    "description": "Label for option 'inactive-complete' of field 'activity-progress'",
+    "message": "Inactive / Complete"
+  },
+  "field.activity-progress.options[value=\"initial-stages\"].label": {
+    "description": "Label for option 'initial-stages' of field 'activity-progress'",
+    "message": "Initial Stages"
+  },
+  "field.activity-progress.options[value=\"repeat-activity\"].label": {
+    "description": "Label for option 'repeat-activity' of field 'activity-progress'",
+    "message": "Repeat Activity"
+  },
+  "field.activity-progress.options[value=\"temporarily-suspended\"].label": {
+    "description": "Label for option 'temporarily-suspended' of field 'activity-progress'",
+    "message": "Temporarily Suspended"
+  },
+  "field.animal-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'animal-type'",
+    "message": "What kind of animal?"
+  },
+  "field.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Animal type"
+  },
+  "field.animal-type.options[value=\"bird\"].label": {
+    "description": "Label for option 'bird' of field 'animal-type'",
+    "message": "Bird"
+  },
+  "field.animal-type.options[value=\"fish\"].label": {
+    "description": "Label for option 'fish' of field 'animal-type'",
+    "message": "Fish"
+  },
+  "field.animal-type.options[value=\"mammal\"].label": {
+    "description": "Label for option 'mammal' of field 'animal-type'",
+    "message": "Mammal"
+  },
+  "field.animal-type.options[value=\"other\"].label": {
+    "description": "Label for option 'other' of field 'animal-type'",
+    "message": "Other"
+  },
+  "field.animal-type.options[value=\"reptile-amphibian\"].label": {
+    "description": "Label for option 'reptile-amphibian' of field 'animal-type'",
+    "message": "Reptile/Amphibian"
+  },
+  "field.authorities-needed-or-involved.helperText": {
+    "description": "Descriptive text shown under the label for field 'authorities-needed-or-involved'",
+    "message": "What type of authorities are needed or already involved?"
+  },
+  "field.authorities-needed-or-involved.label": {
+    "description": "Label for field 'authorities-needed-or-involved'",
+    "message": "Authorities needed or involved"
+  },
+  "field.authorities-needed-or-involved.options[value=\"health-authorities\"].label": {
+    "description": "Label for option 'health-authorities' of field 'authorities-needed-or-involved'",
+    "message": "Health authorities"
+  },
+  "field.authorities-needed-or-involved.options[value=\"local-leadership\"].label": {
+    "description": "Label for option 'local-leadership' of field 'authorities-needed-or-involved'",
+    "message": "Local leadership"
+  },
+  "field.authorities-needed-or-involved.options[value=\"municipal-police\"].label": {
+    "description": "Label for option 'municipal-police' of field 'authorities-needed-or-involved'",
+    "message": "Municipal police"
+  },
+  "field.authorities-needed-or-involved.options[value=\"national-law-enforcement\"].label": {
+    "description": "Label for option 'national-law-enforcement' of field 'authorities-needed-or-involved'",
+    "message": "National law enforcement"
+  },
+  "field.authorities-needed-or-involved.options[value=\"none\"].label": {
+    "description": "Label for option 'none' of field 'authorities-needed-or-involved'",
+    "message": "None"
+  },
+  "field.authorities-needed-or-involved.options[value=\"park-rangers\"].label": {
+    "description": "Label for option 'park-rangers' of field 'authorities-needed-or-involved'",
+    "message": "Park rangers"
+  },
+  "field.authorities-needed-or-involved.options[value=\"private-security\"].label": {
+    "description": "Label for option 'private-security' of field 'authorities-needed-or-involved'",
+    "message": "Private security"
+  },
+  "field.authorities-needed-or-involved.options[value=\"regional-law-enforcement\"].label": {
+    "description": "Label for option 'regional-law-enforcement' of field 'authorities-needed-or-involved'",
+    "message": "Regioal law enforcement"
+  },
+  "field.body-of-water-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'body-of-water-type'",
+    "message": "The type of body of water"
+  },
+  "field.body-of-water-type.label": {
+    "description": "Label for field 'body-of-water-type'",
+    "message": "Type of body of water"
+  },
+  "field.body-of-water-type.options[value=\"cold-spring\"].label": {
+    "description": "Label for option 'cold-spring' of field 'body-of-water-type'",
+    "message": "Cold spring"
+  },
+  "field.body-of-water-type.options[value=\"delta\"].label": {
+    "description": "Label for option 'delta' of field 'body-of-water-type'",
+    "message": "Delta"
+  },
+  "field.body-of-water-type.options[value=\"glacier\"].label": {
+    "description": "Label for option 'glacier' of field 'body-of-water-type'",
+    "message": "Glacier"
+  },
+  "field.body-of-water-type.options[value=\"headwaters\"].label": {
+    "description": "Label for option 'headwaters' of field 'body-of-water-type'",
+    "message": "Headwaters"
+  },
+  "field.body-of-water-type.options[value=\"hotspring\"].label": {
+    "description": "Label for option 'hotspring' of field 'body-of-water-type'",
+    "message": "Hotspring"
+  },
+  "field.body-of-water-type.options[value=\"lake\"].label": {
+    "description": "Label for option 'lake' of field 'body-of-water-type'",
+    "message": "Lake"
+  },
+  "field.body-of-water-type.options[value=\"pond\"].label": {
+    "description": "Label for option 'pond' of field 'body-of-water-type'",
+    "message": "Pond"
+  },
+  "field.body-of-water-type.options[value=\"rapids\"].label": {
+    "description": "Label for option 'rapids' of field 'body-of-water-type'",
+    "message": "Rapids"
+  },
+  "field.body-of-water-type.options[value=\"river\"].label": {
+    "description": "Label for option 'river' of field 'body-of-water-type'",
+    "message": "River"
+  },
+  "field.body-of-water-type.options[value=\"stream\"].label": {
+    "description": "Label for option 'stream' of field 'body-of-water-type'",
+    "message": "Stream"
+  },
+  "field.body-of-water-type.options[value=\"subsurface-water-table\"].label": {
+    "description": "Label for option 'subsurface-water-table' of field 'body-of-water-type'",
+    "message": "Subsurface water table"
+  },
+  "field.body-of-water-type.options[value=\"waterfall\"].label": {
+    "description": "Label for option 'waterfall' of field 'body-of-water-type'",
+    "message": "Waterfall"
+  },
+  "field.common-translations.helperText": {
+    "description": "Descriptive text shown under the label for field 'common-translations'",
+    "message": "What are common translations of this word"
+  },
+  "field.common-translations.label": {
+    "description": "Label for field 'common-translations'",
+    "message": "Common translations"
+  },
+  "field.conditions.helperText": {
+    "description": "Descriptive text shown under the label for field 'conditions'",
+    "message": "In what condition this was encountered?"
+  },
+  "field.conditions.label": {
+    "description": "Label for field 'conditions'",
+    "message": "Conditions"
+  },
+  "field.conditions.options[value=\"expected\"].label": {
+    "description": "Label for option 'expected' of field 'conditions'",
+    "message": "Expected"
+  },
+  "field.conditions.options[value=\"unusual\"].label": {
+    "description": "Label for option 'unusual' of field 'conditions'",
+    "message": "Unusual"
+  },
+  "field.cultural-category.helperText": {
+    "description": "Descriptive text shown under the label for field 'cultural-category'",
+    "message": ""
+  },
+  "field.cultural-category.label": {
+    "description": "Label for field 'cultural-category'",
+    "message": "Cultural activity"
+  },
+  "field.cultural-category.options[value=\"archeology\"].label": {
+    "description": "Label for option 'archeology' of field 'cultural-category'",
+    "message": "Archeology"
+  },
+  "field.cultural-category.options[value=\"gathering-site\"].label": {
+    "description": "Label for option 'gathering-site' of field 'cultural-category'",
+    "message": "Gathering site"
+  },
+  "field.cultural-category.options[value=\"history\"].label": {
+    "description": "Label for option 'history' of field 'cultural-category'",
+    "message": "History"
+  },
+  "field.cultural-category.options[value=\"mythology\"].label": {
+    "description": "Label for option 'mythology' of field 'cultural-category'",
+    "message": "Mythology"
+  },
+  "field.cultural-category.options[value=\"sacred-site\"].label": {
+    "description": "Label for option 'sacred-site' of field 'cultural-category'",
+    "message": "Sacred site"
+  },
+  "field.cultural-category.options[value=\"story\"].label": {
+    "description": "Label for option 'story' of field 'cultural-category'",
+    "message": "Story"
+  },
+  "field.cultural-details.helperText": {
+    "description": "Descriptive text shown under the label for field 'cultural-details'",
+    "message": "Add details/stories relevant to local culture"
+  },
+  "field.cultural-details.label": {
+    "description": "Label for field 'cultural-details'",
+    "message": "Cultural details"
+  },
+  "field.cultural-name.helperText": {
+    "description": "Descriptive text shown under the label for field 'cultural-name'",
+    "message": "Cultural name or local term for this thing"
+  },
+  "field.cultural-name.label": {
+    "description": "Label for field 'cultural-name'",
+    "message": "Cultural name/ term"
+  },
+  "field.ecological-status.helperText": {
+    "description": "Descriptive text shown under the label for field 'ecological-status'",
+    "message": "Whats the ecological status of this species?"
+  },
+  "field.ecological-status.label": {
+    "description": "Label for field 'ecological-status'",
+    "message": "Ecological Status"
+  },
+  "field.ecological-status.options[value=\"controlled_species\"].label": {
+    "description": "Label for option 'controlled_species' of field 'ecological-status'",
+    "message": "Controlled Species"
+  },
+  "field.ecological-status.options[value=\"endangered_species\"].label": {
+    "description": "Label for option 'endangered_species' of field 'ecological-status'",
+    "message": "Endangered Species"
+  },
+  "field.ecological-status.options[value=\"invasive_species\"].label": {
+    "description": "Label for option 'invasive_species' of field 'ecological-status'",
+    "message": "Invasive Species"
+  },
+  "field.ecological-status.options[value=\"native_species\"].label": {
+    "description": "Label for option 'native_species' of field 'ecological-status'",
+    "message": "Native Species"
+  },
+  "field.ecosystem-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'ecosystem-type'",
+    "message": "What is the ecosystem type encountered?"
+  },
+  "field.ecosystem-type.label": {
+    "description": "Label for field 'ecosystem-type'",
+    "message": "Ecosystem type"
+  },
+  "field.ecosystem-type.options[value=\"desert\"].label": {
+    "description": "Label for option 'desert' of field 'ecosystem-type'",
+    "message": "Desert"
+  },
+  "field.ecosystem-type.options[value=\"forest-woodland\"].label": {
+    "description": "Label for option 'forest-woodland' of field 'ecosystem-type'",
+    "message": "Forest/woodland"
+  },
+  "field.ecosystem-type.options[value=\"grasslands\"].label": {
+    "description": "Label for option 'grasslands' of field 'ecosystem-type'",
+    "message": "Grasslands"
+  },
+  "field.ecosystem-type.options[value=\"mangrove\"].label": {
+    "description": "Label for option 'mangrove' of field 'ecosystem-type'",
+    "message": "Mangrove"
+  },
+  "field.ecosystem-type.options[value=\"other\"].label": {
+    "description": "Label for option 'other' of field 'ecosystem-type'",
+    "message": "other"
+  },
+  "field.ecosystem-type.options[value=\"permafrost\"].label": {
+    "description": "Label for option 'permafrost' of field 'ecosystem-type'",
+    "message": "Permafrost"
+  },
+  "field.ecosystem-type.options[value=\"ravine\"].label": {
+    "description": "Label for option 'ravine' of field 'ecosystem-type'",
+    "message": "Ravine"
+  },
+  "field.ecosystem-type.options[value=\"tundra\"].label": {
+    "description": "Label for option 'tundra' of field 'ecosystem-type'",
+    "message": "Tundra"
+  },
+  "field.ecosystem-type.options[value=\"wetland\"].label": {
+    "description": "Label for option 'wetland' of field 'ecosystem-type'",
+    "message": "Wetland"
+  },
+  "field.field-test-details.helperText": {
+    "description": "Descriptive text shown under the label for field 'field-test-details'",
+    "message": ""
+  },
+  "field.field-test-details.label": {
+    "description": "Label for field 'field-test-details'",
+    "message": "Field test details"
+  },
+  "field.gathering-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'gathering-type'",
+    "message": "What type of resource is gathered here?"
+  },
+  "field.gathering-type.label": {
+    "description": "Label for field 'gathering-type'",
+    "message": "Gathering type"
+  },
+  "field.gathering-type.options[value=\"berries\"].label": {
+    "description": "Label for option 'berries' of field 'gathering-type'",
+    "message": "Berries"
+  },
+  "field.gathering-type.options[value=\"clay\"].label": {
+    "description": "Label for option 'clay' of field 'gathering-type'",
+    "message": "Clay"
+  },
+  "field.gathering-type.options[value=\"fibers\"].label": {
+    "description": "Label for option 'fibers' of field 'gathering-type'",
+    "message": "Fibers"
+  },
+  "field.gathering-type.options[value=\"honey\"].label": {
+    "description": "Label for option 'honey' of field 'gathering-type'",
+    "message": "Honey"
+  },
+  "field.gathering-type.options[value=\"medicine\"].label": {
+    "description": "Label for option 'medicine' of field 'gathering-type'",
+    "message": "Medicine"
+  },
+  "field.gathering-type.options[value=\"mushrooms\"].label": {
+    "description": "Label for option 'mushrooms' of field 'gathering-type'",
+    "message": "Mushrooms"
+  },
+  "field.gathering-type.options[value=\"tree-fruit\"].label": {
+    "description": "Label for option 'tree-fruit' of field 'gathering-type'",
+    "message": "Tree fruit"
+  },
+  "field.incident-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'incident-type'",
+    "message": ""
+  },
+  "field.incident-type.label": {
+    "description": "Label for field 'incident-type'",
+    "message": "Incident Type"
+  },
+  "field.incident-type.options[value=\"conflict\"].label": {
+    "description": "Label for option 'conflict' of field 'incident-type'",
+    "message": "Conflict"
+  },
+  "field.incident-type.options[value=\"human-rights-violation\"].label": {
+    "description": "Label for option 'human-rights-violation' of field 'incident-type'",
+    "message": "Human Rights Violation"
+  },
+  "field.incident-type.options[value=\"illness\"].label": {
+    "description": "Label for option 'illness' of field 'incident-type'",
+    "message": "Illness"
+  },
+  "field.incident-type.options[value=\"injury\"].label": {
+    "description": "Label for option 'injury' of field 'incident-type'",
+    "message": "Injury"
+  },
+  "field.incident-type.options[value=\"invation\"].label": {
+    "description": "Label for option 'invation' of field 'incident-type'",
+    "message": "Invation"
+  },
+  "field.incident-type.options[value=\"material-damage\"].label": {
+    "description": "Label for option 'material-damage' of field 'incident-type'",
+    "message": "Material Damage"
+  },
+  "field.incident-type.options[value=\"theft\"].label": {
+    "description": "Label for option 'theft' of field 'incident-type'",
+    "message": "Theft"
+  },
+  "field.incident-type.options[value=\"violence\"].label": {
+    "description": "Label for option 'violence' of field 'incident-type'",
+    "message": "Violence"
+  },
+  "field.installation-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'installation-type'",
+    "message": "What is the nature of this Installation?"
+  },
+  "field.installation-type.label": {
+    "description": "Label for field 'installation-type'",
+    "message": "Installation type"
+  },
+  "field.installation-type.options[value=\"not-in-use\"].label": {
+    "description": "Label for option 'not-in-use' of field 'installation-type'",
+    "message": "Not in use"
+  },
+  "field.installation-type.options[value=\"permanent\"].label": {
+    "description": "Label for option 'permanent' of field 'installation-type'",
+    "message": "Permanent"
+  },
+  "field.installation-type.options[value=\"temporary\"].label": {
+    "description": "Label for option 'temporary' of field 'installation-type'",
+    "message": "Temporary"
+  },
+  "field.name.helperText": {
+    "description": "Descriptive text shown under the label for field 'name'",
+    "message": "Common name of this thing"
+  },
+  "field.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Name"
+  },
+  "field.natural-resource-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'natural-resource-type'",
+    "message": "What type of resource is this?"
+  },
+  "field.natural-resource-type.label": {
+    "description": "Label for field 'natural-resource-type'",
+    "message": "Natural resource type"
+  },
+  "field.natural-resource-type.options[value=\"artisanry\"].label": {
+    "description": "Label for option 'artisanry' of field 'natural-resource-type'",
+    "message": "Artisanry"
+  },
+  "field.natural-resource-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'natural-resource-type'",
+    "message": "Communication"
+  },
+  "field.natural-resource-type.options[value=\"fiber_textile\"].label": {
+    "description": "Label for option 'fiber_textile' of field 'natural-resource-type'",
+    "message": "Fiber & Textile"
+  },
+  "field.natural-resource-type.options[value=\"food\"].label": {
+    "description": "Label for option 'food' of field 'natural-resource-type'",
+    "message": "Food"
+  },
+  "field.natural-resource-type.options[value=\"medicine\"].label": {
+    "description": "Label for option 'medicine' of field 'natural-resource-type'",
+    "message": "Medicine"
+  },
+  "field.natural-resource-type.options[value=\"not_applicable\"].label": {
+    "description": "Label for option 'not_applicable' of field 'natural-resource-type'",
+    "message": "Not applicable"
+  },
+  "field.natural-resource-type.options[value=\"revenue\"].label": {
+    "description": "Label for option 'revenue' of field 'natural-resource-type'",
+    "message": "Revenue"
+  },
+  "field.natural-resource-type.options[value=\"shelter_building_material\"].label": {
+    "description": "Label for option 'shelter_building_material' of field 'natural-resource-type'",
+    "message": "Shelter/Building material"
+  },
+  "field.natural-resource-type.options[value=\"tools\"].label": {
+    "description": "Label for option 'tools' of field 'natural-resource-type'",
+    "message": "Tools"
+  },
+  "field.natural-resource-type.options[value=\"transportation\"].label": {
+    "description": "Label for option 'transportation' of field 'natural-resource-type'",
+    "message": "Transportation"
+  },
+  "field.natural-resource-type.options[value=\"water\"].label": {
+    "description": "Label for option 'water' of field 'natural-resource-type'",
+    "message": "Water"
+  },
+  "field.need-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'need-type'",
+    "message": "What type of need was encountered?"
+  },
+  "field.need-type.label": {
+    "description": "Label for field 'need-type'",
+    "message": "Need type"
+  },
+  "field.need-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'need-type'",
+    "message": "Communication"
+  },
+  "field.need-type.options[value=\"crisis-responsible-services\"].label": {
+    "description": "Label for option 'crisis-responsible-services' of field 'need-type'",
+    "message": "Crisis responsible services"
+  },
+  "field.need-type.options[value=\"food\"].label": {
+    "description": "Label for option 'food' of field 'need-type'",
+    "message": "Food"
+  },
+  "field.need-type.options[value=\"health-services\"].label": {
+    "description": "Label for option 'health-services' of field 'need-type'",
+    "message": "Health services"
+  },
+  "field.need-type.options[value=\"intervention-from-authorities\"].label": {
+    "description": "Label for option 'intervention-from-authorities' of field 'need-type'",
+    "message": "Intervention from authorities"
+  },
+  "field.need-type.options[value=\"portable-water\"].label": {
+    "description": "Label for option 'portable-water' of field 'need-type'",
+    "message": "Portable water"
+  },
+  "field.need-type.options[value=\"shelter-housing\"].label": {
+    "description": "Label for option 'shelter-housing' of field 'need-type'",
+    "message": "Shelter / Housing"
+  },
+  "field.need-type.options[value=\"supplies-materials\"].label": {
+    "description": "Label for option 'supplies-materials' of field 'need-type'",
+    "message": "Supplies / Materials"
+  },
+  "field.need-type.options[value=\"transportation\"].label": {
+    "description": "Label for option 'transportation' of field 'need-type'",
+    "message": "Transportation"
+  },
+  "field.permission.helperText": {
+    "description": "Descriptive text shown under the label for field 'permission'",
+    "message": "What type of permission does this have?"
+  },
+  "field.permission.label": {
+    "description": "Label for field 'permission'",
+    "message": "Permission"
+  },
+  "field.permission.options[value=\"not-permitted\"].label": {
+    "description": "Label for option 'not-permitted' of field 'permission'",
+    "message": "Not permitted"
+  },
+  "field.permission.options[value=\"permitted\"].label": {
+    "description": "Label for option 'permitted' of field 'permission'",
+    "message": "Permitted"
+  },
+  "field.permission.options[value=\"unsure\"].label": {
+    "description": "Label for option 'unsure' of field 'permission'",
+    "message": "Unsure"
+  },
+  "field.permission.options[value=\"violation-of-fpic\"].label": {
+    "description": "Label for option 'violation-of-fpic' of field 'permission'",
+    "message": "Violation of FPIC (Free, Prior and Informed Consent)"
+  },
+  "field.presumed-responsible.helperText": {
+    "description": "Descriptive text shown under the label for field 'presumed-responsible'",
+    "message": "Who or what may be responsible for this?"
+  },
+  "field.presumed-responsible.label": {
+    "description": "Label for field 'presumed-responsible'",
+    "message": "Presumed Responsible"
+  },
+  "field.service-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'service-type'",
+    "message": "What type of site is this?"
+  },
+  "field.service-type.label": {
+    "description": "Label for field 'service-type'",
+    "message": "Service type"
+  },
+  "field.service-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'service-type'",
+    "message": "Communication"
+  },
+  "field.service-type.options[value=\"education\"].label": {
+    "description": "Label for option 'education' of field 'service-type'",
+    "message": "Education"
+  },
+  "field.service-type.options[value=\"health-services\"].label": {
+    "description": "Label for option 'health-services' of field 'service-type'",
+    "message": "Health services"
+  },
+  "field.service-type.options[value=\"market-food-services\"].label": {
+    "description": "Label for option 'market-food-services' of field 'service-type'",
+    "message": "Market/Food services"
+  },
+  "field.service-type.options[value=\"recreation\"].label": {
+    "description": "Label for option 'recreation' of field 'service-type'",
+    "message": "Recreation"
+  },
+  "field.service-type.options[value=\"shops-utility\"].label": {
+    "description": "Label for option 'shops-utility' of field 'service-type'",
+    "message": "Shops/Utility"
+  },
+  "field.service-type.options[value=\"social-services\"].label": {
+    "description": "Label for option 'social-services' of field 'service-type'",
+    "message": "Social services"
+  },
+  "field.service-type.options[value=\"spiritual-religious\"].label": {
+    "description": "Label for option 'spiritual-religious' of field 'service-type'",
+    "message": "Spiritual/Religious"
+  },
+  "field.service-type.options[value=\"water-infrastructure\"].label": {
+    "description": "Label for option 'water-infrastructure' of field 'service-type'",
+    "message": "Water infrastructure"
+  },
+  "field.test-sample-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'test-sample-type'",
+    "message": ""
+  },
+  "field.test-sample-type.label": {
+    "description": "Label for field 'test-sample-type'",
+    "message": "Test sample type"
+  },
+  "field.test-sample-type.options[value=\"air-sample\"].label": {
+    "description": "Label for option 'air-sample' of field 'test-sample-type'",
+    "message": "Air sample"
+  },
+  "field.test-sample-type.options[value=\"animal-sample\"].label": {
+    "description": "Label for option 'animal-sample' of field 'test-sample-type'",
+    "message": "Animal sample"
+  },
+  "field.test-sample-type.options[value=\"camera-trap\"].label": {
+    "description": "Label for option 'camera-trap' of field 'test-sample-type'",
+    "message": "Camera trap"
+  },
+  "field.test-sample-type.options[value=\"forestry-vegetation-sample\"].label": {
+    "description": "Label for option 'forestry-vegetation-sample' of field 'test-sample-type'",
+    "message": "Forestry / Vegetation sample"
+  },
+  "field.test-sample-type.options[value=\"meteorological-sample\"].label": {
+    "description": "Label for option 'meteorological-sample' of field 'test-sample-type'",
+    "message": "Meteorologcal Sample"
+  },
+  "field.test-sample-type.options[value=\"mineral-sample\"].label": {
+    "description": "Label for option 'mineral-sample' of field 'test-sample-type'",
+    "message": "Mineral sample"
+  },
+  "field.test-sample-type.options[value=\"soil-sample\"].label": {
+    "description": "Label for option 'soil-sample' of field 'test-sample-type'",
+    "message": "Soil sample"
+  },
+  "field.test-sample-type.options[value=\"water-sample\"].label": {
+    "description": "Label for option 'water-sample' of field 'test-sample-type'",
+    "message": "Water sample"
+  },
+  "field.tree-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'tree-type'",
+    "message": "What type of tree was encountered?"
+  },
+  "field.tree-type.label": {
+    "description": "Label for field 'tree-type'",
+    "message": "Tree type"
+  },
+  "field.tree-type.options[value=\"cactus\"].label": {
+    "description": "Label for option 'cactus' of field 'tree-type'",
+    "message": "Cactus"
+  },
+  "field.tree-type.options[value=\"coniferous\"].label": {
+    "description": "Label for option 'coniferous' of field 'tree-type'",
+    "message": "Coniferous"
+  },
+  "field.tree-type.options[value=\"deciduos-leaved\"].label": {
+    "description": "Label for option 'deciduos-leaved' of field 'tree-type'",
+    "message": "Deciduos/leaved"
+  },
+  "field.tree-type.options[value=\"palm\"].label": {
+    "description": "Label for option 'palm' of field 'tree-type'",
+    "message": "Palm"
+  },
+  "field.vehicle-access-land.helperText": {
+    "description": "Descriptive text shown under the label for field 'vehicle-access-land'",
+    "message": ""
+  },
+  "field.vehicle-access-land.label": {
+    "description": "Label for field 'vehicle-access-land'",
+    "message": "Vehicle access - land"
+  },
+  "field.vehicle-access-land.options[value=\"all-terrain-vehicle\"].label": {
+    "description": "Label for option 'all-terrain-vehicle' of field 'vehicle-access-land'",
+    "message": "All terrain vehicle"
+  },
+  "field.vehicle-access-land.options[value=\"bicycle\"].label": {
+    "description": "Label for option 'bicycle' of field 'vehicle-access-land'",
+    "message": "Bicycle"
+  },
+  "field.vehicle-access-land.options[value=\"bus\"].label": {
+    "description": "Label for option 'bus' of field 'vehicle-access-land'",
+    "message": "Bus"
+  },
+  "field.vehicle-access-land.options[value=\"cargo-van-car\"].label": {
+    "description": "Label for option 'cargo-van-car' of field 'vehicle-access-land'",
+    "message": "Cargo van/car"
+  },
+  "field.vehicle-access-land.options[value=\"motorcycle\"].label": {
+    "description": "Label for option 'motorcycle' of field 'vehicle-access-land'",
+    "message": "Motorcycle"
+  },
+  "field.vehicle-access-land.options[value=\"passanger-van-vehicle\"].label": {
+    "description": "Label for option 'passanger-van-vehicle' of field 'vehicle-access-land'",
+    "message": "Passenger van/car"
+  },
+  "field.vehicle-access-land.options[value=\"pedestrian\"].label": {
+    "description": "Label for option 'pedestrian' of field 'vehicle-access-land'",
+    "message": "Pedestrian"
+  },
+  "field.vehicle-access-land.options[value=\"private\"].label": {
+    "description": "Label for option 'private' of field 'vehicle-access-land'",
+    "message": "Private"
+  },
+  "field.vehicle-access-land.options[value=\"train\"].label": {
+    "description": "Label for option 'train' of field 'vehicle-access-land'",
+    "message": "Train"
+  },
+  "field.vehicle-type-air.helperText": {
+    "description": "Descriptive text shown under the label for field 'vehicle-type-air'",
+    "message": ""
+  },
+  "field.vehicle-type-air.label": {
+    "description": "Label for field 'vehicle-type-air'",
+    "message": "Vehicle type - Air"
+  },
+  "field.vehicle-type-air.options[value=\"airbus\"].label": {
+    "description": "Label for option 'airbus' of field 'vehicle-type-air'",
+    "message": "Airbus"
+  },
+  "field.vehicle-type-air.options[value=\"cargo-plane\"].label": {
+    "description": "Label for option 'cargo-plane' of field 'vehicle-type-air'",
+    "message": "Cargo plane"
+  },
+  "field.vehicle-type-air.options[value=\"helicopter\"].label": {
+    "description": "Label for option 'helicopter' of field 'vehicle-type-air'",
+    "message": "Helicopter"
+  },
+  "field.vehicle-type-air.options[value=\"military\"].label": {
+    "description": "Label for option 'military' of field 'vehicle-type-air'",
+    "message": "Military"
+  },
+  "field.vehicle-type-air.options[value=\"small-aircraft\"].label": {
+    "description": "Label for option 'small-aircraft' of field 'vehicle-type-air'",
+    "message": "Small aircraft"
+  },
+  "field.vehicle-type-water.helperText": {
+    "description": "Descriptive text shown under the label for field 'vehicle-type-water'",
+    "message": ""
+  },
+  "field.vehicle-type-water.label": {
+    "description": "Label for field 'vehicle-type-water'",
+    "message": "Vehicle type - Water"
+  },
+  "field.vehicle-type-water.options[value=\"boat-inboard-motor\"].label": {
+    "description": "Label for option 'boat-inboard-motor' of field 'vehicle-type-water'",
+    "message": "Boat - inboard motor"
+  },
+  "field.vehicle-type-water.options[value=\"boat-outboard-motor\"].label": {
+    "description": "Label for option 'boat-outboard-motor' of field 'vehicle-type-water'",
+    "message": "Boat - outboard motor"
+  },
+  "field.vehicle-type-water.options[value=\"small-watercraft\"].label": {
+    "description": "Label for option 'small-watercraft' of field 'vehicle-type-water'",
+    "message": "Small watercraft"
+  }
+}

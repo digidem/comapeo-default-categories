@@ -4,14 +4,20 @@
   "label": "Need type",
   "helperText": "What type of need was encountered?",
   "options": [
-    {"label": "Food", "value": "food"},
-    {"label": "Health services", "value": "health-services"},
-    {"label": "Portable water", "value": "portable-water"},
-    {"label": "Supplies / Materials", "value": "supplies-materials"},
-    {"label": "Shelter / Housing", "value": "shelter-housing"},
-    {"label": "Crisis responsible services", "value": "crisis-responsible-services"},
-    {"label": "Intervention from authorities", "value": "intervention-from-authorities"},
-    {"label": "Transportation", "value": "transportation"},
-    {"label": "Communication", "value": "communication"}
+    { "label": "Food", "value": "food" },
+    { "label": "Health services", "value": "health-services" },
+    { "label": "Portable water", "value": "portable-water" },
+    { "label": "Supplies / Materials", "value": "supplies-materials" },
+    { "label": "Shelter / Housing", "value": "shelter-housing" },
+    {
+      "label": "Crisis responsible services",
+      "value": "crisis-responsible-services"
+    },
+    {
+      "label": "Intervention from authorities",
+      "value": "intervention-from-authorities"
+    },
+    { "label": "Transportation", "value": "transportation" },
+    { "label": "Communication", "value": "communication" }
   ]
 }

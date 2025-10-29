@@ -1,6 +1,6 @@
 {
-    "tagKey": "access",
-    "type": "text",
-    "label": "Access",
-    "helperText": "What is neeeded to access this site, service or activity?"
+  "tagKey": "access",
+  "type": "text",
+  "label": "Access",
+  "helperText": "What is neeeded to access this site, service or activity?"
 }

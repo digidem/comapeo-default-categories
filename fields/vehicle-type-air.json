@@ -4,10 +4,10 @@
   "label": "Vehicle type - Air",
   "helperText": "",
   "options": [
-    {"label": "Small aircraft", "value": "small-aircraft"},
-    {"label": "Helicopter", "value": "helicopter"},
-    {"label": "Airbus", "value": "airbus"},
-    {"label": "Military", "value": "military"},
-    {"label": "Cargo plane", "value": "cargo-plane"}
+    { "label": "Small aircraft", "value": "small-aircraft" },
+    { "label": "Helicopter", "value": "helicopter" },
+    { "label": "Airbus", "value": "airbus" },
+    { "label": "Military", "value": "military" },
+    { "label": "Cargo plane", "value": "cargo-plane" }
   ]
 }

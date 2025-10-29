@@ -4,9 +4,9 @@
   "label": "Tree type",
   "helperText": "What type of tree was encountered?",
   "options": [
-    {"label": "Palm", "value": "palm"},
-    {"label": "Cactus", "value": "cactus"},
-    {"label": "Coniferous", "value": "coniferous"},
-    {"label": "Deciduos/leaved", "value": "deciduos-leaved"}
+    { "label": "Palm", "value": "palm" },
+    { "label": "Cactus", "value": "cactus" },
+    { "label": "Coniferous", "value": "coniferous" },
+    { "label": "Deciduos/leaved", "value": "deciduos-leaved" }
   ]
 }

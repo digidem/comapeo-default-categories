@@ -3,7 +3,14 @@
   "icon": "mining",
   "color": "#FF3300",
   "sort": 52,
-  "fields": [ "activity-progress","activity-documented", "incident-type", "authorities-needed-or-involved", "presumed-responsible", "permission"],
+  "fields": [
+    "activity-progress",
+    "activity-documented",
+    "incident-type",
+    "authorities-needed-or-involved",
+    "presumed-responsible",
+    "permission"
+  ],
   "geometry": ["point"],
   "tags": {
     "type": "threat",

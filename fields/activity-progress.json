@@ -4,10 +4,10 @@
   "label": "Activity progress",
   "helperText": "What is the state of this activity?",
   "options": [
-    {"label": "Initial Stages", "value": "initial-stages"},
-    {"label": "Active / In-progress", "value": "active-in-progress"},
-    {"label": "Temporarily Suspended", "value": "temporarily-suspended"},
-    {"label": "Repeat Activity", "value": "repeat-activity"},
-    {"label": "Inactive / Complete", "value": "inactive-complete"}
+    { "label": "Initial Stages", "value": "initial-stages" },
+    { "label": "Active / In-progress", "value": "active-in-progress" },
+    { "label": "Temporarily Suspended", "value": "temporarily-suspended" },
+    { "label": "Repeat Activity", "value": "repeat-activity" },
+    { "label": "Inactive / Complete", "value": "inactive-complete" }
   ]
 }

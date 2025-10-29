@@ -3,7 +3,12 @@
   "icon": "community-need",
   "color": "#FF3300",
   "sort": 62,
-  "fields": ["incident-type", "authorities-needed-or-involved", "presumed-responsible", "need-type"],
+  "fields": [
+    "incident-type",
+    "authorities-needed-or-involved",
+    "presumed-responsible",
+    "need-type"
+  ],
   "geometry": ["point"],
   "tags": {
     "type": "threat",
