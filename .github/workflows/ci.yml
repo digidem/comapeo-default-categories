@@ -6,34 +6,30 @@ on:
   pull_request:
     branches: ["main"]
 
+env:
+  NODE_VERSION: "20.x"
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-
     steps:
       - uses: actions/checkout@v5
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - run: npm install
       - run: npm test
-      # only build one artifact
       - name: Set version
-        if: matrix.node-version == '20.x'
+        id: version
         run: |
           echo "VERSION=$(node -p "require('./package.json').version")-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-      - if: matrix.node-version == '20.x'
-        run: npm_package_version=$VERSION npm run build
+      - run: npm_package_version=$VERSION npm run build
         env:
-          VERSION: ${{ steps.set-version.outputs.VERSION }}
-      - if: matrix.node-version == '20.x'
-        name: Upload build artifacts
+          VERSION: ${{ steps.version.outputs.VERSION }}
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: comapeo-default-categories
