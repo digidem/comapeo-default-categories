@@ -32,5 +32,5 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: comapeo-default-categories
+          name: comapeo-default-categories-v${{ steps.version.outputs.VERSION }}
           path: build/comapeo-default-categories-v${{ steps.version.outputs.VERSION }}.comapeocat
