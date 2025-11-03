@@ -35,7 +35,9 @@ jobs:
           echo "OUTPUT_PATH=build/comapeo-default-categories-v$VERSION.comapeocat" >> $GITHUB_OUTPUT
         env:
           VERSION: ${{ steps.version.outputs.VERSION }}
-      - run: npx comapeocat build --version $VERSION -o $OUTPUT_PATH
+      - run: |
+          mkdir -p build
+          npx comapeocat build --version $VERSION -o $OUTPUT_PATH
         env:
           VERSION: ${{ steps.version.outputs.VERSION }}
           OUTPUT_PATH: ${{ steps.output-path.outputs.OUTPUT_PATH }}
