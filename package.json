@@ -8,13 +8,20 @@
     "build:dist": "comapeocat build --version ${npm_package_version} -o dist/comapeo-default-categories.comapeocat",
     "extract-messages": "mkdirp messages && comapeocat messages -o messages/en.json",
     "prepack": "rimraf dist && mkdirp dist && npm run -s build:dist",
-    "test": "comapeocat lint ."
+    "test": "comapeocat lint .",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "prepare": "husky"
   },
   "devDependencies": {
     "comapeocat": "^1.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
     "mkdirp": "^3.0.1",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": "prettier --write"
   },
   "keywords": [
     "comapeo"
