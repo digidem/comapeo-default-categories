@@ -10,7 +10,8 @@ env:
   NODE_VERSION: "20.x"
 
 jobs:
-  build:
+  test:
+    name: Test
     runs-on: ubuntu-latest
 
     steps:
@@ -20,17 +21,26 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
-      - run: npm install
+      - run: npm ci
       - run: npm test
+
+      # Build artifact for internal testing
       - name: Set version
         id: version
         run: |
           echo "VERSION=$(node -p "require('./package.json').version")-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-      - run: npm run build
+      - name: Set output path
+        id: output-path
+        run: |
+          echo "OUTPUT_PATH=build/comapeo-default-categories-v$VERSION.comapeocat" >> $GITHUB_OUTPUT
         env:
           VERSION: ${{ steps.version.outputs.VERSION }}
+      - run: npx comapeocat build --version $VERSION -o $OUTPUT_PATH
+        env:
+          VERSION: ${{ steps.version.outputs.VERSION }}
+          OUTPUT_PATH: ${{ steps.output-path.outputs.OUTPUT_PATH }}
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: comapeo-default-categories-v${{ steps.version.outputs.VERSION }}
-          path: build/comapeo-default-categories-v${{ steps.version.outputs.VERSION }}.comapeocat
+          path: ${{ steps.output-path.outputs.OUTPUT_PATH }}
