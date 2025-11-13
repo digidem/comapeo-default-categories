@@ -1,0 +1,33 @@
+name: Versioning
+
+on:
+  pull_request:
+    branches: ["main"]
+
+env:
+  NODE_VERSION: "20.x"
+
+jobs:
+  version-check:
+    name: Version Bump Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v5
+        with:
+          path: pr
+
+      - name: Checkout main branch
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          path: main
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Run version bump check
+        run: node pr/scripts/check-version-bump.js main pr
