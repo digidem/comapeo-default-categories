@@ -42,6 +42,8 @@ jobs:
           semver: ${{ steps.version.outputs.VERSION }}
           # Don't bump version - our PR checks require version to be set already
           bump-command: "echo 'No version bump'"
+          # Hacky: the optic action needs this set if bump-command is set - it's really an upstream bug
+          get-version-command: "npm pkg get version"
           # Don't notify linked issues
           notify-linked-issues: false
           publish-mode: oidc
