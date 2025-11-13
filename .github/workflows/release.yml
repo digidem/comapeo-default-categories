@@ -40,6 +40,8 @@ jobs:
           sync-semver-tags: false
           access: "public"
           semver: ${{ steps.version.outputs.VERSION }}
+          # Don't bump version - our PR checks require version to be set already
+          bump-command: true
           # Don't notify linked issues
           notify-linked-issues: false
           publish-mode: oidc
