@@ -1,6 +1,6 @@
 {
   "name": "@comapeo/default-categories",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "default set of categories to use in CoMapeo",
   "main": "dist/mapeo-default-config.comapeocat",
   "scripts": {
