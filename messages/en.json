@@ -147,10 +147,6 @@
     "description": "The name of category 'unwanted-outsider'",
     "message": "Unwanted Outsiders"
   },
-  "category.user-feedback.name": {
-    "description": "The name of category 'user-feedback'",
-    "message": "User Feedback"
-  },
   "field.access.helperText": {
     "description": "Descriptive text shown under the label for field 'access'",
     "message": "What is neeeded to access this site, service or activity?"
