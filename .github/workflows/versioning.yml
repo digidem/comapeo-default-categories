@@ -18,11 +18,20 @@ jobs:
         with:
           path: pr
 
-      - name: Checkout main branch
+      - name: Get latest release tag
+        id: latest-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          LATEST_TAG=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName 2>/dev/null || echo "main")
+          echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+          echo "Using ref: $LATEST_TAG"
+
+      - name: Checkout latest release
         uses: actions/checkout@v5
         with:
-          ref: main
-          path: main
+          ref: ${{ steps.latest-release.outputs.tag }}
+          path: release
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v6
@@ -30,4 +39,4 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Run version bump check
-        run: node pr/scripts/check-version-bump.js main pr
+        run: node pr/scripts/check-version-bump.js release pr
