@@ -34,7 +34,8 @@ jobs:
         id: version
         run: |
           echo "VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
-      - uses: gmaclennan/optic-release-automation-action@513b84227db0c1570ffe358cfef489b66e74c429 # v4.13.3 + empty commit fix
+      # We rely on manual version bumps for releases, so we need to patch optic-release-automation to not bump versions
+      - uses: gmaclennan/optic-release-automation-action@6b87982ec938b5a799d976b52f4423d84e1f74b5 # v4.13.3 + empty commit fix
         with:
           commit-message: "Release {version}"
           sync-semver-tags: false
