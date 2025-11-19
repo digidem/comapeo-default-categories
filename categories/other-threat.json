@@ -2,7 +2,6 @@
   "name": "Other Threat",
   "icon": "other-threat",
   "color": "#FF3300",
-  "sort": 61,
   "fields": [
     "activity-progress",
     "activity-documented",

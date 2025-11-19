@@ -2,7 +2,6 @@
   "name": "Gathering site",
   "icon": "gathering-site",
   "color": "#00CCCC",
-  "sort": 13,
   "fields": ["conditions", "gathering-type", "access"],
   "appliesTo": ["observation"],
   "tags": {

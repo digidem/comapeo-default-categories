@@ -2,7 +2,6 @@
   "name": "Cultural activity",
   "icon": "cultural-activity",
   "color": "#FFCC00",
-  "sort": 42,
   "fields": [
     "cultural-name",
     "cultural-category",

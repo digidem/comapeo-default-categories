@@ -2,7 +2,6 @@
   "name": "Shelter / Building",
   "icon": "shelter-building",
   "color": "#CC00CC",
-  "sort": 21,
   "fields": ["installation-type", "service-type", "access"],
   "appliesTo": ["observation"],
   "tags": {

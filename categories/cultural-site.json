@@ -2,7 +2,6 @@
   "name": "Cultural site",
   "icon": "cultural-site",
   "color": "#FFCC00",
-  "sort": 42,
   "fields": [
     "cultural-name",
     "cultural-category",

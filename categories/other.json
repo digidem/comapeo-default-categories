@@ -2,7 +2,6 @@
   "name": "Other",
   "icon": "other",
   "color": "#FF3300",
-  "sort": 90,
   "fields": ["ecosystem-type"],
   "appliesTo": ["observation"],
   "tags": {

@@ -2,7 +2,6 @@
   "name": "Mining",
   "icon": "mining",
   "color": "#FF3300",
-  "sort": 52,
   "fields": [
     "activity-progress",
     "activity-documented",

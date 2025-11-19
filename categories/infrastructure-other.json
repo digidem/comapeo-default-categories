@@ -2,7 +2,6 @@
   "name": "Infrastructure Other",
   "icon": "infrastructure-other",
   "color": "#CC00CC",
-  "sort": 23,
   "fields": ["service-type", "vehicle-access-land", "access"],
   "appliesTo": ["observation"],
   "tags": {

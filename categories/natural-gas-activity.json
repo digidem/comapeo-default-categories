@@ -2,7 +2,6 @@
   "name": "Natural Gas Activity",
   "icon": "natural-gas-activity",
   "color": "#FF3300",
-  "sort": 54,
   "fields": [
     "activity-progress",
     "activity-documented",

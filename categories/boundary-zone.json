@@ -2,7 +2,6 @@
   "name": "Boundary / Zone",
   "icon": "boundary-zone",
   "color": "#CC00CC",
-  "sort": 36,
   "fields": ["access"],
   "appliesTo": ["observation", "track"],
   "tags": {

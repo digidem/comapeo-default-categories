@@ -2,7 +2,6 @@
   "name": "Tree",
   "icon": "tree",
   "color": "#009900",
-  "sort": 2,
   "fields": ["name", "natural-resource-type", "conditions", "tree-type"],
   "appliesTo": ["observation"],
   "tags": {

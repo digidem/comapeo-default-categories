@@ -2,7 +2,6 @@
   "name": "Community",
   "icon": "community",
   "color": "#CC00CC",
-  "sort": 22,
   "fields": ["access"],
   "appliesTo": ["observation"],
   "tags": {

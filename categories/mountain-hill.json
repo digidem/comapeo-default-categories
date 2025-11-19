@@ -2,7 +2,6 @@
   "name": "Mountain / hill",
   "icon": "mountain-hill",
   "color": "#009900",
-  "sort": 6,
   "fields": ["cultural-name", "conditions"],
   "appliesTo": ["observation"],
   "tags": {

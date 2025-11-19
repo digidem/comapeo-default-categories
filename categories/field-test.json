@@ -2,7 +2,6 @@
   "name": "Field Test / Sample",
   "icon": "field-test",
   "color": "#00CCCC",
-  "sort": 95,
   "fields": ["conditions", "test-sample-type", "field-test-details", "access"],
   "appliesTo": ["observation"],
   "tags": {

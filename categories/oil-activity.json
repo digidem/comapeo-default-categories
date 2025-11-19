@@ -2,7 +2,6 @@
   "name": "Oil Activity",
   "icon": "oil-activity",
   "color": "#FF3300",
-  "sort": 53,
   "fields": [
     "activity-progress",
     "activity-documented",

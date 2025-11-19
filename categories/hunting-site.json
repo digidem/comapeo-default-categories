@@ -2,7 +2,6 @@
   "name": "Hunting site / path",
   "icon": "hunting-site",
   "color": "#00CCCC",
-  "sort": 11,
   "fields": ["conditions"],
   "appliesTo": ["observation", "track"],
   "tags": {
