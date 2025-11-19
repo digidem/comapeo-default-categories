@@ -1,6 +1,20 @@
 {
   "tagKey": "access",
-  "type": "text",
-  "label": "Access",
-  "helperText": "What is neeeded to access this site, service or activity?"
+  "label": "Access restrictions",
+  "helperText": "Can anyone access this location?",
+  "type": "selectOne",
+  "options": [
+    {
+      "label": "Open - No restrictions",
+      "value": "open"
+    },
+    {
+      "label": "Restricted - Limited access",
+      "value": "restricted"
+    },
+    {
+      "label": "Prohibited - Access not allowed",
+      "value": "prohibited"
+    }
+  ]
 }

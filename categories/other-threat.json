@@ -2,14 +2,13 @@
   "name": "Other Threat",
   "icon": "other-threat",
   "color": "#FF3300",
-  "sort": 61,
   "fields": [
     "activity-progress",
     "activity-documented",
     "incident-type",
     "authorities-needed-or-involved"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "threat",
     "threat": "other"

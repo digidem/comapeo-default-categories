@@ -2,7 +2,6 @@
   "name": "Cave",
   "icon": "cave",
   "color": "#009900",
-  "sort": 5,
   "fields": [
     "name",
     "natural-resource-type",
@@ -10,7 +9,7 @@
     "cultural-name",
     "access"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "cave"

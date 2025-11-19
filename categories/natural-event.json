@@ -2,9 +2,8 @@
   "name": "Natural event / phenomenon",
   "icon": "natural-event",
   "color": "#009900",
-  "sort": 9,
   "fields": ["conditions"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "phenomenon"

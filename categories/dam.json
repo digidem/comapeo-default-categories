@@ -2,7 +2,6 @@
   "name": "Dam",
   "icon": "dam",
   "color": "#FF3300",
-  "sort": 55,
   "fields": [
     "activity-progress",
     "access",
@@ -12,7 +11,7 @@
     "presumed-responsible",
     "permission"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "threat",
     "threat": "dam"

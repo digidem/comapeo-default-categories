@@ -2,9 +2,8 @@
   "name": "Other",
   "icon": "other",
   "color": "#FF3300",
-  "sort": 90,
   "fields": ["ecosystem-type"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "other"
   }

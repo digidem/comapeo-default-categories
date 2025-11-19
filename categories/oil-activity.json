@@ -2,7 +2,6 @@
   "name": "Oil Activity",
   "icon": "oil-activity",
   "color": "#FF3300",
-  "sort": 53,
   "fields": [
     "activity-progress",
     "activity-documented",
@@ -11,7 +10,7 @@
     "presumed-responsible",
     "permission"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "threat",
     "threat": "activity",

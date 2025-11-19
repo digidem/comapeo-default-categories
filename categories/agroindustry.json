@@ -1,8 +1,8 @@
 {
   "name": "Agroindustry",
+  "description": "Industrial agricultural production facilities such as large-scale farms and plantations, typically highly mechanized and using chemical inputs.",
   "icon": "agroindustry",
   "color": "#FF3300",
-  "sort": 56,
   "fields": [
     "activity-progress",
     "activity-documented",
@@ -10,9 +10,9 @@
     "presumed-responsible",
     "permission"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
-    "type": "threat",
-    "threat": "agroindustry"
+    "landuse": "production",
+    "production:scale": "industrial"
   }
 }

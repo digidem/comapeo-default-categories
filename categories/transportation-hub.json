@@ -2,14 +2,13 @@
   "name": "Transportation Hub",
   "icon": "transportation-hub",
   "color": "#CC00CC",
-  "sort": 35,
   "fields": [
     "vehicle-type-air",
     "vehicle-type-water",
     "vehicle-access-land",
     "access"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "transportation",

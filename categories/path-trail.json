@@ -2,9 +2,8 @@
   "name": "Path / Trail",
   "icon": "path-trail",
   "color": "#CC00CC",
-  "sort": 32,
   "fields": ["vehicle-access-land", "access"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "path"

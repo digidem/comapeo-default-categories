@@ -587,10 +587,6 @@
     "description": "The name of category 'poaching'",
     "message": "Caza furtiva"
   },
-  "category.point-on-path.name": {
-    "description": "The name of category 'point-on-path'",
-    "message": "Punto del recorrido, trackpoint"
-  },
   "category.roadway.name": {
     "description": "The name of category 'roadway'",
     "message": "Carretera"
@@ -610,9 +606,5 @@
   "category.unwanted-outsider.name": {
     "description": "The name of category 'unwanted-outsider'",
     "message": "Forasteros no deseados"
-  },
-  "category.user-feedback.name": {
-    "description": "The name of category 'user-feedback'",
-    "message": "Comentarios de los usuarios"
   }
 }

@@ -2,9 +2,8 @@
   "name": "Gathering site",
   "icon": "gathering-site",
   "color": "#00CCCC",
-  "sort": 13,
   "fields": ["conditions", "gathering-type", "access"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature-use",
     "nature-use": "site",

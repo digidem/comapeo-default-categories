@@ -2,7 +2,6 @@
   "name": "Animal",
   "icon": "animal",
   "color": "#9E2C54",
-  "sort": 1,
   "fields": [
     "name",
     "animal-type",
@@ -10,7 +9,7 @@
     "conditions",
     "natural-resource-type"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "wildlife",

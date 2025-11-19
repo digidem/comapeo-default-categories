@@ -2,9 +2,8 @@
   "name": "Fungi",
   "icon": "fungi",
   "color": "#009900",
-  "sort": 4,
   "fields": ["name", "natural-resource-type", "conditions"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "fungi"
