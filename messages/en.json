@@ -149,11 +149,23 @@
   },
   "field.access.helperText": {
     "description": "Descriptive text shown under the label for field 'access'",
-    "message": "What is neeeded to access this site, service or activity?"
+    "message": "What access permissions apply to this location?"
   },
   "field.access.label": {
     "description": "Label for field 'access'",
     "message": "Access"
+  },
+  "field.access.options[value=\"open\"].label": {
+    "description": "Label for option 'open' of field 'access'",
+    "message": "Open - No restrictions"
+  },
+  "field.access.options[value=\"prohibited\"].label": {
+    "description": "Label for option 'prohibited' of field 'access'",
+    "message": "Prohibited - Access not allowed"
+  },
+  "field.access.options[value=\"restricted\"].label": {
+    "description": "Label for option 'restricted' of field 'access'",
+    "message": "Restricted - Limited access"
   },
   "field.activity-documented.helperText": {
     "description": "Descriptive text shown under the label for field 'activity-documented'",
