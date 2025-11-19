@@ -123,10 +123,6 @@
     "description": "The name of category 'poaching'",
     "message": "Poaching"
   },
-  "category.point-on-path.name": {
-    "description": "The name of category 'point-on-path'",
-    "message": "Point on path, trackpoint"
-  },
   "category.roadway.name": {
     "description": "The name of category 'roadway'",
     "message": "Roadway"
