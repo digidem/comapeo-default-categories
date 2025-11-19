@@ -4,7 +4,7 @@
   "label": "Incident Type",
   "helperText": "",
   "options": [
-    { "label": "Invation", "value": "invation" },
+    { "label": "Invasion", "value": "invasion" },
     { "label": "Violence", "value": "violence" },
     { "label": "Theft", "value": "theft" },
     { "label": "Material Damage", "value": "material-damage" },

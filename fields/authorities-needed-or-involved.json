@@ -7,7 +7,10 @@
     { "label": "None", "value": "none" },
     { "label": "Local leadership", "value": "local-leadership" },
     { "label": "Municipal police", "value": "municipal-police" },
-    { "label": "Regioal law enforcement", "value": "regional-law-enforcement" },
+    {
+      "label": "Regional law enforcement",
+      "value": "regional-law-enforcement"
+    },
     {
       "label": "National law enforcement",
       "value": "national-law-enforcement"

@@ -7,6 +7,6 @@
     { "label": "Palm", "value": "palm" },
     { "label": "Cactus", "value": "cactus" },
     { "label": "Coniferous", "value": "coniferous" },
-    { "label": "Deciduos/leaved", "value": "deciduos-leaved" }
+    { "label": "Deciduous/leaved", "value": "deciduous" }
   ]
 }

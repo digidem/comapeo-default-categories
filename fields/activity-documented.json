@@ -7,14 +7,14 @@
     { "label": "Surveying", "value": "surveying" },
     { "label": "Contamination", "value": "contamination" },
     {
-      "label": "Unmantained infrastructure",
-      "value": "unmantained-infrastructure"
+      "label": "Unmaintained infrastructure",
+      "value": "unmaintained-infrastructure"
     },
     { "label": "Spill", "value": "spill" },
     { "label": "Deforestation", "value": "deforestation" },
     { "label": "Extraction", "value": "extraction" },
     { "label": "Excavation", "value": "excavation" },
-    { "label": "Invation", "value": "invation" },
+    { "label": "Invasion", "value": "invasion" },
     { "label": "Remediation", "value": "remediation" },
     { "label": "Impacted waterway", "value": "impacted-waterway" }
   ]

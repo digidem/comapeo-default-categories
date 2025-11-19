@@ -4,7 +4,7 @@
   "label": "Test sample type",
   "helperText": "",
   "options": [
-    { "label": "Meteorologcal Sample", "value": "meteorological-sample" },
+    { "label": "Meteorological Sample", "value": "meteorological-sample" },
     { "label": "Air sample", "value": "air-sample" },
     { "label": "Soil sample", "value": "soil-sample" },
     { "label": "Water sample", "value": "water-sample" },

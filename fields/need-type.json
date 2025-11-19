@@ -6,7 +6,7 @@
   "options": [
     { "label": "Food", "value": "food" },
     { "label": "Health services", "value": "health-services" },
-    { "label": "Portable water", "value": "portable-water" },
+    { "label": "Potable water", "value": "potable-water" },
     { "label": "Supplies / Materials", "value": "supplies-materials" },
     { "label": "Shelter / Housing", "value": "shelter-housing" },
     {

@@ -131,8 +131,8 @@
     "description": "The name of category 'shelter-building'",
     "message": "Shelter / Building"
   },
-  "category.transoportation-hub.name": {
-    "description": "The name of category 'transoportation-hub'",
+  "category.transportation-hub.name": {
+    "description": "The name of category 'transportation-hub'",
     "message": "Transportation Hub"
   },
   "category.tree.name": {
@@ -191,9 +191,9 @@
     "description": "Label for option 'impacted-waterway' of field 'activity-documented'",
     "message": "Impacted waterway"
   },
-  "field.activity-documented.options[value=\"invation\"].label": {
-    "description": "Label for option 'invation' of field 'activity-documented'",
-    "message": "Invation"
+  "field.activity-documented.options[value=\"invasion\"].label": {
+    "description": "Label for option 'invasion' of field 'activity-documented'",
+    "message": "Invasion"
   },
   "field.activity-documented.options[value=\"remediation\"].label": {
     "description": "Label for option 'remediation' of field 'activity-documented'",
@@ -207,9 +207,9 @@
     "description": "Label for option 'surveying' of field 'activity-documented'",
     "message": "Surveying"
   },
-  "field.activity-documented.options[value=\"unmantained-infrastructure\"].label": {
-    "description": "Label for option 'unmantained-infrastructure' of field 'activity-documented'",
-    "message": "Unmantained infrastructure"
+  "field.activity-documented.options[value=\"unmaintained-infrastructure\"].label": {
+    "description": "Label for option 'unmaintained-infrastructure' of field 'activity-documented'",
+    "message": "Unmaintained infrastructure"
   },
   "field.activity-progress.helperText": {
     "description": "Descriptive text shown under the label for field 'activity-progress'",
@@ -305,7 +305,7 @@
   },
   "field.authorities-needed-or-involved.options[value=\"regional-law-enforcement\"].label": {
     "description": "Label for option 'regional-law-enforcement' of field 'authorities-needed-or-involved'",
-    "message": "Regioal law enforcement"
+    "message": "Regional law enforcement"
   },
   "field.body-of-water-type.helperText": {
     "description": "Descriptive text shown under the label for field 'body-of-water-type'",
@@ -571,9 +571,9 @@
     "description": "Label for option 'injury' of field 'incident-type'",
     "message": "Injury"
   },
-  "field.incident-type.options[value=\"invation\"].label": {
-    "description": "Label for option 'invation' of field 'incident-type'",
-    "message": "Invation"
+  "field.incident-type.options[value=\"invasion\"].label": {
+    "description": "Label for option 'invasion' of field 'incident-type'",
+    "message": "Invasion"
   },
   "field.incident-type.options[value=\"material-damage\"].label": {
     "description": "Label for option 'material-damage' of field 'incident-type'",
@@ -695,9 +695,9 @@
     "description": "Label for option 'intervention-from-authorities' of field 'need-type'",
     "message": "Intervention from authorities"
   },
-  "field.need-type.options[value=\"portable-water\"].label": {
-    "description": "Label for option 'portable-water' of field 'need-type'",
-    "message": "Portable water"
+  "field.need-type.options[value=\"potable-water\"].label": {
+    "description": "Label for option 'potable-water' of field 'need-type'",
+    "message": "Potable water"
   },
   "field.need-type.options[value=\"shelter-housing\"].label": {
     "description": "Label for option 'shelter-housing' of field 'need-type'",
@@ -813,7 +813,7 @@
   },
   "field.test-sample-type.options[value=\"meteorological-sample\"].label": {
     "description": "Label for option 'meteorological-sample' of field 'test-sample-type'",
-    "message": "Meteorologcal Sample"
+    "message": "Meteorological Sample"
   },
   "field.test-sample-type.options[value=\"mineral-sample\"].label": {
     "description": "Label for option 'mineral-sample' of field 'test-sample-type'",
@@ -843,9 +843,9 @@
     "description": "Label for option 'coniferous' of field 'tree-type'",
     "message": "Coniferous"
   },
-  "field.tree-type.options[value=\"deciduos-leaved\"].label": {
-    "description": "Label for option 'deciduos-leaved' of field 'tree-type'",
-    "message": "Deciduos/leaved"
+  "field.tree-type.options[value=\"deciduous\"].label": {
+    "description": "Label for option 'deciduous' of field 'tree-type'",
+    "message": "Deciduous/leaved"
   },
   "field.tree-type.options[value=\"palm\"].label": {
     "description": "Label for option 'palm' of field 'tree-type'",
@@ -879,8 +879,8 @@
     "description": "Label for option 'motorcycle' of field 'vehicle-access-land'",
     "message": "Motorcycle"
   },
-  "field.vehicle-access-land.options[value=\"passanger-van-vehicle\"].label": {
-    "description": "Label for option 'passanger-van-vehicle' of field 'vehicle-access-land'",
+  "field.vehicle-access-land.options[value=\"passenger-van-vehicle\"].label": {
+    "description": "Label for option 'passenger-van-vehicle' of field 'vehicle-access-land'",
     "message": "Passenger van/car"
   },
   "field.vehicle-access-land.options[value=\"pedestrian\"].label": {
