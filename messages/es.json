@@ -435,8 +435,8 @@
     "description": "Label for option 'coniferous' of field 'tree-type'",
     "message": "Coníferas"
   },
-  "field.tree-type.options[value=\"deciduous-leaved\"].label": {
-    "description": "Label for option 'deciduous-leaved' of field 'tree-type'",
+  "field.tree-type.options[value=\"deciduous\"].label": {
+    "description": "Label for option 'deciduous' of field 'tree-type'",
     "message": "Deciduos/hoja"
   },
   "field.vehicle-access-land.label": {
