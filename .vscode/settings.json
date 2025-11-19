@@ -1,7 +1,7 @@
 {
   "json.schemas": [
     {
-      "fileMatch": ["presets/**/*.json"],
+      "fileMatch": ["presets/**/*.json", "categories/**/*.json"],
       "url": "./node_modules/comapeocat/dist/schema/category.json"
     },
     {
