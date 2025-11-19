@@ -435,8 +435,8 @@
     "description": "Label for option 'coniferous' of field 'tree-type'",
     "message": "Coníferas"
   },
-  "field.tree-type.options[value=\"deciduos-leaved\"].label": {
-    "description": "Label for option 'deciduos-leaved' of field 'tree-type'",
+  "field.tree-type.options[value=\"deciduous-leaved\"].label": {
+    "description": "Label for option 'deciduous-leaved' of field 'tree-type'",
     "message": "Deciduos/hoja"
   },
   "field.vehicle-access-land.label": {
@@ -595,8 +595,8 @@
     "description": "The name of category 'shelter-building'",
     "message": "Refugio / Edificio"
   },
-  "category.transoportation-hub.name": {
-    "description": "The name of category 'transoportation-hub'",
+  "category.transportation-hub.name": {
+    "description": "The name of category 'transportation-hub'",
     "message": "Centro de transporte"
   },
   "category.tree.name": {
