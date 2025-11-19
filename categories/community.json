@@ -4,7 +4,7 @@
   "color": "#CC00CC",
   "sort": 22,
   "fields": ["access"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "community"

@@ -4,7 +4,7 @@
   "color": "#FF3300",
   "sort": 59,
   "fields": ["incident-type", "authorities-needed-or-involved"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "threat",
     "threat": "outsider"

@@ -11,7 +11,7 @@
     "presumed-responsible",
     "permission"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "landuse": "production",
     "production:scale": "industrial"

@@ -10,7 +10,7 @@
     "cultural-name",
     "access"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "cave"

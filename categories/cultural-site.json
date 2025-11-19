@@ -9,7 +9,7 @@
     "cultural-details",
     "access"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "culture",
     "culture": "site"

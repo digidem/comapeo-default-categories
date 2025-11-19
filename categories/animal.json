@@ -10,7 +10,7 @@
     "conditions",
     "natural-resource-type"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "wildlife",

@@ -9,7 +9,7 @@
     "vehicle-access-land",
     "access"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "transportation",

@@ -9,7 +9,7 @@
     "incident-type",
     "authorities-needed-or-involved"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "threat",
     "threat": "other"

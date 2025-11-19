@@ -4,7 +4,7 @@
   "color": "#009900",
   "sort": 6,
   "fields": ["cultural-name", "conditions"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "mountain"

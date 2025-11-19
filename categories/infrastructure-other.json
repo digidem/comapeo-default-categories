@@ -4,7 +4,7 @@
   "color": "#CC00CC",
   "sort": 23,
   "fields": ["service-type", "vehicle-access-land", "access"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "other"

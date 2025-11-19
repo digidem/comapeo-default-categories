@@ -4,7 +4,7 @@
   "color": "#009900",
   "sort": 9,
   "fields": ["ecosystem-type", "body-of-water-type", "conditions"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "ecosystem"

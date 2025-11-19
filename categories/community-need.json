@@ -9,7 +9,7 @@
     "presumed-responsible",
     "need-type"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "threat",
     "threat": "community-need"

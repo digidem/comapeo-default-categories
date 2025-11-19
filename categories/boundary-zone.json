@@ -4,7 +4,7 @@
   "color": "#CC00CC",
   "sort": 36,
   "fields": ["access"],
-  "geometry": ["point", "area", "line"],
+  "appliesTo": ["observation", "track"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "boundary"

@@ -4,7 +4,7 @@
   "color": "#00CCCC",
   "sort": 95,
   "fields": ["conditions", "test-sample-type", "field-test-details", "access"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "admin",
     "admin": "test-sample"

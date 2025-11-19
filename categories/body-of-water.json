@@ -10,7 +10,7 @@
     "natural-resource-type",
     "cultural-name"
   ],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "water",

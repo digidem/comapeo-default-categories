@@ -4,7 +4,7 @@
   "color": "#FFCC00",
   "sort": 43,
   "fields": ["cultural-name", "cultural-details", "common-translations"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "culture",
     "culture": "language"

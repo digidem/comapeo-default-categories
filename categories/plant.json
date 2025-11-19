@@ -4,7 +4,7 @@
   "color": "#009900",
   "sort": 3,
   "fields": ["ecological-status", "natural-resource-type", "conditions"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature",
     "nature": "vegetation",

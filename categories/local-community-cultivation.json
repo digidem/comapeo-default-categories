@@ -4,7 +4,7 @@
   "color": "#00CCCC",
   "sort": 14,
   "fields": ["conditions", "access"],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "nature-use",
     "nature-use": "cultivation",

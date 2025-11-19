@@ -4,7 +4,7 @@
   "color": "#00CCCC",
   "sort": 99,
   "fields": [],
-  "geometry": ["point"],
+  "appliesTo": ["observation"],
   "tags": {
     "type": "admin",
     "admin": "point-on-the-path"
