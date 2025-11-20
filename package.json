@@ -2,7 +2,7 @@
   "name": "@comapeo/default-categories",
   "version": "1.0.0",
   "description": "default set of categories to use in CoMapeo",
-  "main": "dist/mapeo-default-config.comapeocat",
+  "main": "dist/comapeo-default-categories.comapeocat",
   "scripts": {
     "build": "rimraf dist && mkdirp dist && comapeocat build --version ${npm_package_version} -o dist/comapeo-default-categories.comapeocat",
     "extract-messages": "mkdirp messages && comapeocat messages -o messages/en.json",
