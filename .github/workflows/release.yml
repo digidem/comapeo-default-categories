@@ -31,16 +31,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
       - name: Get current version
-        id: version
+        id: current-version
         run: |
-          echo "VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+          echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+      - name: Get latest release version
+        id: latest-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          LATEST_RELEASE=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName 2>/dev/null || echo "main" | sed 's/^v//')
+          echo "version=$LATEST_RELEASE" >> $GITHUB_OUTPUT
+          echo "Using ref: $LATEST_RELEASE"
+      - name: Check version has been changed
+        run: |
+          if [ "$CURRENT_VERSION" = "$LATEST_VERSION" ]; then
+            echo "Error: Current version ($CURRENT_VERSION) is not greater than latest release version ($LATEST_VERSION)"
+            exit 1
+          fi
+        env:
+          LATEST_VERSION: ${{ steps.latest-release.outputs.version }}
+          CURRENT_VERSION: ${{ steps.current-version.outputs.version }}
       # We rely on manual version bumps for releases, so we need to patch optic-release-automation to not bump versions
       - uses: gmaclennan/optic-release-automation-action@6b87982ec938b5a799d976b52f4423d84e1f74b5 # v4.13.3 + empty commit fix
         with:
           commit-message: "Release {version}"
           sync-semver-tags: false
           access: "public"
-          semver: ${{ steps.version.outputs.VERSION }}
+          semver: ${{ steps.current-version.outputs.version }}
           # Don't bump version - our PR checks require version to be set already
           bump-command: "echo 'No version bump'"
           # Hacky: the optic action needs this set if bump-command is set - it's really an upstream bug
