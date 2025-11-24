@@ -33,8 +33,15 @@ const fs = require("fs");
 const path = require("path");
 
 // Paths relative to repo root
-const MAIN_DIR = process.argv[2] || "main-checkout";
-const PR_DIR = process.argv[3] || ".";
+const RELEASE_DIR = process.argv[2];
+const PR_DIR = process.argv[3];
+
+if (!RELEASE_DIR || !PR_DIR) {
+  console.error(
+    "Usage: node check-version-bump.js <path-to-main-checkout> <path-to-pr-checkout>",
+  );
+  process.exit(1);
+}
 
 /**
  * Get all JSON files in a directory
@@ -355,7 +362,7 @@ function analyzeChanges() {
   };
 
   // Compare categories
-  const oldCategories = getJsonFiles(MAIN_DIR, "categories");
+  const oldCategories = getJsonFiles(RELEASE_DIR, "categories");
   const newCategories = getJsonFiles(PR_DIR, "categories");
 
   // Check modified and removed categories
@@ -393,7 +400,7 @@ function analyzeChanges() {
   }
 
   // Compare fields
-  const oldFields = getJsonFiles(MAIN_DIR, "fields");
+  const oldFields = getJsonFiles(RELEASE_DIR, "fields");
   const newFields = getJsonFiles(PR_DIR, "fields");
 
   // Check modified and removed fields
@@ -436,16 +443,15 @@ function main() {
   console.log("🔍 Analyzing changes between main and PR...\n");
 
   // Check that directories exist
-  if (!fs.existsSync(MAIN_DIR)) {
-    console.error(`❌ Error: Main checkout directory not found: ${MAIN_DIR}`);
+  if (!fs.existsSync(RELEASE_DIR)) {
+    console.error(
+      `❌ Error: Main checkout directory not found: ${RELEASE_DIR}`,
+    );
     process.exit(1);
   }
 
   // Analyze changes
   const changes = analyzeChanges();
-
-  // Print detailed changes
-  let hasChanges = false;
 
   if (Object.keys(changes.categories).length > 0) {
     console.log("📋 Category changes:");
@@ -460,7 +466,6 @@ function main() {
         change.minor.forEach((c) => console.log(`      - ${c}`));
       }
     }
-    hasChanges = true;
   }
 
   if (Object.keys(changes.fields).length > 0) {
@@ -476,17 +481,14 @@ function main() {
         change.minor.forEach((c) => console.log(`      - ${c}`));
       }
     }
-    hasChanges = true;
-  }
-
-  if (!hasChanges) {
-    console.log("✅ No changes detected in categories or fields.");
-    console.log("ℹ️  Version bump validation skipped.\n");
-    process.exit(0);
   }
 
   // Determine required version bump
-  const requiredBump = changes.hasMajorChanges ? "major" : "minor";
+  const requiredBump = changes.hasMajorChanges
+    ? "major"
+    : changes.hasMinorChanges
+      ? "minor"
+      : "patch";
   console.log(`\n📊 Summary:`);
   console.log(
     `   Major changes: ${changes.hasMajorChanges ? "🔴 Yes" : "✅ No"}`,
@@ -498,7 +500,7 @@ function main() {
 
   // Check version bump
   const oldPackageJson = JSON.parse(
-    fs.readFileSync(path.join(MAIN_DIR, "package.json"), "utf8"),
+    fs.readFileSync(path.join(RELEASE_DIR, "package.json"), "utf8"),
   );
   const newPackageJson = JSON.parse(
     fs.readFileSync(path.join(PR_DIR, "package.json"), "utf8"),
@@ -531,12 +533,25 @@ function main() {
     process.exit(1);
   }
 
-  if (requiredBump === "minor" && actualBump === "patch") {
+  if (
+    requiredBump === "minor" &&
+    actualBump !== "minor" &&
+    actualBump !== "major"
+  ) {
     console.log("\n❌ ERROR: Version bump is insufficient!");
     console.log(
       "   Changes require a MINOR version bump, but only PATCH was applied.",
     );
     console.log("   Please increment the minor version in package.json\n");
+    process.exit(1);
+  }
+
+  if (requiredBump === "patch" && actualBump === "none") {
+    console.log("\n❌ ERROR: Version bump is insufficient!");
+    console.log(
+      "   Changes require at least a PATCH version bump, but no bump was applied.",
+    );
+    console.log("   Please increment the patch version in package.json\n");
     process.exit(1);
   }
 
