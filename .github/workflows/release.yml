@@ -39,7 +39,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          LATEST_RELEASE=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName 2>/dev/null || echo "main" | sed 's/^v//')
+          LATEST_RELEASE=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName 2>/dev/null | sed 's/^v//')
           echo "version=$LATEST_RELEASE" >> $GITHUB_OUTPUT
           echo "Using ref: $LATEST_RELEASE"
       - name: Check version has been changed
