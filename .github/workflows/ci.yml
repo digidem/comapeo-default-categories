@@ -37,7 +37,7 @@ jobs:
           VERSION: ${{ steps.version.outputs.VERSION }}
       - run: |
           mkdir -p build
-          npx comapeocat build --version $VERSION -o $OUTPUT_PATH
+          npx comapeocat build --version $VERSION --addCategoryIdTags -o $OUTPUT_PATH
         env:
           VERSION: ${{ steps.version.outputs.VERSION }}
           OUTPUT_PATH: ${{ steps.output-path.outputs.OUTPUT_PATH }}
