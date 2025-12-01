@@ -4,7 +4,7 @@
   "description": "default set of categories to use in CoMapeo",
   "main": "dist/comapeo-default-categories.comapeocat",
   "scripts": {
-    "build": "rimraf dist && mkdirp dist && comapeocat build --version ${npm_package_version} -o dist/comapeo-default-categories.comapeocat",
+    "build": "rimraf dist && mkdirp dist && comapeocat build --version ${npm_package_version} --addCategoryIdTags -o dist/comapeo-default-categories.comapeocat",
     "extract-messages": "mkdirp messages && comapeocat messages -o messages/en.json",
     "prepack": "npm run build",
     "test": "comapeocat lint .",
