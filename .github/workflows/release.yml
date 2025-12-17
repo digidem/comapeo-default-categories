@@ -65,6 +65,11 @@ jobs:
           # Don't notify linked issues
           notify-linked-issues: false
           publish-mode: oidc
+          artifact-path: build/comapeo-default-categories-v${{ steps.current-version.outputs.version }}.comapeocat
           build-command: |
             npm ci
             npm run build
+            mkdir -p build
+            cp dist/comapeo-default-categories.comapeocat build/comapeo-default-categories-v${VERSION}.comapeocat
+        env:
+          VERSION: ${{ steps.current-version.outputs.version }}
