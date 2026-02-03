@@ -5,7 +5,7 @@
   },
   "fields.access.helperText": {
     "description": "helperText for field 'What is neeeded to access this site, service or activity?'",
-    "message": "O que é necessário para acessar esse site, serviço ou atividade?"
+    "message": "O que é necessário para acessar esse local, serviço ou atividade?"
   },
   "fields.activity-documented.label": {
     "description": "Label for field 'activity-documented'",
@@ -113,7 +113,7 @@
   },
   "fields.body-of-water-type.options.pond": {
     "description": "Label for option 'pond' for field 'body-of-water-type'",
-    "message": "Lago"
+    "message": "Lagoa"
   },
   "fields.body-of-water-type.options.delta": {
     "description": "Label for option 'delta' for field 'body-of-water-type'",
@@ -121,7 +121,7 @@
   },
   "fields.body-of-water-type.options.subsurface-water-table": {
     "description": "Label for option 'subsurface-water-table' for field 'body-of-water-type'",
-    "message": "Lençol freático subsuperficial"
+    "message": "Lençol freático"
   },
   "fields.body-of-water-type.options.glacier": {
     "description": "Label for option 'glacier' for field 'body-of-water-type'",
@@ -129,11 +129,11 @@
   },
   "fields.body-of-water-type.options.cold-spring": {
     "description": "Label for option 'cold-spring' for field 'body-of-water-type'",
-    "message": "Primavera fria"
+    "message": "Nascente de água"
   },
   "fields.body-of-water-type.options.hotspring": {
     "description": "Label for option 'hotspring' for field 'body-of-water-type'",
-    "message": "Hotspring"
+    "message": "Água termal"
   },
   "fields.common-translations.label": {
     "description": "Label for field 'common-translations'",
@@ -149,7 +149,7 @@
   },
   "fields.conditions.helperText": {
     "description": "helperText for field 'In what condition this was encountered?'",
-    "message": "Em que condições ele foi encontrado?"
+    "message": "Em que condições isso foi encontrado?"
   },
   "fields.conditions.options.expected": {
     "description": "Label for option 'expected' for field 'conditions'",
@@ -221,7 +221,7 @@
   },
   "fields.ecosystem-type.options.forest-woodland": {
     "description": "Label for option 'forest-woodland' for field 'ecosystem-type'",
-    "message": "Floresta/floresta"
+    "message": "Floresta"
   },
   "fields.ecosystem-type.options.mangrove": {
     "description": "Label for option 'mangrove' for field 'ecosystem-type'",
@@ -317,7 +317,7 @@
   },
   "fields.name.helperText": {
     "description": "helperText for field 'Common name of this thing'",
-    "message": "Nome comum dessa coisa"
+    "message": "Nome comum"
   },
   "fields.natural-resource-type.label": {
     "description": "Label for field 'natural-resource-type'",
@@ -349,7 +349,7 @@
   },
   "fields.permission.options.violation-of-fpic": {
     "description": "Label for option 'violation-of-fpic' for field 'permission'",
-    "message": "Violação do FPIC (Consentimento Livre, Prévio e Informado)"
+    "message": "Violação do Consentimento Livre, Prévio e Informado"
   },
   "fields.permission.options.unsure": {
     "description": "Label for option 'unsure' for field 'permission'",
@@ -361,7 +361,7 @@
   },
   "fields.presumed-responsible.label": {
     "description": "Label for field 'presumed-responsible'",
-    "message": "Responsável presumido"
+    "message": "Suspeito"
   },
   "fields.presumed-responsible.helperText": {
     "description": "helperText for field 'Who or what may be responsible for this?'",
@@ -373,7 +373,7 @@
   },
   "fields.service-type.helperText": {
     "description": "helperText for field 'What type of site is this?'",
-    "message": "Que tipo de site é esse?"
+    "message": "Que tipo de local é esse?"
   },
   "fields.test-sample-type.label": {
     "description": "Label for field 'test-sample-type'",
@@ -437,7 +437,7 @@
   },
   "fields.tree-type.options.deciduos-leaved": {
     "description": "Label for option 'deciduos-leaved' for field 'tree-type'",
-    "message": "Deciduos/folha"
+    "message": "Caducifólia"
   },
   "fields.vehicle-access-land.label": {
     "description": "Label for field 'vehicle-access-land'",
@@ -533,15 +533,15 @@
   },
   "presets.hunting-site.name": {
     "description": "The name of the preset 'hunting-site'",
-    "message": "Local / caminho de caça"
+    "message": "Local de caça"
   },
   "presets.infrastructure-other.name": {
     "description": "The name of the preset 'infrastructure-other'",
-    "message": "Infraestrutura Outros"
+    "message": "Infraestrutura - Outros"
   },
   "presets.language-on-the-land.name": {
     "description": "The name of the preset 'language-on-the-land'",
-    "message": "Idioma na terra"
+    "message": "Idioma falado nesse lugar"
   },
   "presets.local-community-cultivation.name": {
     "description": "The name of the preset 'local-community-cultivation'",
@@ -549,7 +549,7 @@
   },
   "presets.logging.name": {
     "description": "The name of the preset 'logging'",
-    "message": "Registro em log"
+    "message": "Extração de madeira"
   },
   "presets.mining.name": {
     "description": "The name of the preset 'mining'",
@@ -557,15 +557,15 @@
   },
   "presets.mountain-hill.name": {
     "description": "The name of the preset 'mountain-hill'",
-    "message": "Montanha / colina"
+    "message": "Montanha"
   },
   "presets.natural-event.name": {
     "description": "The name of the preset 'natural-event'",
-    "message": "Evento / fenômeno natural"
+    "message": "Fenômeno natural"
   },
   "presets.natural-gas-activity.name": {
     "description": "The name of the preset 'natural-gas-activity'",
-    "message": "Atividade de gás natural"
+    "message": "Extração de gás natural"
   },
   "presets.oil-activity.name": {
     "description": "The name of the preset 'oil-activity'",
@@ -589,19 +589,19 @@
   },
   "presets.poaching.name": {
     "description": "The name of the preset 'poaching'",
-    "message": "Caça furtiva"
+    "message": "Caça ilegal"
   },
   "presets.point-on-path.name": {
     "description": "The name of the preset 'point-on-path'",
-    "message": "Ponto no caminho, ponto de rastreamento"
+    "message": "Ponto no caminho"
   },
   "presets.roadway.name": {
     "description": "The name of the preset 'roadway'",
-    "message": "Rodovia"
+    "message": "Pista"
   },
   "presets.shelter-building.name": {
     "description": "The name of the preset 'shelter-building'",
-    "message": "Abrigo/edifício"
+    "message": "Abrigo"
   },
   "presets.transoportation-hub.name": {
     "description": "The name of the preset 'transoportation-hub'",
@@ -613,10 +613,11 @@
   },
   "presets.unwanted-outsider.name": {
     "description": "The name of the preset 'unwanted-outsider'",
-    "message": "Pessoas de fora indesejadas"
+    "message": "Pessoa sem autorizaçao"
   },
   "presets.user-feedback.name": {
     "description": "The name of the preset 'user-feedback'",
     "message": "Feedback do usuário"
   }
 }
+
