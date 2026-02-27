@@ -7,6 +7,19 @@
     "description": "Descriptive text shown under the label for field 'access'",
     "message": "¿Qué se necesita para acceder a este sitio, servicio o actividad?"
   },
+  "field.access.options[value=\"open\"].label": {
+    "description": "Label for option 'open' of field 'access'",
+    "message": "Abierto - Sin Restricciones"
+  },
+  "field.access.options[value=\"prohibited\"].label": {
+    "description": "Label for option 'prohibited' of field 'access'",
+    "message": "Prohibido - Acceso No Permitido"
+  },
+  "field.access.options[value=\"restricted\"].label": {
+    "description": "Label for option 'restricted' of field 'access'",
+    "message": "Restringido - Acceso limitado"
+  },
+
   "field.activity-documented.label": {
     "description": "Label for field 'activity-documented'",
     "message": "Actividad documentada"
@@ -311,6 +324,19 @@
     "description": "Descriptive text shown under the label for field 'installation-type'",
     "message": "¿Cuál es la naturaleza de esta instalación?"
   },
+  "field.installation-type.options[value=\"not-in-use\"].label": {
+    "description": "Label for option 'not-in-use' of field 'installation-type'",
+    "message": "En Desuso"
+  },
+  "field.installation-type.options[value=\"permanent\"].label": {
+    "description": "Label for option 'permanent' of field 'installation-type'",
+    "message": "Permanente"
+  },
+  "field.installation-type.options[value=\"temporary\"].label": {
+    "description": "Label for option 'temporary' of field 'installation-type'",
+    "message": "Temporal"
+  },
+
   "field.name.label": {
     "description": "Label for field 'name'",
     "message": "Nombre"
@@ -327,6 +353,51 @@
     "description": "Descriptive text shown under the label for field 'natural-resource-type'",
     "message": "¿De qué tipo de recurso se trata?"
   },
+  "field.natural-resource-type.options[value=\"artisanry\"].label": {
+    "description": "Label for option 'artisanry' of field 'natural-resource-type'",
+    "message": "Artesanía"
+  },
+  "field.natural-resource-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'natural-resource-type'",
+    "message": "Comunicación"
+  },
+  "field.natural-resource-type.options[value=\"fiber_textile\"].label": {
+    "description": "Label for option 'fiber_textile' of field 'natural-resource-type'",
+    "message": "Fibras y Textiles"
+  },
+  "field.natural-resource-type.options[value=\"food\"].label": {
+    "description": "Label for option 'food' of field 'natural-resource-type'",
+    "message": "Comida"
+  },
+  "field.natural-resource-type.options[value=\"medicine\"].label": {
+    "description": "Label for option 'medicine' of field 'natural-resource-type'",
+    "message": "Medicina"
+  },
+  "field.natural-resource-type.options[value=\"not_applicable\"].label": {
+    "description": "Label for option 'not_applicable' of field 'natural-resource-type'",
+    "message": "No Aplica"
+  },
+  "field.natural-resource-type.options[value=\"revenue\"].label": {
+    "description": "Label for option 'revenue' of field 'natural-resource-type'",
+    "message": "Ingreso Monetario"
+  },
+  "field.natural-resource-type.options[value=\"shelter_building_material\"].label": {
+    "description": "Label for option 'shelter_building_material' of field 'natural-resource-type'",
+    "message": "Material de Construcción"
+  },
+  "field.natural-resource-type.options[value=\"tools\"].label": {
+    "description": "Label for option 'tools' of field 'natural-resource-type'",
+    "message": "Herramientas"
+  },
+  "field.natural-resource-type.options[value=\"transportation\"].label": {
+    "description": "Label for option 'transportation' of field 'natural-resource-type'",
+    "message": "Transporte"
+  },
+  "field.natural-resource-type.options[value=\"water\"].label": {
+    "description": "Label for option 'water' of field 'natural-resource-type'",
+    "message": "Agua"
+  },
+
   "field.need-type.label": {
     "description": "Label for field 'need-type'",
     "message": "Tipo de necesidad"
@@ -375,6 +446,43 @@
     "description": "Descriptive text shown under the label for field 'service-type'",
     "message": "¿De qué tipo de sitio se trata?"
   },
+  "field.service-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'service-type'",
+    "message": "Comunicación"
+  },
+  "field.service-type.options[value=\"education\"].label": {
+    "description": "Label for option 'education' of field 'service-type'",
+    "message": "Educación"
+  },
+  "field.service-type.options[value=\"health-services\"].label": {
+    "description": "Label for option 'health-services' of field 'service-type'",
+    "message": "Servicios de Salud"
+  },
+  "field.service-type.options[value=\"market-food-services\"].label": {
+    "description": "Label for option 'market-food-services' of field 'service-type'",
+    "message": "Mercado/Servicios Alimenticios"
+  },
+  "field.service-type.options[value=\"recreation\"].label": {
+    "description": "Label for option 'recreation' of field 'service-type'",
+    "message": "Recreación"
+  },
+  "field.service-type.options[value=\"shops-utility\"].label": {
+    "description": "Label for option 'shops-utility' of field 'service-type'",
+    "message": "Negocio/Utilitario"
+  },
+  "field.service-type.options[value=\"social-services\"].label": {
+    "description": "Label for option 'social-services' of field 'service-type'",
+    "message": "Servicios Sociales"
+  },
+  "field.service-type.options[value=\"spiritual-religious\"].label": {
+    "description": "Label for option 'spiritual-religious' of field 'service-type'",
+    "message": "Espiritual/Religioso"
+  },
+  "field.service-type.options[value=\"water-infrastructure\"].label": {
+    "description": "Label for option 'water-infrastructure' of field 'service-type'",
+    "message": "Infraestructura de Agua"
+  },
+
   "field.test-sample-type.label": {
     "description": "Label for field 'test-sample-type'",
     "message": "Tipo de muestra"
@@ -445,15 +553,72 @@
   },
   "field.vehicle-access-land.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-access-land'",
-    "message": "VACÍO"
+    "message": "¿Qué tipo de acceso es?"
   },
+  "field.vehicle-access-land.options[value=\"all-terrain-vehicle\"].label": {
+    "description": "Label for option 'all-terrain-vehicle' of field 'vehicle-access-land'",
+    "message": "Vehículo Todo Terreno"
+  },
+  "field.vehicle-access-land.options[value=\"bicycle\"].label": {
+    "description": "Label for option 'bicycle' of field 'vehicle-access-land'",
+    "message": "Bicicleta"
+  },
+  "field.vehicle-access-land.options[value=\"bus\"].label": {
+    "description": "Label for option 'bus' of field 'vehicle-access-land'",
+    "message": "Bus"
+  },
+  "field.vehicle-access-land.options[value=\"cargo-van-car\"].label": {
+    "description": "Label for option 'cargo-van-car' of field 'vehicle-access-land'",
+    "message": "Vehículo de carga/van"
+  },
+  "field.vehicle-access-land.options[value=\"motorcycle\"].label": {
+    "description": "Label for option 'motorcycle' of field 'vehicle-access-land'",
+    "message": "Motocicleta"
+  },
+  "field.vehicle-access-land.options[value=\"passenger-van-vehicle\"].label": {
+    "description": "Label for option 'passenger-van-vehicle' of field 'vehicle-access-land'",
+    "message": "Vehículo de pasajeros/van"
+  },
+  "field.vehicle-access-land.options[value=\"pedestrian\"].label": {
+    "description": "Label for option 'pedestrian' of field 'vehicle-access-land'",
+    "message": "Transeúnte"
+  },
+  "field.vehicle-access-land.options[value=\"private\"].label": {
+    "description": "Label for option 'private' of field 'vehicle-access-land'",
+    "message": "Privado"
+  },
+  "field.vehicle-access-land.options[value=\"train\"].label": {
+    "description": "Label for option 'train' of field 'vehicle-access-land'",
+    "message": "Tren"
+  },
+
   "field.vehicle-type-air.label": {
     "description": "Label for field 'vehicle-type-air'",
     "message": "Tipo de vehículo - Aéreo"
   },
   "field.vehicle-type-air.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-type-air'",
-    "message": "VACÍO"
+    "message": "¿Qué tipo de vehículo aéreo?"
+  },
+  "field.vehicle-type-air.options[value=\"airbus\"].label": {
+    "description": "Label for option 'airbus' of field 'vehicle-type-air'",
+    "message": "Avión"
+  },
+  "field.vehicle-type-air.options[value=\"cargo-plane\"].label": {
+    "description": "Label for option 'cargo-plane' of field 'vehicle-type-air'",
+    "message": "Avión de Carga"
+  },
+  "field.vehicle-type-air.options[value=\"helicopter\"].label": {
+    "description": "Label for option 'helicopter' of field 'vehicle-type-air'",
+    "message": "Helicóptero"
+  },
+  "field.vehicle-type-air.options[value=\"military\"].label": {
+    "description": "Label for option 'military' of field 'vehicle-type-air'",
+    "message": "Militar"
+  },
+  "field.vehicle-type-air.options[value=\"small-aircraft\"].label": {
+    "description": "Label for option 'small-aircraft' of field 'vehicle-type-air'",
+    "message": "Avioneta"
   },
   "field.vehicle-type-water.label": {
     "description": "Label for field 'vehicle-type-water'",
@@ -461,8 +626,21 @@
   },
   "field.vehicle-type-water.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-type-water'",
-    "message": "VACÍO"
+    "message": "¿Qué tipo de vehículo de agua es?"
   },
+  "field.vehicle-type-water.options[value=\"boat-inboard-motor\"].label": {
+    "description": "Label for option 'boat-inboard-motor' of field 'vehicle-type-water'",
+    "message": "Bote - motor de borda"
+  },
+  "field.vehicle-type-water.options[value=\"boat-outboard-motor\"].label": {
+    "description": "Label for option 'boat-outboard-motor' of field 'vehicle-type-water'",
+    "message": "Bote - motor fuera de borda"
+  },
+  "field.vehicle-type-water.options[value=\"small-watercraft\"].label": {
+    "description": "Label for option 'small-watercraft' of field 'vehicle-type-water'",
+    "message": "Lancha Pequeña"
+  },
+
   "category.agroindustry.name": {
     "description": "The name of category 'agroindustry'",
     "message": "Agroindustria"
