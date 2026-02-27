@@ -178,7 +178,31 @@
   },
   "field.cultural-category.helperText": {
     "description": "Descriptive text shown under the label for field 'cultural-category'",
-    "message": "VACÍO"
+    "message": "¿Qué tipo de actividad cultural?"
+  },
+  "field.cultural-category.options[value=\"archeology\"].label": {
+    "description": "Label for option 'archeology' of field 'cultural-category'",
+    "message": "Arqueología"
+  },
+  "field.cultural-category.options[value=\"gathering-site\"].label": {
+    "description": "Label for option 'gathering-site' of field 'cultural-category'",
+    "message": "Sitio de Reunión"
+  },
+  "field.cultural-category.options[value=\"history\"].label": {
+    "description": "Label for option 'history' of field 'cultural-category'",
+    "message": "Historia"
+  },
+  "field.cultural-category.options[value=\"mythology\"].label": {
+    "description": "Label for option 'mythology' of field 'cultural-category'",
+    "message": "Mitología"
+  },
+  "field.cultural-category.options[value=\"sacred-site\"].label": {
+    "description": "Label for option 'sacred-site' of field 'cultural-category'",
+    "message": "Sitio Sagrado"
+  },
+  "field.cultural-category.options[value=\"story\"].label": {
+    "description": "Label for option 'story' of field 'cultural-category'",
+    "message": "Historia"
   },
   "field.cultural-details.label": {
     "description": "Label for field 'cultural-details'",
@@ -314,7 +338,39 @@
   },
   "field.incident-type.helperText": {
     "description": "Descriptive text shown under the label for field 'incident-type'",
-    "message": "VACÍO"
+    "message": "¿Qué tipo de incidente?"
+  },
+  "field.incident-type.options[value=\"conflict\"].label": {
+    "description": "Label for option 'conflict' of field 'incident-type'",
+    "message": "Conflicto"
+  },
+  "field.incident-type.options[value=\"human-rights-violation\"].label": {
+    "description": "Label for option 'human-rights-violation' of field 'incident-type'",
+    "message": "Violación de Derechos Humanos"
+  },
+  "field.incident-type.options[value=\"illness\"].label": {
+    "description": "Label for option 'illness' of field 'incident-type'",
+    "message": "Enfermedad"
+  },
+  "field.incident-type.options[value=\"injury\"].label": {
+    "description": "Label for option 'injury' of field 'incident-type'",
+    "message": "Lesión"
+  },
+  "field.incident-type.options[value=\"invasion\"].label": {
+    "description": "Label for option 'invasion' of field 'incident-type'",
+    "message": "Invasión"
+  },
+  "field.incident-type.options[value=\"material-damage\"].label": {
+    "description": "Label for option 'material-damage' of field 'incident-type'",
+    "message": "Daño Material"
+  },
+  "field.incident-type.options[value=\"theft\"].label": {
+    "description": "Label for option 'theft' of field 'incident-type'",
+    "message": "Robo"
+  },
+  "field.incident-type.options[value=\"violence\"].label": {
+    "description": "Label for option 'violence' of field 'incident-type'",
+    "message": "Violencia"
   },
   "field.installation-type.label": {
     "description": "Label for field 'installation-type'",
@@ -336,7 +392,6 @@
     "description": "Label for option 'temporary' of field 'installation-type'",
     "message": "Temporal"
   },
-
   "field.name.label": {
     "description": "Label for field 'name'",
     "message": "Nombre"
@@ -677,6 +732,7 @@
     "description": "The name of category 'cultural-activity'",
     "message": "Actividad cultural"
   },
+
   "category.cultural-site.name": {
     "description": "The name of category 'cultural-site'",
     "message": "Sitio cultural"
