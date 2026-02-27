@@ -853,7 +853,7 @@
   },
   "field.vehicle-access-land.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-access-land'",
-    "message": ""
+    "message": "What type of access is this?"
   },
   "field.vehicle-access-land.label": {
     "description": "Label for field 'vehicle-access-land'",
@@ -897,7 +897,7 @@
   },
   "field.vehicle-type-air.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-type-air'",
-    "message": ""
+    "message": "What type of air vehicule it is?"
   },
   "field.vehicle-type-air.label": {
     "description": "Label for field 'vehicle-type-air'",
@@ -925,7 +925,7 @@
   },
   "field.vehicle-type-water.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-type-water'",
-    "message": ""
+    "message": "What type of water vehicule is it?"
   },
   "field.vehicle-type-water.label": {
     "description": "Label for field 'vehicle-type-water'",
