@@ -2,7 +2,7 @@
   "tagKey": "incident-type",
   "type": "selectMultiple",
   "label": "Incident Type",
-  "helperText": "",
+  "helperText": "What type of incident?",
   "options": [
     { "label": "Invasion", "value": "invasion" },
     { "label": "Violence", "value": "violence" },

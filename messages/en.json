@@ -389,7 +389,7 @@
   },
   "field.cultural-category.helperText": {
     "description": "Descriptive text shown under the label for field 'cultural-category'",
-    "message": ""
+    "message": "What type of cultural activity?"
   },
   "field.cultural-category.label": {
     "description": "Label for field 'cultural-category'",
@@ -549,7 +549,7 @@
   },
   "field.incident-type.helperText": {
     "description": "Descriptive text shown under the label for field 'incident-type'",
-    "message": ""
+    "message": "What type of incident?"
   },
   "field.incident-type.label": {
     "description": "Label for field 'incident-type'",
