@@ -1,0 +1,12 @@
+{
+  "name": "Hunting site / path",
+  "icon": "hunting-site",
+  "color": "#00CCCC",
+  "fields": ["conditions"],
+  "appliesTo": ["observation", "track"],
+  "tags": {
+    "type": "nature-use",
+    "nature-use": "site",
+    "site": "hunting"
+  }
+}

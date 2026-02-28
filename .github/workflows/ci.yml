@@ -1,0 +1,48 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+env:
+  NODE_VERSION: "20.x"
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - run: npm ci
+      - run: npm test
+
+      # Build artifact for internal testing
+      - name: Set version
+        id: version
+        run: |
+          echo "VERSION=$(node -p "require('./package.json').version")-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      - name: Set output path
+        id: output-path
+        run: |
+          echo "OUTPUT_PATH=build/comapeo-default-categories-v$VERSION.comapeocat" >> $GITHUB_OUTPUT
+        env:
+          VERSION: ${{ steps.version.outputs.VERSION }}
+      - run: |
+          mkdir -p build
+          npx comapeocat build --version $VERSION --addCategoryIdTags -o $OUTPUT_PATH
+        env:
+          VERSION: ${{ steps.version.outputs.VERSION }}
+          OUTPUT_PATH: ${{ steps.output-path.outputs.OUTPUT_PATH }}
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: comapeo-default-categories-v${{ steps.version.outputs.VERSION }}
+          path: ${{ steps.output-path.outputs.OUTPUT_PATH }}

@@ -1,12 +1,15 @@
 {
-  "tagKey":  "permission",
+  "tagKey": "permission",
   "type": "selectOne",
   "label": "Permission",
   "helperText": "What type of permission does this have?",
   "options": [
-    {"label": "Not permitted", "value": "not-permitted"},
-    {"label": "Violation of FPIC (Free, Prior and Informed Consent)", "value": "violation-of-fpic"},
-    {"label": "Unsure", "value": "unsure"},
-    {"label": "Permitted", "value": "permitted"}
+    { "label": "Not permitted", "value": "not-permitted" },
+    {
+      "label": "Violation of FPIC (Free, Prior and Informed Consent)",
+      "value": "violation-of-fpic"
+    },
+    { "label": "Unsure", "value": "unsure" },
+    { "label": "Permitted", "value": "permitted" }
   ]
 }

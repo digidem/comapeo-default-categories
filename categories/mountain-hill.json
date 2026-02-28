@@ -1,0 +1,11 @@
+{
+  "name": "Mountain / hill",
+  "icon": "mountain-hill",
+  "color": "#009900",
+  "fields": ["cultural-name", "conditions"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature",
+    "nature": "mountain"
+  }
+}

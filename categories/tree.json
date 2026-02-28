@@ -1,0 +1,12 @@
+{
+  "name": "Tree",
+  "icon": "tree",
+  "color": "#009900",
+  "fields": ["name", "natural-resource-type", "conditions", "tree-type"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature",
+    "nature": "vegetation",
+    "vegetation": "tree"
+  }
+}

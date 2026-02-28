@@ -1,0 +1,16 @@
+{
+  "name": "Cultural activity",
+  "icon": "cultural-activity",
+  "color": "#FFCC00",
+  "fields": [
+    "cultural-name",
+    "cultural-category",
+    "cultural-details",
+    "access"
+  ],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "culture",
+    "culture": "activity"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["presets/**/*.json", "categories/**/*.json"],
+      "url": "./node_modules/comapeocat/dist/schema/category.json"
+    },
+    {
+      "fileMatch": ["fields/**/*.json"],
+      "url": "./node_modules/comapeocat/dist/schema/field.json"
+    },
+    {
+      "fileMatch": ["messages/*.json"],
+      "url": "./node_modules/comapeocat/dist/schema/messages.json"
+    },
+    {
+      "fileMatch": ["categorySelection.json"],
+      "url": "./node_modules/comapeocat/dist/schema/categorySelection.json"
+    },
+    {
+      "fileMatch": ["metadata.json"],
+      "url": "./node_modules/comapeocat/dist/schema/metadata.json"
+    }
+  ]
+}

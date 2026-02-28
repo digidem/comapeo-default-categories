@@ -1,0 +1,11 @@
+{
+  "name": "Natural event / phenomenon",
+  "icon": "natural-event",
+  "color": "#009900",
+  "fields": ["conditions"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature",
+    "nature": "phenomenon"
+  }
+}

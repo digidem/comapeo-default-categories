@@ -1,0 +1,19 @@
+{
+  "name": "Dam",
+  "icon": "dam",
+  "color": "#FF3300",
+  "fields": [
+    "activity-progress",
+    "access",
+    "activity-documented",
+    "incident-type",
+    "authorities-needed-or-involved",
+    "presumed-responsible",
+    "permission"
+  ],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "threat",
+    "threat": "dam"
+  }
+}

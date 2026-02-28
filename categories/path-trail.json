@@ -1,0 +1,11 @@
+{
+  "name": "Path / Trail",
+  "icon": "path-trail",
+  "color": "#CC00CC",
+  "fields": ["vehicle-access-land", "access"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "path"
+  }
+}

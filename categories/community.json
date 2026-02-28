@@ -1,0 +1,11 @@
+{
+  "name": "Community",
+  "icon": "community",
+  "color": "#CC00CC",
+  "fields": ["access"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "community"
+  }
+}

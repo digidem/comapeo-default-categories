@@ -1,0 +1,62 @@
+name: Versioning
+
+on:
+  pull_request:
+    branches: ["main"]
+
+env:
+  NODE_VERSION: "20.x"
+
+jobs:
+  version-check:
+    name: Version Bump Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v5
+        with:
+          path: pr
+
+      - name: Get latest release tag
+        id: latest-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          LATEST_TAG=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName 2>/dev/null || echo "main")
+          echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+          echo "Using ref: $LATEST_TAG"
+
+      - name: Checkout latest release
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ steps.latest-release.outputs.tag }}
+          path: release
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Run version bump check
+        run: node pr/scripts/check-version-bump.js release pr
+  metadata-check:
+    name: Metadata Version Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v5
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Check metadata.json version is unset
+        run: |
+          if jq -e '.version' metadata.json > /dev/null 2>&1; then
+            echo "Error: metadata.json should not have a 'version' property"
+            echo "The default categories version is defined in package.json"
+            exit 1
+          fi

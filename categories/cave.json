@@ -1,0 +1,17 @@
+{
+  "name": "Cave",
+  "icon": "cave",
+  "color": "#009900",
+  "fields": [
+    "name",
+    "natural-resource-type",
+    "conditions",
+    "cultural-name",
+    "access"
+  ],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature",
+    "nature": "cave"
+  }
+}

@@ -4,16 +4,19 @@
   "label": "Natural resource type",
   "helperText": "What type of resource is this?",
   "options": [
-    {"label": "Food", "value": "food"},
-    {"label": "Water", "value": "water"},
-    {"label": "Shelter/Building material", "value": "shelter_building_material"},
-    {"label": "Fiber & Textile", "value": "fiber_textile"},
-    {"label": "Artisanry", "value": "artisanry"},
-    {"label": "Medicine", "value": "medicine"},
-    {"label": "Revenue", "value": "revenue"},
-    {"label": "Tools", "value": "tools"},
-    {"label": "Transportation", "value": "transportation"},
-    {"label": "Communication", "value": "communication"},
-    {"label": "Not applicable", "value": "not_applicable"}
+    { "label": "Food", "value": "food" },
+    { "label": "Water", "value": "water" },
+    {
+      "label": "Shelter/Building material",
+      "value": "shelter_building_material"
+    },
+    { "label": "Fiber & Textile", "value": "fiber_textile" },
+    { "label": "Artisanry", "value": "artisanry" },
+    { "label": "Medicine", "value": "medicine" },
+    { "label": "Revenue", "value": "revenue" },
+    { "label": "Tools", "value": "tools" },
+    { "label": "Transportation", "value": "transportation" },
+    { "label": "Communication", "value": "communication" },
+    { "label": "Not applicable", "value": "not_applicable" }
   ]
 }

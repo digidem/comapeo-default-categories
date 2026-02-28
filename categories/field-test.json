@@ -1,0 +1,11 @@
+{
+  "name": "Field Test / Sample",
+  "icon": "field-test",
+  "color": "#00CCCC",
+  "fields": ["conditions", "test-sample-type", "field-test-details", "access"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "admin",
+    "admin": "test-sample"
+  }
+}

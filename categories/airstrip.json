@@ -1,0 +1,12 @@
+{
+  "name": "Airstrip",
+  "icon": "airstrip",
+  "color": "#CC00CC",
+  "fields": ["vehicle-type-air", "access"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "transportation",
+    "transportation": "airstrip"
+  }
+}

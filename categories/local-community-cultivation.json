@@ -1,0 +1,12 @@
+{
+  "name": "Local / Community cultivation",
+  "icon": "local-community-cultivation",
+  "color": "#00CCCC",
+  "fields": ["conditions", "access"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature-use",
+    "nature-use": "cultivation",
+    "cultivation": "community"
+  }
+}

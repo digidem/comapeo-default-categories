@@ -1,0 +1,16 @@
+{
+  "name": "Other Threat",
+  "icon": "other-threat",
+  "color": "#FF3300",
+  "fields": [
+    "activity-progress",
+    "activity-documented",
+    "incident-type",
+    "authorities-needed-or-involved"
+  ],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "threat",
+    "threat": "other"
+  }
+}

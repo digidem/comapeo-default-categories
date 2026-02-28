@@ -1,0 +1,10 @@
+{
+  "name": "Other",
+  "icon": "other",
+  "color": "#FF3300",
+  "fields": ["ecosystem-type"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "other"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Community Need",
+  "icon": "community-need",
+  "color": "#FF3300",
+  "fields": [
+    "incident-type",
+    "authorities-needed-or-involved",
+    "presumed-responsible",
+    "need-type"
+  ],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "threat",
+    "threat": "community-need"
+  }
+}

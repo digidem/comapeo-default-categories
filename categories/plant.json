@@ -1,0 +1,12 @@
+{
+  "name": "Plant",
+  "icon": "plant",
+  "color": "#009900",
+  "fields": ["ecological-status", "natural-resource-type", "conditions"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature",
+    "nature": "vegetation",
+    "vegetation": "plant"
+  }
+}

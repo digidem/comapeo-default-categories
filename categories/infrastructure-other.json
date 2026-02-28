@@ -1,0 +1,11 @@
+{
+  "name": "Infrastructure Other",
+  "icon": "infrastructure-other",
+  "color": "#CC00CC",
+  "fields": ["service-type", "vehicle-access-land", "access"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "infrastructure",
+    "infrastructure": "other"
+  }
+}

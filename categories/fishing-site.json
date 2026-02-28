@@ -1,0 +1,12 @@
+{
+  "name": "Fishing site",
+  "icon": "fishing-site",
+  "color": "#00CCCC",
+  "fields": ["body-of-water-type", "conditions"],
+  "appliesTo": ["observation"],
+  "tags": {
+    "type": "nature-use",
+    "nature-use": "site",
+    "site": "fishing"
+  }
+}

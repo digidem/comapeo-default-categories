@@ -4,14 +4,14 @@
   "label": "Service type",
   "helperText": "What type of site is this?",
   "options": [
-    {"label": "Water infrastructure", "value": "water-infrastructure"},
-    {"label": "Market/Food services", "value": "market-food-services"},
-    {"label": "Shops/Utility", "value": "shops-utility"},
-    {"label": "Recreation", "value": "recreation"},
-    {"label": "Health services", "value": "health-services"},
-    {"label": "Communication", "value": "communication"},
-    {"label": "Education", "value": "education"},
-    {"label": "Social services", "value": "social-services"},
-    {"label": "Spiritual/Religious", "value": "spiritual-religious"}
+    { "label": "Water infrastructure", "value": "water-infrastructure" },
+    { "label": "Market/Food services", "value": "market-food-services" },
+    { "label": "Shops/Utility", "value": "shops-utility" },
+    { "label": "Recreation", "value": "recreation" },
+    { "label": "Health services", "value": "health-services" },
+    { "label": "Communication", "value": "communication" },
+    { "label": "Education", "value": "education" },
+    { "label": "Social services", "value": "social-services" },
+    { "label": "Spiritual/Religious", "value": "spiritual-religious" }
   ]
 }

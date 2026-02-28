@@ -4,15 +4,18 @@
   "label": "Activity Documented",
   "helperText": "What type of activity are we documenting?",
   "options": [
-    {"label": "Surveying", "value": "surveying"},
-    {"label": "Contamination", "value": "contamination"},
-    {"label": "Unmantained infrastructure", "value": "unmantained-infrastructure"},
-    {"label": "Spill", "value": "spill"},
-    {"label": "Deforestation", "value": "deforestation"},
-    {"label": "Extraction", "value": "extraction"},
-    {"label": "Excavation", "value": "excavation"},
-    {"label": "Invation", "value": "invation"},
-    {"label": "Remediation", "value": "remediation"},
-    {"label": "Impacted waterway", "value": "impacted-waterway"}
+    { "label": "Surveying", "value": "surveying" },
+    { "label": "Contamination", "value": "contamination" },
+    {
+      "label": "Unmaintained infrastructure",
+      "value": "unmaintained-infrastructure"
+    },
+    { "label": "Spill", "value": "spill" },
+    { "label": "Deforestation", "value": "deforestation" },
+    { "label": "Extraction", "value": "extraction" },
+    { "label": "Excavation", "value": "excavation" },
+    { "label": "Invasion", "value": "invasion" },
+    { "label": "Remediation", "value": "remediation" },
+    { "label": "Impacted waterway", "value": "impacted-waterway" }
   ]
 }
