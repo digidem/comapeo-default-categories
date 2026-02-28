@@ -2,7 +2,7 @@
   "tagKey": "vehicle-type-water",
   "type": "selectMultiple",
   "label": "Vehicle type - Water",
-  "helperText": "",
+  "helperText": "What type of water vehicule is it?",
   "options": [
     { "label": "Boat - inboard motor", "value": "boat-inboard-motor" },
     { "label": "Boat - outboard motor", "value": "boat-outboard-motor" },

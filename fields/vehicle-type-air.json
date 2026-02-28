@@ -2,7 +2,7 @@
   "tagKey": "vehicle-type-air",
   "type": "selectMultiple",
   "label": "Vehicle type - Air",
-  "helperText": "",
+  "helperText": "What type of air vehicule it is?",
   "options": [
     { "label": "Small aircraft", "value": "small-aircraft" },
     { "label": "Helicopter", "value": "helicopter" },
