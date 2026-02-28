@@ -28,6 +28,46 @@
     "description": "Descriptive text shown under the label for field 'activity-documented'",
     "message": "¿Qué tipo de actividad estamos documentando?"
   },
+  "field.activity-documented.options[value=\"contamination\"].label": {
+    "description": "Label for option 'contamination' of field 'activity-documented'",
+    "message": "Contaminación"
+  },
+  "field.activity-documented.options[value=\"deforestation\"].label": {
+    "description": "Label for option 'deforestation' of field 'activity-documented'",
+    "message": "Deforestación"
+  },
+  "field.activity-documented.options[value=\"excavation\"].label": {
+    "description": "Label for option 'excavation' of field 'activity-documented'",
+    "message": "Excavación"
+  },
+  "field.activity-documented.options[value=\"extraction\"].label": {
+    "description": "Label for option 'extraction' of field 'activity-documented'",
+    "message": "Extracción"
+  },
+  "field.activity-documented.options[value=\"impacted-waterway\"].label": {
+    "description": "Label for option 'impacted-waterway' of field 'activity-documented'",
+    "message": "Canal de agua impactado"
+  },
+  "field.activity-documented.options[value=\"invasion\"].label": {
+    "description": "Label for option 'invasion' of field 'activity-documented'",
+    "message": "Invasión"
+  },
+  "field.activity-documented.options[value=\"remediation\"].label": {
+    "description": "Label for option 'remediation' of field 'activity-documented'",
+    "message": "Remediación"
+  },
+  "field.activity-documented.options[value=\"spill\"].label": {
+    "description": "Label for option 'spill' of field 'activity-documented'",
+    "message": "Derrame"
+  },
+  "field.activity-documented.options[value=\"surveying\"].label": {
+    "description": "Label for option 'surveying' of field 'activity-documented'",
+    "message": "Topografía"
+  },
+  "field.activity-documented.options[value=\"unmaintained-infrastructure\"].label": {
+    "description": "Label for option 'unmaintained-infrastructure' of field 'activity-documented'",
+    "message": "Infraestructura sin Mantenimiento"
+  },
   "field.activity-progress.label": {
     "description": "Label for field 'activity-progress'",
     "message": "Progreso de la actividad"
@@ -92,6 +132,39 @@
     "description": "Descriptive text shown under the label for field 'authorities-needed-or-involved'",
     "message": "¿Qué tipo de autoridades son necesarias o están ya implicadas?"
   },
+"field.authorities-needed-or-involved.options[value=\"health-authorities\"].label": {
+    "description": "Label for option 'health-authorities' of field 'authorities-needed-or-involved'",
+    "message": "Autoridades de salud"
+  },
+  "field.authorities-needed-or-involved.options[value=\"local-leadership\"].label": {
+    "description": "Label for option 'local-leadership' of field 'authorities-needed-or-involved'",
+    "message": "Liderazgo Local"
+  },
+  "field.authorities-needed-or-involved.options[value=\"municipal-police\"].label": {
+    "description": "Label for option 'municipal-police' of field 'authorities-needed-or-involved'",
+    "message": "Policia Municipal"
+  },
+  "field.authorities-needed-or-involved.options[value=\"national-law-enforcement\"].label": {
+    "description": "Label for option 'national-law-enforcement' of field 'authorities-needed-or-involved'",
+    "message": "Autoridades Legales Nacionales"
+  },
+  "field.authorities-needed-or-involved.options[value=\"none\"].label": {
+    "description": "Label for option 'none' of field 'authorities-needed-or-involved'",
+    "message": "Ninguna"
+  },
+  "field.authorities-needed-or-involved.options[value=\"park-rangers\"].label": {
+    "description": "Label for option 'park-rangers' of field 'authorities-needed-or-involved'",
+    "message": "Guarda Parques"
+  },
+  "field.authorities-needed-or-involved.options[value=\"private-security\"].label": {
+    "description": "Label for option 'private-security' of field 'authorities-needed-or-involved'",
+    "message": "Seguridad Privada"
+  },
+  "field.authorities-needed-or-involved.options[value=\"regional-law-enforcement\"].label": {
+    "description": "Label for option 'regional-law-enforcement' of field 'authorities-needed-or-involved'",
+    "message": "Autoridades Legales Regionales"
+  },
+
   "field.body-of-water-type.label": {
     "description": "Label for field 'body-of-water-type'",
     "message": "Tipo de masa de agua"
