@@ -132,7 +132,7 @@
     "description": "Descriptive text shown under the label for field 'authorities-needed-or-involved'",
     "message": "¿Qué tipo de autoridades son necesarias o están ya implicadas?"
   },
-"field.authorities-needed-or-involved.options[value=\"health-authorities\"].label": {
+  "field.authorities-needed-or-involved.options[value=\"health-authorities\"].label": {
     "description": "Label for option 'health-authorities' of field 'authorities-needed-or-involved'",
     "message": "Autoridades de salud"
   },
@@ -533,6 +533,42 @@
   "field.need-type.helperText": {
     "description": "Descriptive text shown under the label for field 'need-type'",
     "message": "¿Qué tipo de necesidad se encontró?"
+  },
+  "field.need-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'need-type'",
+    "message": "Comunicación"
+  },
+  "field.need-type.options[value=\"crisis-responsible-services\"].label": {
+    "description": "Label for option 'crisis-responsible-services' of field 'need-type'",
+    "message": "Servicios responsables de Manejo Crisis"
+  },
+  "field.need-type.options[value=\"food\"].label": {
+    "description": "Label for option 'food' of field 'need-type'",
+    "message": "Comida"
+  },
+  "field.need-type.options[value=\"health-services\"].label": {
+    "description": "Label for option 'health-services' of field 'need-type'",
+    "message": "Servicios de Salud"
+  },
+  "field.need-type.options[value=\"intervention-from-authorities\"].label": {
+    "description": "Label for option 'intervention-from-authorities' of field 'need-type'",
+    "message": "Intervención de las Autoridades"
+  },
+  "field.need-type.options[value=\"potable-water\"].label": {
+    "description": "Label for option 'potable-water' of field 'need-type'",
+    "message": "Agua Potable"
+  },
+  "field.need-type.options[value=\"shelter-housing\"].label": {
+    "description": "Label for option 'shelter-housing' of field 'need-type'",
+    "message": "Refugio / Vivienda"
+  },
+  "field.need-type.options[value=\"supplies-materials\"].label": {
+    "description": "Label for option 'supplies-materials' of field 'need-type'",
+    "message": "Insumos / Materiales"
+  },
+  "field.need-type.options[value=\"transportation\"].label": {
+    "description": "Label for option 'transportation' of field 'need-type'",
+    "message": "Transporte"
   },
   "field.permission.label": {
     "description": "Label for field 'permission'",
