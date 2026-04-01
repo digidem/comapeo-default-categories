@@ -81,7 +81,7 @@
   },
   "category.logging.name": {
     "description": "The name of category 'logging'",
-    "message": "Exploração madeireira"
+    "message": "Extração de madeira"
   },
   "category.mining.name": {
     "description": "The name of category 'mining'",
@@ -417,7 +417,7 @@
   },
   "field.cultural-category.options[value=\"story\"].label": {
     "description": "Label for option 'story' of field 'cultural-category'",
-    "message": "histórias"
+    "message": "Histórias"
   },
   "field.cultural-details.helperText": {
     "description": "Descriptive text shown under the label for field 'cultural-details'",
@@ -477,7 +477,7 @@
   },
   "field.ecosystem-type.options[value=\"grasslands\"].label": {
     "description": "Label for option 'grasslands' of field 'ecosystem-type'",
-    "message": "Campos"
+    "message": "Pastagem"
   },
   "field.ecosystem-type.options[value=\"mangrove\"].label": {
     "description": "Label for option 'mangrove' of field 'ecosystem-type'",
