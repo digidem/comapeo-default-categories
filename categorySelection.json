@@ -37,5 +37,5 @@
     "other",
     "field-test"
   ],
-  "track": ["hunting-site", "boundary-zone"]
+  "track": ["roadway", "path-trail", "boundary-zone", "hunting-site", "other"]
 }

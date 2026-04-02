@@ -1,9 +1,9 @@
 {
   "name": "Other",
   "icon": "other",
-  "color": "#FF3300",
+  "color": "#8a8a8a",
   "fields": ["ecosystem-type"],
-  "appliesTo": ["observation"],
+  "appliesTo": ["observation", "track"],
   "tags": {
     "type": "other"
   }
