@@ -2,7 +2,7 @@
   "tagKey": "cultural-category",
   "type": "selectMultiple",
   "label": "Cultural activity",
-  "helperText": "",
+  "helperText": "What type of cultural activity?",
   "options": [
     { "label": "Archeology", "value": "archeology" },
     { "label": "History", "value": "history" },
