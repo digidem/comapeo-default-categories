@@ -3,7 +3,7 @@
   "icon": "roadway",
   "color": "#CC00CC",
   "fields": ["vehicle-access-land", "access"],
-  "appliesTo": ["observation"],
+  "appliesTo": ["observation", "track"],
   "tags": {
     "type": "infrastructure",
     "infrastructure": "transportation",
