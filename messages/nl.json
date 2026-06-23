@@ -25,7 +25,7 @@
   },
   "category.community-need.name": {
     "description": "The name of category 'community-need'",
-    "message": "Gemeenschap behoefte"
+    "message": "Gemeenschapsbehoefte"
   },
   "category.community.name": {
     "description": "The name of category 'community'",
@@ -101,7 +101,7 @@
   },
   "category.oil-activity.name": {
     "description": "The name of category 'oil-activity'",
-    "message": "Olie activiteit"
+    "message": "Olieactiviteit"
   },
   "category.other-threat.name": {
     "description": "The name of category 'other-threat'",
