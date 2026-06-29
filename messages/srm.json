@@ -1,0 +1,946 @@
+{
+  "category.agroindustry.name": {
+    "description": "The name of category 'agroindustry'",
+    "message": "Paandi soni wooko"
+  },
+  "category.airstrip.name": {
+    "description": "The name of category 'airstrip'",
+    "message": "Opalani goon"
+  },
+  "category.animal.name": {
+    "description": "The name of category 'animal'",
+    "message": "Mbeti"
+  },
+  "category.body-of-water.name": {
+    "description": "The name of category 'body-of-water'",
+    "message": "Hila wata"
+  },
+  "category.boundary-zone.name": {
+    "description": "The name of category 'boundary-zone'",
+    "message": "Te ka tu kamia paati"
+  },
+  "category.cave.name": {
+    "description": "The name of category 'cave'",
+    "message": "Baaku a kuun / kununu basu"
+  },
+  "category.community-need.name": {
+    "description": "The name of category 'community-need'",
+    "message": "Soni di hii sëmbë abi fanoudu"
+  },
+  "category.community.name": {
+    "description": "The name of category 'community'",
+    "message": "Di fa sëmbë ku sëmbë ta du soni makandi"
+  },
+  "category.cultural-activity.name": {
+    "description": "The name of category 'cultural-activity'",
+    "message": "Di fasi fa wan kulupu sëmbë ta du wan son u de"
+  },
+  "category.cultural-site.name": {
+    "description": "The name of category 'cultural-site'",
+    "message": "Di kamia te ka wan kulupu sëmbë ta du son u de"
+  },
+  "category.dam.name": {
+    "description": "The name of category 'dam'",
+    "message": "Tapa wata"
+  },
+  "category.ecosystem.name": {
+    "description": "The name of category 'ecosystem'",
+    "message": "Ecosysteem"
+  },
+  "category.field-test.name": {
+    "description": "The name of category 'field-test'",
+    "message": "Soni de lei i fii fusutan wan soni"
+  },
+  "category.fishing-site.name": {
+    "description": "The name of category 'fishing-site'",
+    "message": "Fisi kamia"
+  },
+  "category.fungi.name": {
+    "description": "The name of category 'fungi'",
+    "message": "Bundji"
+  },
+  "category.gathering-site.name": {
+    "description": "The name of category 'gathering-site'",
+    "message": "Te ka sëmbë ta ko miti"
+  },
+  "category.hunting-site.name": {
+    "description": "The name of category 'hunting-site'",
+    "message": "Hondi matu"
+  },
+  "category.infrastructure-other.name": {
+    "description": "The name of category 'infrastructure-other'",
+    "message": "Infrastructuur"
+  },
+  "category.language-on-the-land.name": {
+    "description": "The name of category 'language-on-the-land'",
+    "message": "Töngö u wan pisiwata / köndë"
+  },
+  "category.local-community-cultivation.name": {
+    "description": "The name of category 'local-community-cultivation'",
+    "message": "Di fa sëmbë ku sëmbë ta paandi soni makandi"
+  },
+  "category.logging.name": {
+    "description": "The name of category 'logging'",
+    "message": "Wooko pau / udu"
+  },
+  "category.mining.name": {
+    "description": "The name of category 'mining'",
+    "message": "Di diki u dee gudu a goonbasu"
+  },
+  "category.mountain-hill.name": {
+    "description": "The name of category 'mountain-hill'",
+    "message": "Kuun/kununu"
+  },
+  "category.natural-event.name": {
+    "description": "The name of category 'natural-event'",
+    "message": "Natuurlijk evenement / fenomeen"
+  },
+  "category.natural-gas-activity.name": {
+    "description": "The name of category 'natural-gas-activity'",
+    "message": "Diki gasi"
+  },
+  "category.oil-activity.name": {
+    "description": "The name of category 'oil-activity'",
+    "message": "Wooko oli"
+  },
+  "category.other-threat.name": {
+    "description": "The name of category 'other-threat'",
+    "message": "Buta fëëë da wan sëmbë"
+  },
+  "category.other.name": {
+    "description": "The name of category 'other'",
+    "message": "Overig"
+  },
+  "category.path-trail.name": {
+    "description": "The name of category 'path-trail'",
+    "message": "Pasi / futupasi"
+  },
+  "category.plant.name": {
+    "description": "The name of category 'plant'",
+    "message": "Uwii"
+  },
+  "category.poaching.name": {
+    "description": "The name of category 'poaching'",
+    "message": "Booko höndi wêti"
+  },
+  "category.roadway.name": {
+    "description": "The name of category 'roadway'",
+    "message": "Wagipasi"
+  },
+  "category.shelter-building.name": {
+    "description": "The name of category 'shelter-building'",
+    "message": "Tjubi kamian"
+  },
+  "category.transportation-hub.name": {
+    "description": "The name of category 'transportation-hub'",
+    "message": "Te ka tu son ta miti"
+  },
+  "category.tree.name": {
+    "description": "The name of category 'tree'",
+    "message": "Pau"
+  },
+  "category.unwanted-outsider.name": {
+    "description": "The name of category 'unwanted-outsider'",
+    "message": "Sëmbë di wa kë aw dendu"
+  },
+  "field.access.helperText": {
+    "description": "Descriptive text shown under the label for field 'access'",
+    "message": "Kan iedereen deze locatie betreden?"
+  },
+  "field.access.label": {
+    "description": "Label for field 'access'",
+    "message": "Toegangsbeperkingen"
+  },
+  "field.access.options[value=\"open\"].label": {
+    "description": "Label for option 'open' of field 'access'",
+    "message": "Open - Geen beperkingen"
+  },
+  "field.access.options[value=\"prohibited\"].label": {
+    "description": "Label for option 'prohibited' of field 'access'",
+    "message": "Verboden - Toegang niet toegestaan"
+  },
+  "field.access.options[value=\"restricted\"].label": {
+    "description": "Label for option 'restricted' of field 'access'",
+    "message": "Beperkt - Beperkte toegang"
+  },
+  "field.activity-documented.helperText": {
+    "description": "Descriptive text shown under the label for field 'activity-documented'",
+    "message": "Welk type activiteit documenteren we?"
+  },
+  "field.activity-documented.label": {
+    "description": "Label for field 'activity-documented'",
+    "message": "Gedocumenteerde activiteit"
+  },
+  "field.activity-documented.options[value=\"contamination\"].label": {
+    "description": "Label for option 'contamination' of field 'activity-documented'",
+    "message": "Vervuiling"
+  },
+  "field.activity-documented.options[value=\"deforestation\"].label": {
+    "description": "Label for option 'deforestation' of field 'activity-documented'",
+    "message": "Ontbossing"
+  },
+  "field.activity-documented.options[value=\"excavation\"].label": {
+    "description": "Label for option 'excavation' of field 'activity-documented'",
+    "message": "Opgraving"
+  },
+  "field.activity-documented.options[value=\"extraction\"].label": {
+    "description": "Label for option 'extraction' of field 'activity-documented'",
+    "message": "Winning"
+  },
+  "field.activity-documented.options[value=\"impacted-waterway\"].label": {
+    "description": "Label for option 'impacted-waterway' of field 'activity-documented'",
+    "message": "Aangetast watermassa"
+  },
+  "field.activity-documented.options[value=\"invasion\"].label": {
+    "description": "Label for option 'invasion' of field 'activity-documented'",
+    "message": "Invasie"
+  },
+  "field.activity-documented.options[value=\"remediation\"].label": {
+    "description": "Label for option 'remediation' of field 'activity-documented'",
+    "message": "Sanering"
+  },
+  "field.activity-documented.options[value=\"spill\"].label": {
+    "description": "Label for option 'spill' of field 'activity-documented'",
+    "message": "Lek"
+  },
+  "field.activity-documented.options[value=\"surveying\"].label": {
+    "description": "Label for option 'surveying' of field 'activity-documented'",
+    "message": "Landmeting"
+  },
+  "field.activity-documented.options[value=\"unmaintained-infrastructure\"].label": {
+    "description": "Label for option 'unmaintained-infrastructure' of field 'activity-documented'",
+    "message": "Ononderhouden infrastructuur"
+  },
+  "field.activity-progress.helperText": {
+    "description": "Descriptive text shown under the label for field 'activity-progress'",
+    "message": "Wat is de status van deze activiteit?"
+  },
+  "field.activity-progress.label": {
+    "description": "Label for field 'activity-progress'",
+    "message": "Voortgang activiteit"
+  },
+  "field.activity-progress.options[value=\"active-in-progress\"].label": {
+    "description": "Label for option 'active-in-progress' of field 'activity-progress'",
+    "message": "Actief / In uitvoering"
+  },
+  "field.activity-progress.options[value=\"inactive-complete\"].label": {
+    "description": "Label for option 'inactive-complete' of field 'activity-progress'",
+    "message": "Inactief / Voltooid"
+  },
+  "field.activity-progress.options[value=\"initial-stages\"].label": {
+    "description": "Label for option 'initial-stages' of field 'activity-progress'",
+    "message": "Beginfase"
+  },
+  "field.activity-progress.options[value=\"repeat-activity\"].label": {
+    "description": "Label for option 'repeat-activity' of field 'activity-progress'",
+    "message": "Herhaalde activiteit"
+  },
+  "field.activity-progress.options[value=\"temporarily-suspended\"].label": {
+    "description": "Label for option 'temporarily-suspended' of field 'activity-progress'",
+    "message": "Tijdelijk opgeschort"
+  },
+  "field.animal-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'animal-type'",
+    "message": "Wat voor soort dier?"
+  },
+  "field.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Diersoort"
+  },
+  "field.animal-type.options[value=\"bird\"].label": {
+    "description": "Label for option 'bird' of field 'animal-type'",
+    "message": "Vogel"
+  },
+  "field.animal-type.options[value=\"fish\"].label": {
+    "description": "Label for option 'fish' of field 'animal-type'",
+    "message": "Vis"
+  },
+  "field.animal-type.options[value=\"mammal\"].label": {
+    "description": "Label for option 'mammal' of field 'animal-type'",
+    "message": "Zoogdier"
+  },
+  "field.animal-type.options[value=\"other\"].label": {
+    "description": "Label for option 'other' of field 'animal-type'",
+    "message": "Overig"
+  },
+  "field.animal-type.options[value=\"reptile-amphibian\"].label": {
+    "description": "Label for option 'reptile-amphibian' of field 'animal-type'",
+    "message": "Reptiel / Amfibie"
+  },
+  "field.authorities-needed-or-involved.helperText": {
+    "description": "Descriptive text shown under the label for field 'authorities-needed-or-involved'",
+    "message": "Welk type autoriteiten zijn nodig of al betrokken?"
+  },
+  "field.authorities-needed-or-involved.label": {
+    "description": "Label for field 'authorities-needed-or-involved'",
+    "message": "Benodigde of betrokken autoriteiten"
+  },
+  "field.authorities-needed-or-involved.options[value=\"health-authorities\"].label": {
+    "description": "Label for option 'health-authorities' of field 'authorities-needed-or-involved'",
+    "message": "Gezondheidsautoriteiten"
+  },
+  "field.authorities-needed-or-involved.options[value=\"local-leadership\"].label": {
+    "description": "Label for option 'local-leadership' of field 'authorities-needed-or-involved'",
+    "message": "Lokaal leiderschap"
+  },
+  "field.authorities-needed-or-involved.options[value=\"municipal-police\"].label": {
+    "description": "Label for option 'municipal-police' of field 'authorities-needed-or-involved'",
+    "message": "Gemeentelijke politie"
+  },
+  "field.authorities-needed-or-involved.options[value=\"national-law-enforcement\"].label": {
+    "description": "Label for option 'national-law-enforcement' of field 'authorities-needed-or-involved'",
+    "message": "Nationale wetshandhaving"
+  },
+  "field.authorities-needed-or-involved.options[value=\"none\"].label": {
+    "description": "Label for option 'none' of field 'authorities-needed-or-involved'",
+    "message": "Geen"
+  },
+  "field.authorities-needed-or-involved.options[value=\"park-rangers\"].label": {
+    "description": "Label for option 'park-rangers' of field 'authorities-needed-or-involved'",
+    "message": "Boswachters"
+  },
+  "field.authorities-needed-or-involved.options[value=\"private-security\"].label": {
+    "description": "Label for option 'private-security' of field 'authorities-needed-or-involved'",
+    "message": "Particuliere beveiliging"
+  },
+  "field.authorities-needed-or-involved.options[value=\"regional-law-enforcement\"].label": {
+    "description": "Label for option 'regional-law-enforcement' of field 'authorities-needed-or-involved'",
+    "message": "Regionale wetshandhaving"
+  },
+  "field.body-of-water-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'body-of-water-type'",
+    "message": "Het type watermassa"
+  },
+  "field.body-of-water-type.label": {
+    "description": "Label for field 'body-of-water-type'",
+    "message": "Type watermassa"
+  },
+  "field.body-of-water-type.options[value=\"cold-spring\"].label": {
+    "description": "Label for option 'cold-spring' of field 'body-of-water-type'",
+    "message": "Koude bron"
+  },
+  "field.body-of-water-type.options[value=\"delta\"].label": {
+    "description": "Label for option 'delta' of field 'body-of-water-type'",
+    "message": "Delta"
+  },
+  "field.body-of-water-type.options[value=\"glacier\"].label": {
+    "description": "Label for option 'glacier' of field 'body-of-water-type'",
+    "message": "Gletsjer"
+  },
+  "field.body-of-water-type.options[value=\"headwaters\"].label": {
+    "description": "Label for option 'headwaters' of field 'body-of-water-type'",
+    "message": "Bronwater"
+  },
+  "field.body-of-water-type.options[value=\"hotspring\"].label": {
+    "description": "Label for option 'hotspring' of field 'body-of-water-type'",
+    "message": "Warmwaterbron"
+  },
+  "field.body-of-water-type.options[value=\"lake\"].label": {
+    "description": "Label for option 'lake' of field 'body-of-water-type'",
+    "message": "Meer"
+  },
+  "field.body-of-water-type.options[value=\"pond\"].label": {
+    "description": "Label for option 'pond' of field 'body-of-water-type'",
+    "message": "Vijver"
+  },
+  "field.body-of-water-type.options[value=\"rapids\"].label": {
+    "description": "Label for option 'rapids' of field 'body-of-water-type'",
+    "message": "Stroomversnellingen"
+  },
+  "field.body-of-water-type.options[value=\"river\"].label": {
+    "description": "Label for option 'river' of field 'body-of-water-type'",
+    "message": "Rivier"
+  },
+  "field.body-of-water-type.options[value=\"stream\"].label": {
+    "description": "Label for option 'stream' of field 'body-of-water-type'",
+    "message": "Beek"
+  },
+  "field.body-of-water-type.options[value=\"subsurface-water-table\"].label": {
+    "description": "Label for option 'subsurface-water-table' of field 'body-of-water-type'",
+    "message": "Grondwater"
+  },
+  "field.body-of-water-type.options[value=\"waterfall\"].label": {
+    "description": "Label for option 'waterfall' of field 'body-of-water-type'",
+    "message": "Waterval"
+  },
+  "field.common-translations.helperText": {
+    "description": "Descriptive text shown under the label for field 'common-translations'",
+    "message": "Wat zijn gangbare vertalingen van dit woord?"
+  },
+  "field.common-translations.label": {
+    "description": "Label for field 'common-translations'",
+    "message": "Gangbare vertalingen"
+  },
+  "field.conditions.helperText": {
+    "description": "Descriptive text shown under the label for field 'conditions'",
+    "message": "In welke conditie werd dit aangetroffen?"
+  },
+  "field.conditions.label": {
+    "description": "Label for field 'conditions'",
+    "message": "Condities"
+  },
+  "field.conditions.options[value=\"expected\"].label": {
+    "description": "Label for option 'expected' of field 'conditions'",
+    "message": "Verwacht"
+  },
+  "field.conditions.options[value=\"unusual\"].label": {
+    "description": "Label for option 'unusual' of field 'conditions'",
+    "message": "Ongebruikelijk"
+  },
+  "field.cultural-category.helperText": {
+    "description": "Descriptive text shown under the label for field 'cultural-category'",
+    "message": "Wat voor soort culturele activiteit?"
+  },
+  "field.cultural-category.label": {
+    "description": "Label for field 'cultural-category'",
+    "message": "Culturele activiteit"
+  },
+  "field.cultural-category.options[value=\"archeology\"].label": {
+    "description": "Label for option 'archeology' of field 'cultural-category'",
+    "message": "Archeologie"
+  },
+  "field.cultural-category.options[value=\"gathering-site\"].label": {
+    "description": "Label for option 'gathering-site' of field 'cultural-category'",
+    "message": "Verzamelplaats"
+  },
+  "field.cultural-category.options[value=\"history\"].label": {
+    "description": "Label for option 'history' of field 'cultural-category'",
+    "message": "Geschiedenis"
+  },
+  "field.cultural-category.options[value=\"mythology\"].label": {
+    "description": "Label for option 'mythology' of field 'cultural-category'",
+    "message": "Mythologie"
+  },
+  "field.cultural-category.options[value=\"sacred-site\"].label": {
+    "description": "Label for option 'sacred-site' of field 'cultural-category'",
+    "message": "Heilige plaats"
+  },
+  "field.cultural-category.options[value=\"story\"].label": {
+    "description": "Label for option 'story' of field 'cultural-category'",
+    "message": "Verhaal"
+  },
+  "field.cultural-details.helperText": {
+    "description": "Descriptive text shown under the label for field 'cultural-details'",
+    "message": "Voeg details/verhalen toe die relevant zijn voor de lokale cultuur"
+  },
+  "field.cultural-details.label": {
+    "description": "Label for field 'cultural-details'",
+    "message": "Culturele details"
+  },
+  "field.cultural-name.helperText": {
+    "description": "Descriptive text shown under the label for field 'cultural-name'",
+    "message": "Culturele naam of lokale term voor dit item"
+  },
+  "field.cultural-name.label": {
+    "description": "Label for field 'cultural-name'",
+    "message": "Culturele naam / term"
+  },
+  "field.ecological-status.helperText": {
+    "description": "Descriptive text shown under the label for field 'ecological-status'",
+    "message": "Wat is de ecologische status van deze soort?"
+  },
+  "field.ecological-status.label": {
+    "description": "Label for field 'ecological-status'",
+    "message": "Ecologische status"
+  },
+  "field.ecological-status.options[value=\"controlled_species\"].label": {
+    "description": "Label for option 'controlled_species' of field 'ecological-status'",
+    "message": "Gecontroleerde soort"
+  },
+  "field.ecological-status.options[value=\"endangered_species\"].label": {
+    "description": "Label for option 'endangered_species' of field 'ecological-status'",
+    "message": "Bedreigde soort"
+  },
+  "field.ecological-status.options[value=\"invasive_species\"].label": {
+    "description": "Label for option 'invasive_species' of field 'ecological-status'",
+    "message": "Invasieve soort"
+  },
+  "field.ecological-status.options[value=\"native_species\"].label": {
+    "description": "Label for option 'native_species' of field 'ecological-status'",
+    "message": "Inheemse soort"
+  },
+  "field.ecosystem-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'ecosystem-type'",
+    "message": "Welk type ecosysteem werd aangetroffen?"
+  },
+  "field.ecosystem-type.label": {
+    "description": "Label for field 'ecosystem-type'",
+    "message": "Ecosysteemtype"
+  },
+  "field.ecosystem-type.options[value=\"desert\"].label": {
+    "description": "Label for option 'desert' of field 'ecosystem-type'",
+    "message": "Woestijn"
+  },
+  "field.ecosystem-type.options[value=\"forest-woodland\"].label": {
+    "description": "Label for option 'forest-woodland' of field 'ecosystem-type'",
+    "message": "Bos / bosgebied"
+  },
+  "field.ecosystem-type.options[value=\"grasslands\"].label": {
+    "description": "Label for option 'grasslands' of field 'ecosystem-type'",
+    "message": "Grasland"
+  },
+  "field.ecosystem-type.options[value=\"mangrove\"].label": {
+    "description": "Label for option 'mangrove' of field 'ecosystem-type'",
+    "message": "Mangrove"
+  },
+  "field.ecosystem-type.options[value=\"other\"].label": {
+    "description": "Label for option 'other' of field 'ecosystem-type'",
+    "message": "overig"
+  },
+  "field.ecosystem-type.options[value=\"permafrost\"].label": {
+    "description": "Label for option 'permafrost' of field 'ecosystem-type'",
+    "message": "Permafrost"
+  },
+  "field.ecosystem-type.options[value=\"ravine\"].label": {
+    "description": "Label for option 'ravine' of field 'ecosystem-type'",
+    "message": "Ravijn"
+  },
+  "field.ecosystem-type.options[value=\"tundra\"].label": {
+    "description": "Label for option 'tundra' of field 'ecosystem-type'",
+    "message": "Toendra"
+  },
+  "field.ecosystem-type.options[value=\"wetland\"].label": {
+    "description": "Label for option 'wetland' of field 'ecosystem-type'",
+    "message": "Moerasgebied"
+  },
+  "field.field-test-details.helperText": {
+    "description": "Descriptive text shown under the label for field 'field-test-details'",
+    "message": ""
+  },
+  "field.field-test-details.label": {
+    "description": "Label for field 'field-test-details'",
+    "message": "Details veldtest"
+  },
+  "field.gathering-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'gathering-type'",
+    "message": "Welk type hulpbron wordt hier verzameld?"
+  },
+  "field.gathering-type.label": {
+    "description": "Label for field 'gathering-type'",
+    "message": "Verzameltype"
+  },
+  "field.gathering-type.options[value=\"berries\"].label": {
+    "description": "Label for option 'berries' of field 'gathering-type'",
+    "message": "Bessen"
+  },
+  "field.gathering-type.options[value=\"clay\"].label": {
+    "description": "Label for option 'clay' of field 'gathering-type'",
+    "message": "Klei"
+  },
+  "field.gathering-type.options[value=\"fibers\"].label": {
+    "description": "Label for option 'fibers' of field 'gathering-type'",
+    "message": "Vezels"
+  },
+  "field.gathering-type.options[value=\"honey\"].label": {
+    "description": "Label for option 'honey' of field 'gathering-type'",
+    "message": "Honing"
+  },
+  "field.gathering-type.options[value=\"medicine\"].label": {
+    "description": "Label for option 'medicine' of field 'gathering-type'",
+    "message": "Geneesmiddel"
+  },
+  "field.gathering-type.options[value=\"mushrooms\"].label": {
+    "description": "Label for option 'mushrooms' of field 'gathering-type'",
+    "message": "Paddenstoelen"
+  },
+  "field.gathering-type.options[value=\"tree-fruit\"].label": {
+    "description": "Label for option 'tree-fruit' of field 'gathering-type'",
+    "message": "Boomvrucht"
+  },
+  "field.incident-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'incident-type'",
+    "message": "Welk type incident?"
+  },
+  "field.incident-type.label": {
+    "description": "Label for field 'incident-type'",
+    "message": "Type incident"
+  },
+  "field.incident-type.options[value=\"conflict\"].label": {
+    "description": "Label for option 'conflict' of field 'incident-type'",
+    "message": "Conflict"
+  },
+  "field.incident-type.options[value=\"human-rights-violation\"].label": {
+    "description": "Label for option 'human-rights-violation' of field 'incident-type'",
+    "message": "Schending van mensenrechten"
+  },
+  "field.incident-type.options[value=\"illness\"].label": {
+    "description": "Label for option 'illness' of field 'incident-type'",
+    "message": "Ziekte"
+  },
+  "field.incident-type.options[value=\"injury\"].label": {
+    "description": "Label for option 'injury' of field 'incident-type'",
+    "message": "Letsel"
+  },
+  "field.incident-type.options[value=\"invasion\"].label": {
+    "description": "Label for option 'invasion' of field 'incident-type'",
+    "message": "Invasie"
+  },
+  "field.incident-type.options[value=\"material-damage\"].label": {
+    "description": "Label for option 'material-damage' of field 'incident-type'",
+    "message": "Materiële schade"
+  },
+  "field.incident-type.options[value=\"theft\"].label": {
+    "description": "Label for option 'theft' of field 'incident-type'",
+    "message": "Diefstal"
+  },
+  "field.incident-type.options[value=\"violence\"].label": {
+    "description": "Label for option 'violence' of field 'incident-type'",
+    "message": "Geweld"
+  },
+  "field.installation-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'installation-type'",
+    "message": "Wat is de aard van deze installatie?"
+  },
+  "field.installation-type.label": {
+    "description": "Label for field 'installation-type'",
+    "message": "Type installatie"
+  },
+  "field.installation-type.options[value=\"not-in-use\"].label": {
+    "description": "Label for option 'not-in-use' of field 'installation-type'",
+    "message": "Niet in gebruik"
+  },
+  "field.installation-type.options[value=\"permanent\"].label": {
+    "description": "Label for option 'permanent' of field 'installation-type'",
+    "message": "Permanent"
+  },
+  "field.installation-type.options[value=\"temporary\"].label": {
+    "description": "Label for option 'temporary' of field 'installation-type'",
+    "message": "Tijdelijk"
+  },
+  "field.name.helperText": {
+    "description": "Descriptive text shown under the label for field 'name'",
+    "message": "Gangbare naam van dit item"
+  },
+  "field.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Naam"
+  },
+  "field.natural-resource-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'natural-resource-type'",
+    "message": "Welk type hulpbron is dit?"
+  },
+  "field.natural-resource-type.label": {
+    "description": "Label for field 'natural-resource-type'",
+    "message": "Type natuurlijke hulpbron"
+  },
+  "field.natural-resource-type.options[value=\"artisanry\"].label": {
+    "description": "Label for option 'artisanry' of field 'natural-resource-type'",
+    "message": "Ambacht"
+  },
+  "field.natural-resource-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'natural-resource-type'",
+    "message": "Communicatie"
+  },
+  "field.natural-resource-type.options[value=\"fiber_textile\"].label": {
+    "description": "Label for option 'fiber_textile' of field 'natural-resource-type'",
+    "message": "Vezel & Textiel"
+  },
+  "field.natural-resource-type.options[value=\"food\"].label": {
+    "description": "Label for option 'food' of field 'natural-resource-type'",
+    "message": "Voedsel"
+  },
+  "field.natural-resource-type.options[value=\"medicine\"].label": {
+    "description": "Label for option 'medicine' of field 'natural-resource-type'",
+    "message": "Geneesmiddel"
+  },
+  "field.natural-resource-type.options[value=\"not_applicable\"].label": {
+    "description": "Label for option 'not_applicable' of field 'natural-resource-type'",
+    "message": "Niet van toepassing"
+  },
+  "field.natural-resource-type.options[value=\"revenue\"].label": {
+    "description": "Label for option 'revenue' of field 'natural-resource-type'",
+    "message": "Inkomen"
+  },
+  "field.natural-resource-type.options[value=\"shelter_building_material\"].label": {
+    "description": "Label for option 'shelter_building_material' of field 'natural-resource-type'",
+    "message": "Schuilplaats / bouwmateriaal"
+  },
+  "field.natural-resource-type.options[value=\"tools\"].label": {
+    "description": "Label for option 'tools' of field 'natural-resource-type'",
+    "message": "Gereedschap"
+  },
+  "field.natural-resource-type.options[value=\"transportation\"].label": {
+    "description": "Label for option 'transportation' of field 'natural-resource-type'",
+    "message": "Vervoer"
+  },
+  "field.natural-resource-type.options[value=\"water\"].label": {
+    "description": "Label for option 'water' of field 'natural-resource-type'",
+    "message": "Water"
+  },
+  "field.need-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'need-type'",
+    "message": "Welk type behoefte werd aangetroffen?"
+  },
+  "field.need-type.label": {
+    "description": "Label for field 'need-type'",
+    "message": "Type behoefte"
+  },
+  "field.need-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'need-type'",
+    "message": "Communicatie"
+  },
+  "field.need-type.options[value=\"crisis-responsible-services\"].label": {
+    "description": "Label for option 'crisis-responsible-services' of field 'need-type'",
+    "message": "Crisisresponsdiensten"
+  },
+  "field.need-type.options[value=\"food\"].label": {
+    "description": "Label for option 'food' of field 'need-type'",
+    "message": "Voedsel"
+  },
+  "field.need-type.options[value=\"health-services\"].label": {
+    "description": "Label for option 'health-services' of field 'need-type'",
+    "message": "Gezondheidszorg"
+  },
+  "field.need-type.options[value=\"intervention-from-authorities\"].label": {
+    "description": "Label for option 'intervention-from-authorities' of field 'need-type'",
+    "message": "Interventie door autoriteiten"
+  },
+  "field.need-type.options[value=\"potable-water\"].label": {
+    "description": "Label for option 'potable-water' of field 'need-type'",
+    "message": "Drinkwater"
+  },
+  "field.need-type.options[value=\"shelter-housing\"].label": {
+    "description": "Label for option 'shelter-housing' of field 'need-type'",
+    "message": "Schuilplaats / Huisvesting"
+  },
+  "field.need-type.options[value=\"supplies-materials\"].label": {
+    "description": "Label for option 'supplies-materials' of field 'need-type'",
+    "message": "Benodigdheden / Materialen"
+  },
+  "field.need-type.options[value=\"transportation\"].label": {
+    "description": "Label for option 'transportation' of field 'need-type'",
+    "message": "Vervoer"
+  },
+  "field.permission.helperText": {
+    "description": "Descriptive text shown under the label for field 'permission'",
+    "message": "Welk type toestemming heeft dit?"
+  },
+  "field.permission.label": {
+    "description": "Label for field 'permission'",
+    "message": "Toestemming"
+  },
+  "field.permission.options[value=\"not-permitted\"].label": {
+    "description": "Label for option 'not-permitted' of field 'permission'",
+    "message": "Niet toegestaan"
+  },
+  "field.permission.options[value=\"permitted\"].label": {
+    "description": "Label for option 'permitted' of field 'permission'",
+    "message": "Toegestaan"
+  },
+  "field.permission.options[value=\"unsure\"].label": {
+    "description": "Label for option 'unsure' of field 'permission'",
+    "message": "Onzeker"
+  },
+  "field.permission.options[value=\"violation-of-fpic\"].label": {
+    "description": "Label for option 'violation-of-fpic' of field 'permission'",
+    "message": "Schending van VVGTO (Vrij, Voorafgaand en Geïnformeerd Toestemming)"
+  },
+  "field.presumed-responsible.helperText": {
+    "description": "Descriptive text shown under the label for field 'presumed-responsible'",
+    "message": "Wie of wat kan hiervoor verantwoordelijk zijn?"
+  },
+  "field.presumed-responsible.label": {
+    "description": "Label for field 'presumed-responsible'",
+    "message": "Vermoedelijk verantwoordelijke"
+  },
+  "field.service-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'service-type'",
+    "message": "Wat voor soort locatie is dit?"
+  },
+  "field.service-type.label": {
+    "description": "Label for field 'service-type'",
+    "message": "Type dienst"
+  },
+  "field.service-type.options[value=\"communication\"].label": {
+    "description": "Label for option 'communication' of field 'service-type'",
+    "message": "Communicatie"
+  },
+  "field.service-type.options[value=\"education\"].label": {
+    "description": "Label for option 'education' of field 'service-type'",
+    "message": "Onderwijs"
+  },
+  "field.service-type.options[value=\"health-services\"].label": {
+    "description": "Label for option 'health-services' of field 'service-type'",
+    "message": "Gezondheidszorg"
+  },
+  "field.service-type.options[value=\"market-food-services\"].label": {
+    "description": "Label for option 'market-food-services' of field 'service-type'",
+    "message": "Markt / Voedseldiensten"
+  },
+  "field.service-type.options[value=\"recreation\"].label": {
+    "description": "Label for option 'recreation' of field 'service-type'",
+    "message": "Recreatie"
+  },
+  "field.service-type.options[value=\"shops-utility\"].label": {
+    "description": "Label for option 'shops-utility' of field 'service-type'",
+    "message": "Winkels / Nutsbedrijven"
+  },
+  "field.service-type.options[value=\"social-services\"].label": {
+    "description": "Label for option 'social-services' of field 'service-type'",
+    "message": "Sociale diensten"
+  },
+  "field.service-type.options[value=\"spiritual-religious\"].label": {
+    "description": "Label for option 'spiritual-religious' of field 'service-type'",
+    "message": "Spiritueel / Religieus"
+  },
+  "field.service-type.options[value=\"water-infrastructure\"].label": {
+    "description": "Label for option 'water-infrastructure' of field 'service-type'",
+    "message": "Waterinfrastructuur"
+  },
+  "field.test-sample-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'test-sample-type'",
+    "message": ""
+  },
+  "field.test-sample-type.label": {
+    "description": "Label for field 'test-sample-type'",
+    "message": "Type testmonster"
+  },
+  "field.test-sample-type.options[value=\"air-sample\"].label": {
+    "description": "Label for option 'air-sample' of field 'test-sample-type'",
+    "message": "Luchtmonster"
+  },
+  "field.test-sample-type.options[value=\"animal-sample\"].label": {
+    "description": "Label for option 'animal-sample' of field 'test-sample-type'",
+    "message": "Dierenmonster"
+  },
+  "field.test-sample-type.options[value=\"camera-trap\"].label": {
+    "description": "Label for option 'camera-trap' of field 'test-sample-type'",
+    "message": "Cameraval"
+  },
+  "field.test-sample-type.options[value=\"forestry-vegetation-sample\"].label": {
+    "description": "Label for option 'forestry-vegetation-sample' of field 'test-sample-type'",
+    "message": "Bosbouw / Vegetatiemonster"
+  },
+  "field.test-sample-type.options[value=\"meteorological-sample\"].label": {
+    "description": "Label for option 'meteorological-sample' of field 'test-sample-type'",
+    "message": "Meteorologisch monster"
+  },
+  "field.test-sample-type.options[value=\"mineral-sample\"].label": {
+    "description": "Label for option 'mineral-sample' of field 'test-sample-type'",
+    "message": "Mineraalmonster"
+  },
+  "field.test-sample-type.options[value=\"soil-sample\"].label": {
+    "description": "Label for option 'soil-sample' of field 'test-sample-type'",
+    "message": "Bodemmonster"
+  },
+  "field.test-sample-type.options[value=\"water-sample\"].label": {
+    "description": "Label for option 'water-sample' of field 'test-sample-type'",
+    "message": "Watermonster"
+  },
+  "field.tree-type.helperText": {
+    "description": "Descriptive text shown under the label for field 'tree-type'",
+    "message": "Welk type boom werd aangetroffen?"
+  },
+  "field.tree-type.label": {
+    "description": "Label for field 'tree-type'",
+    "message": "Boomtype"
+  },
+  "field.tree-type.options[value=\"cactus\"].label": {
+    "description": "Label for option 'cactus' of field 'tree-type'",
+    "message": "Cactus"
+  },
+  "field.tree-type.options[value=\"coniferous\"].label": {
+    "description": "Label for option 'coniferous' of field 'tree-type'",
+    "message": "Naaldboom"
+  },
+  "field.tree-type.options[value=\"deciduous\"].label": {
+    "description": "Label for option 'deciduous' of field 'tree-type'",
+    "message": "Loofboom"
+  },
+  "field.tree-type.options[value=\"palm\"].label": {
+    "description": "Label for option 'palm' of field 'tree-type'",
+    "message": "Palm"
+  },
+  "field.vehicle-access-land.helperText": {
+    "description": "Descriptive text shown under the label for field 'vehicle-access-land'",
+    "message": "Welk type toegang is dit?"
+  },
+  "field.vehicle-access-land.label": {
+    "description": "Label for field 'vehicle-access-land'",
+    "message": "Voertuigtoegang - land"
+  },
+  "field.vehicle-access-land.options[value=\"all-terrain-vehicle\"].label": {
+    "description": "Label for option 'all-terrain-vehicle' of field 'vehicle-access-land'",
+    "message": "Terreinvoertuig"
+  },
+  "field.vehicle-access-land.options[value=\"bicycle\"].label": {
+    "description": "Label for option 'bicycle' of field 'vehicle-access-land'",
+    "message": "Fiets"
+  },
+  "field.vehicle-access-land.options[value=\"bus\"].label": {
+    "description": "Label for option 'bus' of field 'vehicle-access-land'",
+    "message": "Bus"
+  },
+  "field.vehicle-access-land.options[value=\"cargo-van-car\"].label": {
+    "description": "Label for option 'cargo-van-car' of field 'vehicle-access-land'",
+    "message": "Bestelbus / auto"
+  },
+  "field.vehicle-access-land.options[value=\"motorcycle\"].label": {
+    "description": "Label for option 'motorcycle' of field 'vehicle-access-land'",
+    "message": "Motorfiets"
+  },
+  "field.vehicle-access-land.options[value=\"passenger-van-vehicle\"].label": {
+    "description": "Label for option 'passenger-van-vehicle' of field 'vehicle-access-land'",
+    "message": "Personenbus / auto"
+  },
+  "field.vehicle-access-land.options[value=\"pedestrian\"].label": {
+    "description": "Label for option 'pedestrian' of field 'vehicle-access-land'",
+    "message": "Voetganger"
+  },
+  "field.vehicle-access-land.options[value=\"private\"].label": {
+    "description": "Label for option 'private' of field 'vehicle-access-land'",
+    "message": "Privé"
+  },
+  "field.vehicle-access-land.options[value=\"train\"].label": {
+    "description": "Label for option 'train' of field 'vehicle-access-land'",
+    "message": "Trein"
+  },
+  "field.vehicle-type-air.helperText": {
+    "description": "Descriptive text shown under the label for field 'vehicle-type-air'",
+    "message": "Wat voor soort luchtvoertuig is het?"
+  },
+  "field.vehicle-type-air.label": {
+    "description": "Label for field 'vehicle-type-air'",
+    "message": "Voertuigtype - Lucht"
+  },
+  "field.vehicle-type-air.options[value=\"airbus\"].label": {
+    "description": "Label for option 'airbus' of field 'vehicle-type-air'",
+    "message": "Passagiersvliegtuig"
+  },
+  "field.vehicle-type-air.options[value=\"cargo-plane\"].label": {
+    "description": "Label for option 'cargo-plane' of field 'vehicle-type-air'",
+    "message": "Vrachtvliegtuig"
+  },
+  "field.vehicle-type-air.options[value=\"helicopter\"].label": {
+    "description": "Label for option 'helicopter' of field 'vehicle-type-air'",
+    "message": "Helikopter"
+  },
+  "field.vehicle-type-air.options[value=\"military\"].label": {
+    "description": "Label for option 'military' of field 'vehicle-type-air'",
+    "message": "Militair"
+  },
+  "field.vehicle-type-air.options[value=\"small-aircraft\"].label": {
+    "description": "Label for option 'small-aircraft' of field 'vehicle-type-air'",
+    "message": "Klein vliegtuig"
+  },
+  "field.vehicle-type-water.helperText": {
+    "description": "Descriptive text shown under the label for field 'vehicle-type-water'",
+    "message": "Wat voor soort watervervoer is het?"
+  },
+  "field.vehicle-type-water.label": {
+    "description": "Label for field 'vehicle-type-water'",
+    "message": "Voertuigtype - Water"
+  },
+  "field.vehicle-type-water.options[value=\"boat-inboard-motor\"].label": {
+    "description": "Label for option 'boat-inboard-motor' of field 'vehicle-type-water'",
+    "message": "Boot - binnenboordmotor"
+  },
+  "field.vehicle-type-water.options[value=\"boat-outboard-motor\"].label": {
+    "description": "Label for option 'boat-outboard-motor' of field 'vehicle-type-water'",
+    "message": "Boot - buitenboordmotor"
+  },
+  "field.vehicle-type-water.options[value=\"small-watercraft\"].label": {
+    "description": "Label for option 'small-watercraft' of field 'vehicle-type-water'",
+    "message": "Klein vaartuig"
+  }
+}
