@@ -1,0 +1,17 @@
+files:
+  - source: /messages/en.json
+    dest: /categories/messages.json
+    translation: /messages/%two_letters_code%.json
+    languages_mapping:
+      two_letters_code:
+        hix: hix
+        kbb: kbb
+        knm: knm
+        mcf: mcf
+        mpq: mpq
+        mzr: mzr
+        oki: oki
+        srm: srm
+        tri: tri
+        waw: waw
+        way: way
