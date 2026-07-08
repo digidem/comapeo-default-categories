@@ -7,10 +7,6 @@
     "description": "The name of category 'airstrip'",
     "message": "Pista de pouso"
   },
-  "category.animal.name": {
-    "description": "The name of category 'animal'",
-    "message": "Animal"
-  },
   "category.body-of-water.name": {
     "description": "The name of category 'body-of-water'",
     "message": "Corpo d'água"
@@ -319,10 +315,6 @@
     "description": "Label for option 'cold-spring' of field 'body-of-water-type'",
     "message": "Nascente de água"
   },
-  "field.body-of-water-type.options[value=\"delta\"].label": {
-    "description": "Label for option 'delta' of field 'body-of-water-type'",
-    "message": "Delta"
-  },
   "field.body-of-water-type.options[value=\"glacier\"].label": {
     "description": "Label for option 'glacier' of field 'body-of-water-type'",
     "message": "Geleira"
@@ -487,25 +479,13 @@
     "description": "Label for option 'other' of field 'ecosystem-type'",
     "message": "Outro"
   },
-  "field.ecosystem-type.options[value=\"permafrost\"].label": {
-    "description": "Label for option 'permafrost' of field 'ecosystem-type'",
-    "message": "Permafrost"
-  },
   "field.ecosystem-type.options[value=\"ravine\"].label": {
     "description": "Label for option 'ravine' of field 'ecosystem-type'",
     "message": "Ravina"
   },
-  "field.ecosystem-type.options[value=\"tundra\"].label": {
-    "description": "Label for option 'tundra' of field 'ecosystem-type'",
-    "message": "Tundra"
-  },
   "field.ecosystem-type.options[value=\"wetland\"].label": {
     "description": "Label for option 'wetland' of field 'ecosystem-type'",
     "message": "Área úmida"
-  },
-  "field.field-test-details.helperText": {
-    "description": "Descriptive text shown under the label for field 'field-test-details'",
-    "message": "Que tipo de amostra ou teste é este?"
   },
   "field.field-test-details.label": {
     "description": "Label for field 'field-test-details'",
@@ -786,10 +766,6 @@
   "field.service-type.options[value=\"water-infrastructure\"].label": {
     "description": "Label for option 'water-infrastructure' of field 'service-type'",
     "message": "Infraestrutura de água"
-  },
-  "field.test-sample-type.helperText": {
-    "description": "Descriptive text shown under the label for field 'test-sample-type'",
-    "message": "Adicione detalhes relevantes sobre o teste de campo."
   },
   "field.test-sample-type.label": {
     "description": "Label for field 'test-sample-type'",
