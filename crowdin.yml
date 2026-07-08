@@ -1,3 +1,5 @@
+skip_untranslated_files: true
+
 files:
   - source: /messages/en.json
     dest: /categories/messages.json
