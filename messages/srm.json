@@ -319,10 +319,6 @@
     "description": "Label for option 'cold-spring' of field 'body-of-water-type'",
     "message": "Koude bron"
   },
-  "field.body-of-water-type.options[value=\"delta\"].label": {
-    "description": "Label for option 'delta' of field 'body-of-water-type'",
-    "message": "Delta"
-  },
   "field.body-of-water-type.options[value=\"glacier\"].label": {
     "description": "Label for option 'glacier' of field 'body-of-water-type'",
     "message": "Gletsjer"
@@ -479,17 +475,9 @@
     "description": "Label for option 'grasslands' of field 'ecosystem-type'",
     "message": "Grasland"
   },
-  "field.ecosystem-type.options[value=\"mangrove\"].label": {
-    "description": "Label for option 'mangrove' of field 'ecosystem-type'",
-    "message": "Mangrove"
-  },
   "field.ecosystem-type.options[value=\"other\"].label": {
     "description": "Label for option 'other' of field 'ecosystem-type'",
     "message": "overig"
-  },
-  "field.ecosystem-type.options[value=\"permafrost\"].label": {
-    "description": "Label for option 'permafrost' of field 'ecosystem-type'",
-    "message": "Permafrost"
   },
   "field.ecosystem-type.options[value=\"ravine\"].label": {
     "description": "Label for option 'ravine' of field 'ecosystem-type'",
@@ -502,10 +490,6 @@
   "field.ecosystem-type.options[value=\"wetland\"].label": {
     "description": "Label for option 'wetland' of field 'ecosystem-type'",
     "message": "Moerasgebied"
-  },
-  "field.field-test-details.helperText": {
-    "description": "Descriptive text shown under the label for field 'field-test-details'",
-    "message": ""
   },
   "field.field-test-details.label": {
     "description": "Label for field 'field-test-details'",
@@ -555,10 +539,6 @@
     "description": "Label for field 'incident-type'",
     "message": "Type incident"
   },
-  "field.incident-type.options[value=\"conflict\"].label": {
-    "description": "Label for option 'conflict' of field 'incident-type'",
-    "message": "Conflict"
-  },
   "field.incident-type.options[value=\"human-rights-violation\"].label": {
     "description": "Label for option 'human-rights-violation' of field 'incident-type'",
     "message": "Schending van mensenrechten"
@@ -598,10 +578,6 @@
   "field.installation-type.options[value=\"not-in-use\"].label": {
     "description": "Label for option 'not-in-use' of field 'installation-type'",
     "message": "Niet in gebruik"
-  },
-  "field.installation-type.options[value=\"permanent\"].label": {
-    "description": "Label for option 'permanent' of field 'installation-type'",
-    "message": "Permanent"
   },
   "field.installation-type.options[value=\"temporary\"].label": {
     "description": "Label for option 'temporary' of field 'installation-type'",
@@ -662,10 +638,6 @@
   "field.natural-resource-type.options[value=\"transportation\"].label": {
     "description": "Label for option 'transportation' of field 'natural-resource-type'",
     "message": "Vervoer"
-  },
-  "field.natural-resource-type.options[value=\"water\"].label": {
-    "description": "Label for option 'water' of field 'natural-resource-type'",
-    "message": "Water"
   },
   "field.need-type.helperText": {
     "description": "Descriptive text shown under the label for field 'need-type'",
@@ -787,10 +759,6 @@
     "description": "Label for option 'water-infrastructure' of field 'service-type'",
     "message": "Waterinfrastructuur"
   },
-  "field.test-sample-type.helperText": {
-    "description": "Descriptive text shown under the label for field 'test-sample-type'",
-    "message": ""
-  },
   "field.test-sample-type.label": {
     "description": "Label for field 'test-sample-type'",
     "message": "Type testmonster"
@@ -835,10 +803,6 @@
     "description": "Label for field 'tree-type'",
     "message": "Boomtype"
   },
-  "field.tree-type.options[value=\"cactus\"].label": {
-    "description": "Label for option 'cactus' of field 'tree-type'",
-    "message": "Cactus"
-  },
   "field.tree-type.options[value=\"coniferous\"].label": {
     "description": "Label for option 'coniferous' of field 'tree-type'",
     "message": "Naaldboom"
@@ -846,10 +810,6 @@
   "field.tree-type.options[value=\"deciduous\"].label": {
     "description": "Label for option 'deciduous' of field 'tree-type'",
     "message": "Loofboom"
-  },
-  "field.tree-type.options[value=\"palm\"].label": {
-    "description": "Label for option 'palm' of field 'tree-type'",
-    "message": "Palm"
   },
   "field.vehicle-access-land.helperText": {
     "description": "Descriptive text shown under the label for field 'vehicle-access-land'",
@@ -866,10 +826,6 @@
   "field.vehicle-access-land.options[value=\"bicycle\"].label": {
     "description": "Label for option 'bicycle' of field 'vehicle-access-land'",
     "message": "Fiets"
-  },
-  "field.vehicle-access-land.options[value=\"bus\"].label": {
-    "description": "Label for option 'bus' of field 'vehicle-access-land'",
-    "message": "Bus"
   },
   "field.vehicle-access-land.options[value=\"cargo-van-car\"].label": {
     "description": "Label for option 'cargo-van-car' of field 'vehicle-access-land'",
