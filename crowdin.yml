@@ -1,4 +1,4 @@
 files:
   - source: /messages/en.json
     dest: /categories/messages.json
-    translation: /messages/%locale%.json
+    translation: /messages/%two_letters_code%.json
