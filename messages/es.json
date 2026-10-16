@@ -319,6 +319,10 @@
     "description": "Label for option 'cold-spring' of field 'body-of-water-type'",
     "message": "Primavera fría"
   },
+  "field.body-of-water-type.options[value=\"delta\"].label": {
+    "description": "Label for option 'delta' of field 'body-of-water-type'",
+    "message": "Delta"
+  },
   "field.body-of-water-type.options[value=\"glacier\"].label": {
     "description": "Label for option 'glacier' of field 'body-of-water-type'",
     "message": "Glaciar"
@@ -326,6 +330,10 @@
   "field.body-of-water-type.options[value=\"headwaters\"].label": {
     "description": "Label for option 'headwaters' of field 'body-of-water-type'",
     "message": "Cabecera"
+  },
+  "field.body-of-water-type.options[value=\"hotspring\"].label": {
+    "description": "Label for option 'hotspring' of field 'body-of-water-type'",
+    "message": "Aguas termales"
   },
   "field.body-of-water-type.options[value=\"lake\"].label": {
     "description": "Label for option 'lake' of field 'body-of-water-type'",
@@ -479,9 +487,17 @@
     "description": "Label for option 'other' of field 'ecosystem-type'",
     "message": "otros"
   },
+  "field.ecosystem-type.options[value=\"permafrost\"].label": {
+    "description": "Label for option 'permafrost' of field 'ecosystem-type'",
+    "message": "Permafrost"
+  },
   "field.ecosystem-type.options[value=\"ravine\"].label": {
     "description": "Label for option 'ravine' of field 'ecosystem-type'",
     "message": "Barranco"
+  },
+  "field.ecosystem-type.options[value=\"tundra\"].label": {
+    "description": "Label for option 'tundra' of field 'ecosystem-type'",
+    "message": "Tundra"
   },
   "field.ecosystem-type.options[value=\"wetland\"].label": {
     "description": "Label for option 'wetland' of field 'ecosystem-type'",
@@ -811,6 +827,10 @@
     "description": "Label for field 'tree-type'",
     "message": "Tipo de árbol"
   },
+  "field.tree-type.options[value=\"cactus\"].label": {
+    "description": "Label for option 'cactus' of field 'tree-type'",
+    "message": "Cactus"
+  },
   "field.tree-type.options[value=\"coniferous\"].label": {
     "description": "Label for option 'coniferous' of field 'tree-type'",
     "message": "Coníferas"
@@ -838,6 +858,10 @@
   "field.vehicle-access-land.options[value=\"bicycle\"].label": {
     "description": "Label for option 'bicycle' of field 'vehicle-access-land'",
     "message": "Bicicleta"
+  },
+  "field.vehicle-access-land.options[value=\"bus\"].label": {
+    "description": "Label for option 'bus' of field 'vehicle-access-land'",
+    "message": "Autobús"
   },
   "field.vehicle-access-land.options[value=\"cargo-van-car\"].label": {
     "description": "Label for option 'cargo-van-car' of field 'vehicle-access-land'",
